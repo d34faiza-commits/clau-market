@@ -12,10 +12,27 @@ Gate wajib untuk memastikan setiap klaim di konten (teks, visual, voice-over, on
 
 ## Langkah
 
-1. Ekstrak **semua** klaim dari teks, visual, dan on-screen text — termasuk klaim implisit (foto kolam = klaim "ada kolam").
-2. Cocokkan dengan tabel klaim; tambahkan klaim yang terlewat.
-3. Verifikasi setiap klaim ke sumber; catat versi/tanggal sumber.
-4. Klaim tanpa sumber → hapus/ubah, atau tandai **CLIENT CONFIRMATION** / **FIELD VERIFICATION** dan blok publish.
+1. **Ekstraksi per kalimat (wajib).** Masukkan **setiap kalimat** konten ke [Tabel Ekstraksi Kalimat](#tabel-ekstraksi-kalimat): caption (semua bahasa), on-screen text, teks story/slide, alt text, voice-over, dan hashtag yang menyebut segmen/fasilitas. Untuk visual, satu baris per aset/shot. Jangan memakai "baca ulang" bebas: kalimat yang tidak ada di tabel dianggap belum dicek.
+2. Untuk tiap baris, tulis klaim **eksplisit** dan **tersirat**. Pertanyaan pemicu klaim tersirat:
+   - Waktu: apakah kalimat menyebut/menyiratkan pagi, sunset, musim, yang tidak cocok dengan aset atau fakta?
+   - Jarak & akses: "langsung", "di depan", "open onto", "steps from" menyiratkan jarak/akses yang harus terbukti.
+   - Privasi & eksklusivitas: "yours alone", "hanya untuk kamu" bertentangan dengan pemakaian bersama?
+   - Segmen: apakah kalimat/hashtag mengunci segmen yang masih **CLIENT CONFIRMATION**?
+3. Cocokkan dengan tabel klaim dari creator; tambahkan klaim yang terlewat.
+4. Verifikasi setiap klaim ke sumber; catat versi/tanggal sumber.
+5. Klaim tanpa sumber → hapus/ubah, atau tandai **CLIENT CONFIRMATION** / **FIELD VERIFICATION** dan blok publish.
+
+## Re-check Penuh per Versi
+
+Setiap versi baru (v2, v3, …) menjalankan **semua langkah di atas untuk semua konten**, termasuk konten yang "tidak berubah" dari versi sebelumnya. Hasil versi lama tidak boleh dibawa ("lolos semua gate di v1"). Alasannya: gate bisa berubah di antara versi, dan pelanggaran yang lolos di v1 akan terbawa diam-diam.
+
+## Tabel Ekstraksi Kalimat
+
+| # | Konten · lokasi | Kalimat / shot (persis) | Klaim eksplisit | Klaim tersirat | Label | Hasil |
+|---|---|---|---|---|---|---|
+| 1 | C-A · caption baris 1 | | | | DATA FINAL / … / tidak ada klaim | OK / Ubah / Hapus |
+
+Hitungan untuk [rubrik skor](./scoring-rubric.md): jumlah baris total, dan jumlah baris **OK** tanpa perubahan.
 
 ## Tabel Verifikasi
 
@@ -73,6 +90,7 @@ Gate wajib untuk memastikan setiap klaim di konten (teks, visual, voice-over, on
 - Klaim halal/bintang/sertifikasi tanpa bukti.
 - Klaim medis spa.
 - Harga tanpa periode/syarat/net-++.
+- Tabel ekstraksi kalimat tidak ada, tidak lengkap, atau tidak mencakup semua konten versi ini.
 
 ## Record
 

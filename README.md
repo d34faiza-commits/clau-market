@@ -39,7 +39,7 @@ clau-ai-marketing/
 ├── skills/            # 7 AI agent skill (SKILL.md + agents/openai.yaml)
 ├── knowledge/         # segment, platform, kalender, destinasi, voice, market, regulasi
 ├── templates/         # brief, fact sheet, calendar, campaign, onboarding, approval, report
-├── qa/                # 5 QA gate
+├── qa/                # 5 QA gate + rubrik skor
 ├── schemas/           # content-brief.schema.json (v1.3)
 ├── automations/       # Level 1 manual
 ├── examples/          # pilot fiktif (SIMULASI)
@@ -65,7 +65,7 @@ Constitution & boundary di-version di clau-ai-core.
 2. Onboard client: [templates/client-onboarding.md](./templates/client-onboarding.md).
 3. Isi [templates/property-fact-sheet.md](./templates/property-fact-sheet.md), lalu [templates/content-brief.md](./templates/content-brief.md) (valid terhadap [schema](./schemas/content-brief.schema.json)).
 4. Pakai skill/prompt yang sesuai (index di bawah).
-5. Jalankan `python scripts/check_caption.py` dan QA gate di [qa/](./qa/claim-verification.md).
+5. Jalankan `python scripts/check_caption.py` (hasilnya *PASS (mekanis)*, bukan lulus QA), QA gate di [qa/](./qa/claim-verification.md), lalu skor dengan [rubrik](./qa/scoring-rubric.md).
 6. Catat approval di [templates/approval-record.md](./templates/approval-record.md).
 
 ## Index Rules

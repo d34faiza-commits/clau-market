@@ -59,4 +59,4 @@ Baca sebelum bekerja:
 
 ## Exit Criteria
 
-**Pass** bila self-check lulus semua, `scripts/check_caption.py` lulus (hook ≤125 karakter, hashtag 3–8, tanpa kata positioning/terlarang), dan open items tercatat. **Fail** bila ada klaim non-**DATA FINAL** di teks caption, termasuk klaim tersirat. Klaim tersirat yang belum **DATA FINAL** tidak boleh hanya diberi tanda ⚠️: **ubah atau hapus kalimatnya sebelum diserahkan**. Kalau masih ada saat diserahkan = **Fail**.
+**Pass** bila self-check lulus semua, `scripts/check_caption.py` lulus mekanis (hook ≤125 karakter, hashtag 3–8, tanpa kata positioning/terlarang, satu CTA sesuai `--expect-cta` dari brief), dan open items tercatat. **Fail** bila ada klaim non-**DATA FINAL** di teks caption, termasuk klaim tersirat. Klaim tersirat yang belum **DATA FINAL** tidak boleh hanya diberi tanda ⚠️: **ubah atau hapus kalimatnya sebelum diserahkan**. Kalau masih ada saat diserahkan = **Fail**.

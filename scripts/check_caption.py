@@ -7,13 +7,19 @@ Checks each caption for:
   - hashtag count within --min-tags..--max-tags (default 3..8) when hashtags are used
   - emoji count <= --max-emoji, and no emoji in the hook when --no-emoji-hook
   - forbidden terms: rule 02 positioning words + brief restrictions.forbidden_terms
+  - CTA count (heuristic): distinct call-to-action types (save, share, comment,
+    click, dm, book, follow, tag) <= --max-cta (default 1; rule 05: one content, one CTA)
+  - with --expect-cta TYPE: the CTA found must be that type (brief channels[].cta.type)
 
-It does NOT judge claims, tone, or truthfulness — that stays with the QA gates.
+It does NOT judge claims, tone, truthfulness, or whether the CTA suits the brief
+beyond --expect-cta. Output therefore says "PASS (mekanis)": a mechanical pass is
+not a QA pass. Claims, voice, and brief fit stay with the QA gates (qa/).
 
 Usage:
   python scripts/check_caption.py caption.txt
   python scripts/check_caption.py --markdown drafts.md --brief brief.json
       (only ```text blocks with hashtags = captions; add --all-blocks for every block)
+  python scripts/check_caption.py caption.txt --expect-cta save   # CTA from brief channels[].cta.type
   echo "caption" | python scripts/check_caption.py -
 Exit code 0 = all captions pass, 1 = at least one failure.
 """
@@ -40,6 +46,20 @@ CLICHES = [
 EMOJI_RE = re.compile("[\U0001F300-\U0001FAFF☀-➿]")
 HASHTAG_RE = re.compile(r"#\w+")
 FENCE_RE = re.compile(r"```text\n(.*?)```", re.DOTALL)
+# CTA heuristic: imperative phrases per CTA type (ID + EN). Deliberately narrow:
+# "pesan"/"book" alone also mean "message"/"reserve ahead" in facts, so only
+# explicit call phrases count. Brief cta.type values map onto these keys.
+CTA_PATTERNS = {
+    "save": [r"simpan", r"save"],
+    "share": [r"kirim ke", r"bagikan", r"share", r"send (?:this|it) to"],
+    "comment": [r"komentar", r"comment", r"tell us", r"tulis di kolom"],
+    "click": [r"klik", r"click", r"tap", r"link (?:di|in) bio", r"swipe up"],
+    "dm": [r"\bdm\b", r"kirim pesan", r"send us a message", r"chat (?:kami|us)"],
+    "book": [r"book now", r"pesan sekarang", r"reservasi sekarang", r"booking sekarang"],
+    "follow": [r"follow", r"ikuti akun"],
+    "tag": [r"tag (?:teman|partner|your|a friend|someone)", r"mention"],
+}
+CTA_ALIASES = {"link-sticker": "click", "link": "click", "whatsapp": "dm", "booking": "book"}
 
 
 def load_captions(args: argparse.Namespace) -> list[tuple[str, str]]:
@@ -69,6 +89,15 @@ def term_hits(text: str, terms: list[str]) -> list[str]:
     return [t for t in terms if re.search(r"(?<![\w-])" + re.escape(t) + r"(?![\w-])", lower)]
 
 
+def cta_types(text: str) -> list[str]:
+    """Distinct CTA types found outside hashtags (heuristic; see CTA_PATTERNS)."""
+    lower = HASHTAG_RE.sub(" ", text.lower())
+    return [
+        cta for cta, patterns in CTA_PATTERNS.items()
+        if any(re.search(r"(?<![\w-])" + p, lower) for p in patterns)
+    ]
+
+
 def check(caption: str, args: argparse.Namespace, terms: list[str]) -> list[str]:
     problems: list[str] = []
     lines = [line for line in caption.splitlines() if line.strip()]
@@ -90,6 +119,14 @@ def check(caption: str, args: argparse.Namespace, terms: list[str]) -> list[str]
     hits = term_hits(caption, terms)
     if hits:
         problems.append("forbidden/positioning terms: " + ", ".join(hits))
+    ctas = cta_types(caption)
+    if len(ctas) > args.max_cta:
+        problems.append(f"{len(ctas)} CTA types > {args.max_cta}: " + ", ".join(ctas))
+    if args.expect_cta:
+        expected = CTA_ALIASES.get(args.expect_cta, args.expect_cta)
+        if expected not in ctas:
+            found = ", ".join(ctas) or "none"
+            problems.append(f"expected CTA '{args.expect_cta}' (brief), found: {found}")
     return problems
 
 
@@ -105,7 +142,12 @@ def main() -> int:
     parser.add_argument("--max-tags", type=int, default=8)
     parser.add_argument("--max-emoji", type=int, default=None)
     parser.add_argument("--no-emoji-hook", action="store_true")
+    parser.add_argument("--max-cta", type=int, default=1, help="max distinct CTA types (heuristic)")
+    parser.add_argument("--expect-cta", choices=sorted(set(CTA_PATTERNS) | set(CTA_ALIASES)),
+                        help="CTA type the brief sets for this channel (channels[].cta.type)")
     args = parser.parse_args()
+    if args.expect_cta and args.markdown:
+        parser.error("--expect-cta applies to one caption; check Markdown blocks per channel instead")
 
     terms = forbidden_terms(args.brief)
     failed = 0
@@ -117,7 +159,8 @@ def main() -> int:
             for p in problems:
                 print(f"      - {p}")
         else:
-            print(f"PASS  {name}")
+            print(f"PASS (mekanis)  {name}")
+    print("note: mekanis saja. Klaim, voice, dan kecocokan dengan brief tetap dicek di QA gate (qa/).")
     return 1 if failed else 0
 
 

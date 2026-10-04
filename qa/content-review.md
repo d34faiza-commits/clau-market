@@ -48,17 +48,30 @@ Gate baseline untuk setiap konten sebelum approval: objective, voice, bahasa, bu
 - [ ] Alt text / subtitle tersedia.
 - [ ] Disclosure untuk konten berbayar/kolaborasi.
 
+### Kecocokan dengan Brief (cek ke field brief, bukan ingatan)
+
+- [ ] CTA tiap konten = `channels[].cta.type` untuk channel/format itu, dan hanya **satu** CTA per konten ([rule 05](../rules/05-PLATFORM-STANDARD.md)). Jalankan `python scripts/check_caption.py <caption> --expect-cta <type>` per caption.
+- [ ] CTA link/nomor memakai `channels[].cta.target_ref` dari brief.
+- [ ] Sapaan (`voice.address`) cocok dengan arketipe (`voice.archetype`) menurut tabel Sapaan di [hospitality-voice](../knowledge/voice-guides/hospitality-voice.md). Bila tidak cocok, kembalikan ke brief (**CLIENT CONFIRMATION**), jangan diputuskan di draft.
+- [ ] Segmen yang masih **CLIENT CONFIRMATION** tidak dikunci di konten publish: tidak lewat kalimat ("cocok untuk honeymoon") dan tidak lewat hashtag (#honeymoonbali).
+- [ ] `objective.success_metric` bisa diukur dari format yang dipakai (mis. "replies" butuh konten yang mengundang reply; link sticker → link taps).
+
 ### Kelengkapan
 
 - [ ] Tabel klaim terlampir.
 - [ ] Open items (**CLIENT CONFIRMATION** / **FIELD VERIFICATION**) tercatat.
 - [ ] Level approval ditentukan.
 
+## Re-check Penuh per Versi
+
+Setiap versi baru me-review **semua konten**, termasuk yang tidak berubah. "Tidak berubah dari v1 (lolos semua gate)" bukan hasil review.
+
 ## Blockers (otomatis Fail)
 
 - Konten tidak sesuai objective atau channel di brief.
 - Konten menyinggung agama/adat/SARA.
 - Disclosure berbayar tidak ada.
+- Lebih dari satu CTA, atau CTA berbeda dari `channels[].cta` di brief tanpa revisi brief.
 
 ## Record
 
