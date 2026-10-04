@@ -1,8 +1,10 @@
 ---
 document_title: "CLAU Mandatory Content Workflow"
 document_owner: "Dea Karisna / AI Marketing"
-version: "0.2.0"
-status: "Draft"
+version: "1.0.0"
+status: "Approved"
+effective_date: "2026-10-04"
+approval_reference: "Approval tertulis owner (Dea Karisna / d34faiza) via sesi Claude Code, 2026-10-04 (\"untuk saat ini semua approve dulu\"); perubahan ada di main"
 classification: "Internal"
 ---
 
@@ -165,3 +167,4 @@ Konten **tidak boleh** publish bila salah satu ini terjadi:
 | 0.1.2 | 2026-10-04 | Draft | Tambah Mode SIMULASI untuk pilot & contoh (TASK-017) |
 | 0.1.3 | 2026-10-04 | Draft | Tambah brief sanity check di Step 1 (TASK-023) |
 | 0.2.0 | 2026-10-04 | Draft | Dipindah ke clau-ai-marketing sebagai CONTENT-WORKFLOW.md; constitution & boundary dirujuk dari core/ (split repo) |
+| 1.0.0 | 2026-10-04 | Approved | Approved oleh owner (Dea Karisna / d34faiza); berlaku efektif 2026-10-04 |

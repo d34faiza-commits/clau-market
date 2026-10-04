@@ -1,8 +1,10 @@
 ---
 document_title: "AGENTS.md — Instruksi AI Agent"
 document_owner: "Dea Karisna / AI Marketing"
-version: "0.2.0"
-status: "Draft"
+version: "1.0.0"
+status: "Approved"
+effective_date: "2026-10-04"
+approval_reference: "Approval tertulis owner (Dea Karisna / d34faiza) via sesi Claude Code, 2026-10-04 (\"untuk saat ini semua approve dulu\"); perubahan ada di main"
 classification: "Internal"
 ---
 
@@ -98,6 +100,10 @@ Setiap varian dalam code block terpisah supaya bisa di-copy satu per satu.
 - Prompt baru ikut [prompts/templates/prompt-template.md](./prompts/templates/prompt-template.md).
 - Update index di README bila menambah rule/skill/prompt.
 
+## Otoritas Perubahan
+
+Perubahan atas dokumen Approved hanya atas perintah **Pak Indra** atau **Dea Karisna (d34faiza)** (`core/AI-CONSTITUTION.md` §14). Agent tidak mengubah rule, skill, prompt, template, atau QA yang sudah Approved atas inisiatif sendiri; usulan ditulis sebagai catatan/issue lalu menunggu perintah.
+
 ## Revision History
 
 | Version | Date | Status | Summary |
@@ -107,3 +113,4 @@ Setiap varian dalam code block terpisah supaya bisa di-copy satu per satu.
 | 0.1.2 | 2026-10-03 | Draft | Seragamkan metadata (owner, classification, format revision history) |
 | 0.1.3 | 2026-10-04 | Draft | Tambah aturan QA oleh agent = self-review (TASK-026) |
 | 0.2.0 | 2026-10-04 | Draft | Dipindah ke clau-ai-marketing (instruksi agent Pilar 1); instruksi lintas repo ada di core/AGENTS.md |
+| 1.0.0 | 2026-10-04 | Approved | Approved oleh owner (Dea Karisna / d34faiza); ditambah aturan otoritas perubahan |

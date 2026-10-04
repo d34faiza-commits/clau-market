@@ -6,7 +6,9 @@
 > **Fondasi:** submodule [`core/`](https://github.com/d34faiza-commits/clau-ai-core) → `AI-CONSTITUTION.md`, `AI-BOUNDARY.md`, pipeline, orchestrator
 > **Workflow konten:** [CONTENT-WORKFLOW.md](./CONTENT-WORKFLOW.md) · **Agent:** [AGENTS.md](./AGENTS.md) · **Credit:** [ACKNOWLEDGMENT.md](./ACKNOWLEDGMENT.md)
 
-> ⚠️ **Constitution:** `core/AI-CONSTITUTION.md` v2.0.0 masih **For Review**. Sampai disetujui, aturan induk yang berlaku untuk pilar ini adalah *CLAU AI Content Constitution v1.0.0* (Approved), arsip di repo [CLAU-AI-CONTENT](https://github.com/d34faiza-commits/CLAU-AI-CONTENT/blob/main/CONTENT-CONSTITUTION.md).
+> **Constitution:** `core/AI-CONSTITUTION.md` v2.0.0 **Approved** (2026-10-04); menggantikan *CLAU AI Content Constitution v1.0.0* (Superseded, arsip di repo [CLAU-AI-CONTENT](https://github.com/d34faiza-commits/CLAU-AI-CONTENT/blob/main/CONTENT-CONSTITUTION.md)).
+>
+> **Otoritas perubahan:** Perubahan atas dokumen Approved hanya atas perintah **Pak Indra** atau **Dea Karisna (d34faiza)** (`core/AI-CONSTITUTION.md` §14).
 
 ## Setup
 
@@ -50,8 +52,8 @@ clau-ai-marketing/
 
 | Dokumen | Versi | Status |
 |---|---|---|
-| [CONTENT-WORKFLOW.md](./CONTENT-WORKFLOW.md) | 0.2.0 | Draft |
-| [AGENTS.md](./AGENTS.md) | 0.2.0 | Draft |
+| [CONTENT-WORKFLOW.md](./CONTENT-WORKFLOW.md) | 1.0.0 | Approved |
+| [AGENTS.md](./AGENTS.md) | 1.0.0 | Approved |
 
 Constitution & boundary di-version di clau-ai-core.
 
