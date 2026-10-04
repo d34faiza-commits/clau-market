@@ -91,22 +91,26 @@ SECRET_PATTERNS = [
     (re.compile(r"\bEAA[A-Za-z0-9]{40,}\b"), "Meta access token"),
 ]
 
-SKIP_DIRS = {".git", "node_modules", ".venv", "venv", "__pycache__", ".build", "core"}
-
-# core/ is a git submodule (clau-ai-core). It is validated in its own repo.
-# CI does not check out the private submodule, so links into core/ are only
-# verified when the submodule is initialised locally.
-CORE_DIR = ROOT / "core"
-CORE_READY = (CORE_DIR / "AI-CONSTITUTION.md").is_file()
-SKIPPED_CORE_REFS: list[str] = []
+# Git submodules (see SUBMODULE.md): path -> marker file that exists once initialised.
+# Each submodule is validated in its own repo. The plain CI job does not check out
+# the private submodules, so links into them are only verified when initialised
+# (locally, or in the cross-repo workflow that runs with --require-submodules).
+SUBMODULES = {"core": "AI-CONSTITUTION.md", "agents": "agents/registry.json"}
+SKIP_DIRS = {".git", "node_modules", ".venv", "venv", "__pycache__", ".build", *SUBMODULES}
+SUBMODULE_READY = {name: (ROOT / name / marker).is_file() for name, marker in SUBMODULES.items()}
+CORE_READY = SUBMODULE_READY["core"]
+SKIPPED_CORE_REFS: list[str] = []  # references into any uninitialised submodule
 
 
 def points_into_uninitialised_core(resolved: Path) -> bool:
-    try:
-        resolved.relative_to(CORE_DIR.resolve())
-    except ValueError:
-        return False
-    return not CORE_READY
+    """True when the path lies inside a submodule that is not initialised."""
+    for name, ready in SUBMODULE_READY.items():
+        try:
+            resolved.relative_to((ROOT / name).resolve())
+        except ValueError:
+            continue
+        return not ready
+    return False
 TEXT_SUFFIXES = {".md", ".json", ".yaml", ".yml", ".py", ".txt", ".toml", ""}
 
 LINK_RE = re.compile(r"(?<!!)\[[^\]]*\]\(([^)\s]+)(?:\s+\"[^\"]*\")?\)")
@@ -432,11 +436,15 @@ def main() -> int:
     check_links(report)
     check_secrets(report)
 
+    missing = [name for name, ready in SUBMODULE_READY.items() if not ready]
+    if "--require-submodules" in sys.argv[1:] and missing:
+        report.fail(ROOT / ".gitmodules", "submodule(s) not initialised: " + ", ".join(missing)
+                    + " (run: git submodule update --init --recursive)")
     if SKIPPED_CORE_REFS:
-        print(f"note: core/ submodule not initialised; {len(SKIPPED_CORE_REFS)} reference(s) into core/ not checked"
-              " (run: git submodule update --init)")
-    elif CORE_READY:
-        print("note: core/ submodule initialised; references into core/ checked")
+        print(f"note: submodule(s) not initialised ({', '.join(missing)}); {len(SKIPPED_CORE_REFS)} reference(s)"
+              " into them not checked (run: git submodule update --init --recursive)")
+    elif not missing:
+        print("note: submodules initialised (" + ", ".join(SUBMODULES) + "); references into them checked")
     if report.failures:
         print(f"FAIL — {len(report.failures)} issue(s):")
         for failure in report.failures:

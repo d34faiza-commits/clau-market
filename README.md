@@ -18,7 +18,7 @@ git clone --recurse-submodules https://github.com/d34faiza-commits/clau-ai-marke
 git submodule update --init --recursive
 ```
 
-Link ke `core/...` di dokumen repo ini baru berfungsi setelah submodule ter-init.
+Link ke `core/...` dan `agents/...` di dokumen repo ini baru berfungsi setelah submodule ter-init. Panduan lengkap (update, sync, troubleshooting, GitHub Actions): [SUBMODULE.md](./SUBMODULE.md).
 
 ## Target Industri
 
@@ -34,8 +34,9 @@ Link ke `core/...` di dokumen repo ini baru berfungsi setelah submodule ter-init
 
 ```text
 clau-ai-marketing/
-├── README.md · AGENTS.md · CONTENT-WORKFLOW.md · ACKNOWLEDGMENT.md · LICENSE
+├── README.md · AGENTS.md · CONTENT-WORKFLOW.md · SUBMODULE.md · ACKNOWLEDGMENT.md · LICENSE
 ├── core/              # submodule → clau-ai-core (jangan diedit di sini)
+├── agents/            # submodule → clau-ai-agents (registry & platform; jangan diedit di sini)
 ├── rules/             # 9 content standard
 ├── prompts/           # prompt library (caption, campaign, OTA, review, destination, seasonal, reel, stories)
 ├── skills/            # 7 AI agent skill (SKILL.md + agents/openai.yaml)
@@ -45,7 +46,7 @@ clau-ai-marketing/
 ├── schemas/           # content-brief.schema.json (v1.3)
 ├── automations/       # Level 1 manual
 ├── examples/          # pilot fiktif (SIMULASI)
-└── scripts/           # validate.py, check_caption.py
+└── scripts/           # validate.py, check_caption.py, sync-submodules.sh, check-core-pins.sh
 ```
 
 ## Versi Dokumen
@@ -124,7 +125,7 @@ Task board (Backlog → In Progress → Review → Done) tetap di repo arsip [CL
 python scripts/validate.py
 ```
 
-Mengecek file wajib, section rules/prompts/skills, frontmatter skill, versi dokumen, schema & contoh brief, link relatif, dan pola secret. Link ke `core/` dicek hanya bila submodule ter-init; CI tidak meng-clone submodule private.
+Mengecek file wajib, section rules/prompts/skills, frontmatter skill, versi dokumen, schema & contoh brief, link relatif, dan pola secret. Link ke `core/` dan `agents/` dicek hanya bila submodule ter-init; `--require-submodules` membuatnya wajib (dipakai workflow Cross-Repo Validation).
 
 ## Lisensi
 
