@@ -46,15 +46,16 @@ CLICHES = [
 EMOJI_RE = re.compile("[\U0001F300-\U0001FAFF☀-➿]")
 HASHTAG_RE = re.compile(r"#\w+")
 FENCE_RE = re.compile(r"```text\n(.*?)```", re.DOTALL)
-# CTA heuristic: imperative phrases per CTA type (ID + EN). Deliberately narrow:
+# CTA heuristic: imperative phrases per CTA type (ID + EN), matched as whole words.
+# Deliberately narrow:
 # "pesan"/"book" alone also mean "message"/"reserve ahead" in facts, so only
 # explicit call phrases count. Brief cta.type values map onto these keys.
 CTA_PATTERNS = {
-    "save": [r"simpan", r"save"],
-    "share": [r"kirim ke", r"bagikan", r"share", r"send (?:this|it) to"],
-    "comment": [r"komentar", r"comment", r"tell us", r"tulis di kolom"],
-    "click": [r"klik", r"click", r"tap", r"link (?:di|in) bio", r"swipe up"],
-    "dm": [r"\bdm\b", r"kirim pesan", r"send us a message", r"chat (?:kami|us)"],
+    "save": [r"simpan(?:lah)?", r"save"],
+    "share": [r"kirim(?:kan)? ke", r"bagikan(?:lah)?", r"share", r"send (?:this|it) to"],
+    "comment": [r"komentar(?:kan)?", r"comments?", r"tell us", r"tulis di kolom"],
+    "click": [r"klik(?:lah)?", r"click", r"tap", r"link (?:di|in) bio", r"swipe up"],
+    "dm": [r"dm", r"kirim pesan", r"send us a message", r"chat (?:kami|us)"],
     "book": [r"book now", r"pesan sekarang", r"reservasi sekarang", r"booking sekarang"],
     "follow": [r"follow", r"ikuti akun"],
     "tag": [r"tag (?:teman|partner|your|a friend|someone)", r"mention"],
@@ -94,7 +95,8 @@ def cta_types(text: str) -> list[str]:
     lower = HASHTAG_RE.sub(" ", text.lower())
     return [
         cta for cta, patterns in CTA_PATTERNS.items()
-        if any(re.search(r"(?<![\w-])" + p, lower) for p in patterns)
+        # Whole words only: "tap" must not match "tapi", "follow" not "following".
+        if any(re.search(r"(?<![\w-])(?:" + p + r")(?![\w-])", lower) for p in patterns)
     ]
 
 
