@@ -16,6 +16,8 @@ description: Plan seasonal promotions for Indonesian hospitality businesses arou
 - `../../knowledge/segments` (file sesuai vertical)
 - `../../prompts/promo-seasonal/seasonal-campaign.md`
 - `../../templates/campaign-plan.md`
+- `../../knowledge/voice-guides/hospitality-voice.md`
+- `../../agents/agents/personas/campaign-planner.md` (kartu persona: gaya bahasa, batas & eskalasi)
 
 ## Workflow
 
@@ -45,6 +47,7 @@ description: Plan seasonal promotions for Indonesian hospitality businesses arou
 5. Info operasional (tutup/jam berubah) dikomunikasikan.
 6. Disclosure untuk ads/kolaborasi.
 7. Klaim tersirat ikut dicek: setiap kalimat yang menggambarkan apa yang *akan dialami* tamu (view, jarak/waktu tempuh, suasana sepi/ramai, kapasitas, kecepatan, kebersihan, "bisa lihat X dan Y sekaligus") dicatat sebagai klaim di tabel klaim dan harus **DATA FINAL**; kalau tidak, kalimatnya dihapus atau diubah.
+8. Nada sesuai Voice Card dan kartu persona `campaign-planner`: spesifik (bukan template), tanpa klise AI, tidak menyebut diri AI, dan tidak mengaku manusia.
 
 ## Safety Boundary
 

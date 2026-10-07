@@ -12,6 +12,8 @@ description: Draft public replies to guest reviews on Google Business Profile, O
 - `../../rules/04-PRIVACY-CONSENT-UGC-STANDARD.md`
 - `../../rules/08-APPROVAL-PUBLICATION-STANDARD.md`
 - `../../prompts/review-response/reply-guest-review.md`
+- `../../knowledge/voice-guides/hospitality-voice.md`
+- `../../agents/agents/personas/review-responder.md` (kartu persona: gaya bahasa, batas & eskalasi)
 
 ## Workflow
 
@@ -38,6 +40,7 @@ description: Draft public replies to guest reviews on Google Business Profile, O
 3. Tidak ada janji kompensasi/refund/perbaikan yang belum dikonfirmasi.
 4. Spesifik terhadap isi review, bukan template generik.
 5. Kanal privat resmi disebut untuk isu yang butuh detail.
+6. Nada sesuai Voice Card dan kartu persona `review-responder`: spesifik (bukan template), tanpa klise AI, tidak menyebut diri AI, dan tidak mengaku manusia.
 
 ## Safety Boundary
 

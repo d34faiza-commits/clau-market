@@ -14,6 +14,8 @@ description: Build a monthly social media content calendar for an Indonesian hos
 - `../../knowledge/calendar-id/national-holidays.md`
 - `../../knowledge/segments` (file sesuai vertical client)
 - `../../templates/content-calendar.md`
+- `../../knowledge/voice-guides/hospitality-voice.md`
+- `../../agents/agents/personas/calendar-planner.md` (kartu persona: gaya bahasa, batas & eskalasi)
 
 ## Workflow
 
@@ -40,6 +42,7 @@ description: Build a monthly social media content calendar for an Indonesian hos
 3. Setiap slot punya level approval dan deadline approval.
 4. Momen keagamaan ditangani sensitif (rule 06).
 5. Tidak ada promo tanpa offer yang dikonfirmasi.
+6. Nada sesuai Voice Card dan kartu persona `calendar-planner`: spesifik (bukan template), tanpa klise AI, tidak menyebut diri AI, dan tidak mengaku manusia.
 
 ## Safety Boundary
 
