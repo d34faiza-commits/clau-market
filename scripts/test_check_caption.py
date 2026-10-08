@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from check_caption import cta_types, term_hits  # noqa: E402
+from check_caption import EMOJI_RE, cta_types, term_hits  # noqa: E402
 
 
 class CtaTypes(unittest.TestCase):
@@ -36,6 +36,15 @@ class Terms(unittest.TestCase):
     def test_whole_word(self):
         self.assertEqual(term_hits("villa mewah di ubud", ["mewah"]), ["mewah"])
         self.assertEqual(term_hits("kemewahan", ["mewah"]), [])
+
+
+
+class EmojiCount(unittest.TestCase):
+    def test_modifiers_and_sequences_count_once(self):
+        # Skin tone, variation selector and ZWJ family sequences are one visible emoji each.
+        for text in ["👍🏽", "❤️", "👨‍👩‍👧"]:
+            self.assertEqual(len(EMOJI_RE.findall(text)), 1, text)
+        self.assertEqual(len(EMOJI_RE.findall("🌅 🌴")), 2)
 
 
 if __name__ == "__main__":

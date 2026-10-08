@@ -43,7 +43,9 @@ CLICHES = [
     "hidden gem", "surga tersembunyi", "pengalaman tak terlupakan", "unforgettable experience",
     "nestled", "dream getaway", "kemewahan tiada tara", "unparalleled",
 ]
-EMOJI_RE = re.compile("[\U0001F300-\U0001FAFF☀-➿]")
+# One match per visible emoji: a base symbol plus any skin-tone modifier, variation selector,
+# or ZWJ-joined parts ("👍🏽" and "👨‍👩‍👧" each count as one).
+EMOJI_RE = re.compile("[\U0001F300-\U0001FAFF\u2600-\u27BF](?:[\U0001F3FB-\U0001F3FF]|\uFE0F|\u200D[\U0001F300-\U0001FAFF\u2600-\u27BF])*")
 HASHTAG_RE = re.compile(r"#\w+")
 FENCE_RE = re.compile(r"```text\n(.*?)```", re.DOTALL)
 # CTA heuristic: imperative phrases per CTA type (ID + EN), matched as whole words.
