@@ -77,3 +77,4 @@
 | K-02 | Brief tidak bisa menandai "halal" sebagai klaim berisiko selain lewat forbidden_terms | Cukup: label RISK di `claims` + `forbidden_terms` |
 | K-03 | Review independen: kalimat pembuka suasana ("ombak pagi") dan CTA ("sebelum surf") menyiratkan lokasi yang belum DATA FINAL, tetapi lolos self-check agent | **Selesai** — contoh ditambahkan di self-check `skills/draft-caption` (#7) |
 | K-04 | Kata di brief ("arabika") tidak ada di fact sheet | Brief diperbaiki; aturan: klaim brief harus sama persis dengan fact sheet |
+| K-05 | Cek ulang v2: GBP v1 masih memuat "arabika" — review independen hanya menilai IG | GBP v2 di drafts.md; aturan: revisi atas temuan diterapkan ke **semua kanal** di draft, bukan hanya objek review |

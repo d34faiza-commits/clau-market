@@ -81,3 +81,4 @@
 | W-03 | Pertanyaan legal pernikahan WNA berpotensi datang lewat DM | Masuk Level C (eskalasi) saat AI Sales aktif — catat di blueprint Sales |
 | W-04 | Review independen: klaim view & layout tersirat di kalimat pembuka lolos self-check; QA v1 merujuk foto padahal fakta view tidak ada di fact sheet | Template wedding fact sheet ditambah baris **View dari area** (§ 2); self-check klaim tersirat sudah mencakup view |
 | W-05 | "Kapasitas yang sama" untuk area cadangan menyamakan layout berbeda | Aturan: kapasitas selalu ditulis dengan jenis layout (sudah di segment wedding) — dicek ulang di QA |
+| W-06 | Cek ulang v2: terjemahan nama area ("Cliff Lawn", "Joglo Hall") menambah klaim tersirat (rumput, ruang tertutup) | Varian B v2 memakai nama area asli + deskripsi dari fact sheet ("cliff-top", "semi-indoor") |
