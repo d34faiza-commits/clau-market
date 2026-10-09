@@ -65,12 +65,23 @@ Venue wedding (villa, hotel, resort, gedung), wedding organizer/planner, paket i
 - Menyebut "harga mulai" tanpa minimum pax dan item yang tidak termasuk.
 - Memakai foto venue lain/stok sebagai portofolio.
 
+## Temuan Riset (2026-10-09, sumber sekunder)
+
+> Konteks untuk tim, **bukan** untuk konten. Konten tetap tidak menjelaskan prosedur hukum pernikahan (**RISK**); pertanyaan diarahkan ke WO/instansi resmi.
+
+| Topik | Temuan | Sumber (akses 2026-10-09) |
+|---|---|---|
+| Pernikahan WNA–WNI di Indonesia | Tunduk pada hukum Indonesia (UU Perkawinan); WNA umumnya perlu surat dari negaranya (mis. *Certificate of No Impediment*) | [MA — Marinews](https://marinews.mahkamahagung.go.id/artikel/izin-poligami-wna-tetap-tunduk-pada-hukum-indonesia-0boK), [Hukumonline](https://www.hukumonline.com/klinik/a/mencatatkan-perkawinan-di-dua-negara-lt56d4fd4251dc2/) |
+| Pencatatan | Muslim di KUA; non-Muslim di Disdukcapil; dokumen berbeda antar daerah | [Contoh standar layanan Disdukcapil Kota Sukabumi](https://disdukcapil.sukabumikota.go.id/assets/upload/content/SP/Capil_11._Akta_Perkawinan.pdf) |
+
+Implikasi: venue/WO client yang menawarkan bantuan dokumen harus melakukannya lewat mitra resmi, dan klaim itu = **CLIENT CONFIRMATION** + legal review sebelum muncul di konten.
+
 ## Status Verifikasi
 
 | Item | Status | Untuk jadi DATA FINAL / dipakai client |
 |---|---|---|
 | Karakter, audience, content pillars | ASSUMPTION | Validasi lewat 3–5 wawancara owner venue/WO (design/research/interview-guide) |
-| Claim hotspots | ASSUMPTION (prinsip mengikuti rule 01/02/04) | Legal review untuk baris pernikahan WNA & izin acara |
+| Claim hotspots | ASSUMPTION (prinsip mengikuti rule 01/02/04); konteks hukum pernikahan WNA bersumber sekunder (lihat Temuan Riset) | Legal review untuk baris pernikahan WNA & izin acara |
 | Fact sheet & pilot | ✅ Template + pilot SIMULASI tersedia | Review independen manusia atas pilot (rule 08) |
 | Eval agent | ✅ Kasus wedding di `clau-ai-agents/agents/evals/` | Penilaian rubrik oleh manusia |
 
