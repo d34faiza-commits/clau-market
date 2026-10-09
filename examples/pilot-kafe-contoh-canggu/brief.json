@@ -40,7 +40,7 @@
   },
   "claims": [
     { "claim": "Buka setiap hari 06.30–22.00", "category": "facility", "evidence_label": "DATA FINAL", "source": "Fact sheet fiktif KCC v1 (sama dengan GBP)", "source_date": "2026-10-09" },
-    { "claim": "Kopi arabika Kintamani dari roaster lokal", "category": "food-beverage", "evidence_label": "DATA FINAL", "source": "Invoice roaster fiktif KCC-INV-07", "source_date": "2026-10-09" },
+    { "claim": "Kopi Kintamani dari roaster lokal", "category": "food-beverage", "evidence_label": "DATA FINAL", "source": "Invoice roaster fiktif KCC-INV-07", "source_date": "2026-10-09" },
     { "claim": "Menu sarapan tanpa daging tersedia (2 pilihan)", "category": "halal-dietary", "evidence_label": "DATA FINAL", "source": "Menu fiktif KCC v3", "source_date": "2026-10-09" },
     { "claim": "Parkir motor di depan, mobil di lahan sebelah (berbayar)", "category": "location", "evidence_label": "DATA FINAL", "source": "Fact sheet fiktif KCC v1", "source_date": "2026-10-09" },
     { "claim": "5 menit jalan kaki ke pantai", "category": "location", "evidence_label": "FIELD VERIFICATION" },

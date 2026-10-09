@@ -83,3 +83,4 @@
 | Izin usaha & sertifikat kapten | CLIENT CONFIRMATION | Content lead | 2026-10-13 |
 | Besaran retribusi | CLIENT CONFIRMATION | Content lead | 2026-10-14 |
 | Musim manta (sumber) | ASSUMPTION → riset | Content lead | 2026-10-14 |
+| Kebijakan bila kuota minimum 6 tidak terpenuhi (batal/reschedule/refund) | CLIENT CONFIRMATION | Content lead | 2026-10-14 |

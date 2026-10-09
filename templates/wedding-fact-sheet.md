@@ -34,9 +34,9 @@
 
 Satu baris per area. Kapasitas **selalu** dengan jenis layout.
 
-| Area | Indoor/outdoor | Seated dinner | Standing/cocktail | Upacara (kursi) | Rencana hujan (area cadangan) | Label | Sumber |
-|---|---|---|---|---|---|---|---|
-| | | | | | | | |
+| Area | Indoor/outdoor | Seated dinner | Standing/cocktail | Upacara (kursi) | Layout tersedia (meja panjang/bulat/theater) | View dari area (foto bertanggal) | Rencana hujan (area cadangan) | Label | Sumber |
+|---|---|---|---|---|---|---|---|---|---|
+| | | | | | | | | | |
 
 ## 3. Paket
 

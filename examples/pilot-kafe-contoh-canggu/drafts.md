@@ -2,7 +2,18 @@
 
 > Skill `draft-caption` dengan [brief.json](./brief.json) + [fact-sheet.md](./fact-sheet.md). Hanya klaim **DATA FINAL** yang dipakai. Klaim ditahan: jarak ke pantai (FIELD VERIFICATION), PB1/service (CLIENT CONFIRMATION), "halal" (RISK, forbidden).
 
-## Instagram — single image (CTA: save)
+## Instagram — Varian A v2 (setelah review independen 2026-10-09)
+
+Revisi atas temuan review ([qa.md § Review Independen](./qa.md#review-independen-2026-10-09)): klaim lokasi tersirat ("ombak", "sebelum surf") dihapus, "arabika" dihapus (tidak ada di fact sheet), arti "++" dijelaskan, pembuka tidak memakai klaim suasana ("tenang") karena outlet ramai 07.00–08.30.
+
+```text
+Pagi dimulai dari secangkir kopi ☕
+Kafe Contoh Canggu buka 06.30 setiap hari. Paket Pagi Rp65.000++ per orang (belum termasuk pajak & service): kopi Kintamani + pilihan sarapan, termasuk 2 menu tanpa daging. Berlaku 06.30–09.00, 1–30 November, dine-in.
+Simpan post ini buat sarapan berikutnya.
+#Canggu #KopiKintamani #SarapanBali #KafeContohCanggu
+```
+
+## Instagram — single image (CTA: save) — v1
 
 ### Varian A (ID)
 
