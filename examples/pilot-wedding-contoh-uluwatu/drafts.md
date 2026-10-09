@@ -2,7 +2,20 @@
 
 > Skill `draft-caption` + section paket website, dengan [brief.json](./brief.json) + [fact-sheet.md](./fact-sheet.md). Klaim ditahan: halal (CLIENT CONFIRMATION), waktu tempuh bandara (FIELD VERIFICATION), legal pernikahan WNA (RISK).
 
-## Instagram — carousel (CTA: WhatsApp, ref VCW-WA-01)
+## Instagram — Varian A v2 (setelah review independen 2026-10-09)
+
+Revisi atas temuan review ([qa.md § Review Independen](./qa.md#review-independen-2026-10-09)): klaim view laut & "meja panjang" dihapus (tidak ada di fact sheet), kapasitas Joglo ditulis spesifik "40 tamu seated", "(belum termasuk pajak & service)" ditambahkan, kredit foto dirapikan.
+
+```text
+Intimate wedding untuk 20–40 tamu, di Area Tebing Villa Contoh Uluwatu.
+Paket Intimate Cliff Wedding: sewa Area Tebing 6 jam, katering 3 hidangan, dekor dasar, sound & lighting, serta koordinator hari H. Bila hujan, acara pindah ke Ruang Joglo untuk 40 tamu seated.
+Rp185.000.000++ per acara (belum termasuk pajak & service), untuk tanggal sepanjang 2027. Musik hingga 22.00.
+Foto acara nyata di venue ini, dengan izin pasangan · Foto: Studio Contoh.
+Hubungi kami lewat WhatsApp di bio untuk daftar lengkap yang termasuk dan tidak termasuk.
+#UluwatuWedding #IntimateWedding #BaliWedding #VillaContohUluwatu
+```
+
+## Instagram — carousel (CTA: WhatsApp, ref VCW-WA-01) — v1
 
 ### Varian A (ID)
 
