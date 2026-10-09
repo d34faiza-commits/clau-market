@@ -8,8 +8,8 @@
 |---|---|---|
 | Kode client internal | | |
 | Nama brand (penulisan resmi) | | |
-| Vertical | accommodation / food-beverage / spa-wellness / experience | |
-| Tipe | (hotel/villa/homestay/resto/cafe/beach club/spa/retreat) | |
+| Vertical | accommodation / food-beverage / wedding-event / travel-tour / spa-wellness / experience | |
+| Tipe | (hotel/villa/homestay/resto/cafe/beach club/wedding venue/wedding organizer/tour operator/travel agent/open trip/spa/retreat) | |
 | Lokasi (kabupaten/kota) | | |
 | Positioning 1 kalimat | | |
 | Diferensiasi utama (maks 3) | | |
@@ -18,8 +18,8 @@
 
 | Dokumen | Versi/tanggal | Lokasi (workspace client) | Status |
 |---|---|---|---|
-| Fact sheet properti/outlet | | | |
-| Menu / treatment list / rate card | | | |
+| Fact sheet ([akomodasi](./property-fact-sheet.md) / [F&B](./fnb-fact-sheet.md) / [wedding](./wedding-fact-sheet.md) / [travel](./travel-fact-sheet.md)) | | | |
+| Menu / treatment list / rate card / price list paket wedding / itinerary trip | | | |
 | Sertifikat (klasifikasi, halal, keamanan pangan, eco, dll.) | Masa berlaku | | |
 | Brand guide | | | |
 | Media library (foto/video asli) | | | |

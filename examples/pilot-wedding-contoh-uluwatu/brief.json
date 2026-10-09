@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.4",
+  "brief_id": "VCW-202610-01",
+  "client_code": "VCW",
+  "vertical": "wedding-event",
+  "business_type": "wedding-venue",
+  "location_area": "Badung, Bali",
+  "objective": {
+    "type": "inquiry",
+    "key_message": "Intimate wedding di tebing untuk maksimal 40 tamu seated, isi paket transparan",
+    "success_metric": "Jumlah inquiry WhatsApp yang menyebut kode INTIMATE",
+    "metric_source": "Catatan inquiry WhatsApp client (fiktif)"
+  },
+  "audience": {
+    "segments": ["pasangan domestik", "pasangan destinasi (Australia)"],
+    "origin": ["Jakarta", "Surabaya", "Australia"],
+    "language": "bilingual-id-en",
+    "english_variant": "en-GB"
+  },
+  "voice": {
+    "evidence_label": "CLIENT CONFIRMATION",
+    "archetype": "elegan-tertata",
+    "address": "Anda",
+    "emoji_rule": "Tanpa emoji"
+  },
+  "channels": [
+    { "channel": "instagram", "format": "carousel", "quantity": 1, "paid": false, "cta": { "type": "whatsapp", "target_ref": "VCW-WA-01" } },
+    { "channel": "website", "format": "package section", "quantity": 1, "paid": false }
+  ],
+  "offer": {
+    "name": "Intimate Cliff Wedding",
+    "price": 185000000,
+    "currency": "IDR",
+    "unit": "per-event",
+    "tax_service": "plus-plus",
+    "valid_from": "2027-01-01",
+    "valid_to": "2027-12-31",
+    "terms": "Minimal 20 tamu, maksimal 40 tamu seated; sewa area tebing 6 jam; overtime dikenakan biaya per jam; vendor luar dengan biaya tambahan",
+    "capacity": "Area Tebing: 40 tamu seated dinner / 60 standing",
+    "evidence_label": "DATA FINAL"
+  },
+  "claims": [
+    { "claim": "Area Tebing: 40 tamu seated dinner, 60 standing", "category": "capacity", "evidence_label": "DATA FINAL", "source": "Fact sheet fiktif VCW v1 §2", "source_date": "2026-10-09" },
+    { "claim": "Ruang Joglo sebagai area cadangan saat hujan (40 seated)", "category": "facility", "evidence_label": "DATA FINAL", "source": "Fact sheet fiktif VCW v1 §2", "source_date": "2026-10-09" },
+    { "claim": "Paket termasuk sewa area 6 jam, katering 3 hidangan, dekor dasar, sound system, koordinator hari H", "category": "price", "evidence_label": "DATA FINAL", "source": "Price list fiktif VCW 2027", "source_date": "2026-10-09" },
+    { "claim": "Musik maksimal sampai 22.00", "category": "other", "evidence_label": "DATA FINAL", "source": "Aturan venue fiktif VCW v1", "source_date": "2026-10-09" },
+    { "claim": "Foto carousel dari acara nyata di venue (izin pasangan & fotografer)", "category": "other", "evidence_label": "DATA FINAL", "source": "Consent register fiktif VCW-CONSENT-03", "source_date": "2026-10-09" },
+    { "claim": "Katering halal", "category": "halal-dietary", "evidence_label": "CLIENT CONFIRMATION" },
+    { "claim": "± 30 menit dari bandara", "category": "location", "evidence_label": "FIELD VERIFICATION" },
+    { "claim": "Bantuan pengurusan dokumen pernikahan WNA", "category": "license", "evidence_label": "RISK" }
+  ],
+  "assets": [
+    { "asset_ref": "VCW-MEDIA-021", "visual_category": "A-original", "people": "identifiable-with-consent", "consent_ref": "VCW-CONSENT-03" },
+    { "asset_ref": "VCW-MEDIA-022", "visual_category": "A-original", "people": "none" },
+    { "asset_ref": "VCW-MEDIA-023", "visual_category": "B-light-edit", "people": "none" }
+  ],
+  "classification": {
+    "sensitivity": "Internal",
+    "lifecycle": "For Review",
+    "scope": "Campaign Specific"
+  },
+  "approval": { "level": "L2", "approver_role": "Sales manager venue (fiktif)" },
+  "deadlines": { "draft": "2026-10-16", "publish": "2026-11-02", "publish_time": "18:00", "timezone": "WITA" },
+  "restrictions": {
+    "required_terms": ["Villa Contoh Uluwatu"],
+    "forbidden_terms": ["pernikahan impian", "dream wedding", "sempurna", "perfect", "tanggal hampir habis", "halal"],
+    "sensitive_topics": ["upacara adat/agama", "pernikahan WNA"]
+  },
+  "risks": [
+    { "description": "Konten dibaca sebagai janji pengurusan legal pernikahan WNA", "likelihood": "medium", "impact": "high", "owner": "Content lead", "mitigation": "Tidak menyebut legal di konten; arahkan pertanyaan ke WO/instansi resmi" },
+    { "description": "Tamu kecewa karena hujan", "likelihood": "medium", "impact": "medium", "owner": "Content lead", "mitigation": "Sebut area cadangan Joglo di konten paket" }
+  ],
+  "next_actions": [
+    { "action": "Konfirmasi status sertifikat halal katering ke owner", "owner": "Content lead", "target": "2026-10-14" },
+    { "action": "Ukur waktu tempuh dari bandara saat field visit", "owner": "Content lead", "target": "2026-10-15" }
+  ]
+}

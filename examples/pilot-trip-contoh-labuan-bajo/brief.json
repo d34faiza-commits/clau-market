@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.4",
+  "brief_id": "TCL-202610-01",
+  "client_code": "TCL",
+  "vertical": "travel-tour",
+  "business_type": "open-trip",
+  "location_area": "Manggarai Barat, NTT",
+  "objective": {
+    "type": "inquiry",
+    "key_message": "Open trip kapal 3H2M dengan itinerary jelas, termasuk/tidak termasuk transparan, keselamatan nyata",
+    "success_metric": "Jumlah inquiry WhatsApp yang menyebut kode SAILNOV",
+    "metric_source": "Catatan inquiry WhatsApp client (fiktif)"
+  },
+  "audience": {
+    "segments": ["backpacker domestik", "pasangan muda"],
+    "origin": ["Jakarta", "Bandung", "Surabaya"],
+    "language": "id"
+  },
+  "voice": {
+    "evidence_label": "CLIENT CONFIRMATION",
+    "archetype": "informatif-praktis",
+    "address": "kamu",
+    "emoji_rule": "Maks 2 per caption, relevan (laut/kapal)"
+  },
+  "channels": [
+    { "channel": "instagram", "format": "carousel itinerary", "quantity": 1, "paid": false, "cta": { "type": "whatsapp", "target_ref": "TCL-WA-01" } },
+    { "channel": "tiktok", "format": "caption video", "quantity": 1, "paid": false, "cta": { "type": "save" } }
+  ],
+  "offer": {
+    "name": "Open Trip Sail 3H2M",
+    "price": 3250000,
+    "currency": "IDR",
+    "unit": "per-pax",
+    "tax_service": "net",
+    "valid_from": "2026-11-01",
+    "valid_to": "2026-11-30",
+    "terms": "Keberangkatan setiap Jumat; minimal 6 peserta, maksimal 14; kabin sharing; tidak termasuk tiket pesawat, retribusi kawasan, dan tip kru",
+    "capacity": "14 peserta per keberangkatan",
+    "evidence_label": "DATA FINAL"
+  },
+  "claims": [
+    { "claim": "Berangkat setiap Jumat, 3 hari 2 malam", "category": "itinerary", "evidence_label": "DATA FINAL", "source": "Itinerary fiktif TCL v2", "source_date": "2026-10-09" },
+    { "claim": "Minimal 6, maksimal 14 peserta", "category": "capacity", "evidence_label": "DATA FINAL", "source": "Fact sheet fiktif TCL v1 §2", "source_date": "2026-10-09" },
+    { "claim": "Termasuk kapal, kabin sharing, makan 7 kali, alat snorkel, pemandu", "category": "price", "evidence_label": "DATA FINAL", "source": "Fact sheet fiktif TCL v1 §2", "source_date": "2026-10-09" },
+    { "claim": "Briefing keselamatan sebelum berangkat; life jacket untuk setiap peserta", "category": "safety", "evidence_label": "DATA FINAL", "source": "SOP keselamatan fiktif TCL-SOP-01", "source_date": "2026-10-09" },
+    { "claim": "Manta mungkin terlihat di spot snorkeling bulan November", "category": "experience", "evidence_label": "ASSUMPTION" },
+    { "claim": "Izin usaha & sertifikat kapten", "category": "license", "evidence_label": "CLIENT CONFIRMATION" },
+    { "claim": "Besaran retribusi kawasan", "category": "price", "evidence_label": "CLIENT CONFIRMATION" }
+  ],
+  "assets": [
+    { "asset_ref": "TCL-MEDIA-031", "visual_category": "A-original", "people": "none" },
+    { "asset_ref": "TCL-MEDIA-032", "visual_category": "A-original", "people": "none" }
+  ],
+  "classification": {
+    "sensitivity": "Internal",
+    "lifecycle": "For Review",
+    "scope": "Campaign Specific"
+  },
+  "approval": { "level": "L2", "approver_role": "Owner operator (fiktif)" },
+  "deadlines": { "draft": "2026-10-17", "publish": "2026-10-25", "publish_time": "19:00", "timezone": "WITA" },
+  "restrictions": {
+    "required_terms": ["Trip Contoh Labuan Bajo"],
+    "forbidden_terms": ["pasti lihat", "dijamin", "100% aman", "termurah", "hidden gem"],
+    "sensitive_topics": ["interaksi satwa", "aturan taman nasional"]
+  },
+  "risks": [
+    { "description": "Peserta mengira manta pasti terlihat", "likelihood": "high", "impact": "medium", "owner": "Content lead", "mitigation": "Tidak menyebut manta di konten sampai ada sumber musim; bila disebut, sebagai kemungkinan" },
+    { "description": "Biaya retribusi berubah dan peserta merasa dibohongi", "likelihood": "medium", "impact": "medium", "owner": "Content lead", "mitigation": "Tulis 'tidak termasuk retribusi kawasan' tanpa angka sampai dikonfirmasi" }
+  ],
+  "next_actions": [
+    { "action": "Minta referensi izin usaha & sertifikat kapten ke owner", "owner": "Content lead", "target": "2026-10-13" },
+    { "action": "Cek besaran retribusi kawasan dari sumber resmi pengelola + tanggal akses", "owner": "Content lead", "target": "2026-10-14" }
+  ]
+}

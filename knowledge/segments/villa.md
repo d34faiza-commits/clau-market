@@ -70,6 +70,8 @@ Menyebut ini dengan jujur = ekspektasi tepat = review lebih baik.
 
 ## References
 
+- [templates/property-fact-sheet.md](../../templates/property-fact-sheet.md) · pilot SIMULASI [Villa Contoh Ubud](../../examples/pilot-villa-contoh-ubud/README.md)
+
 - [02 Hospitality Claim](../../rules/02-HOSPITALITY-CLAIM-STANDARD.md)
 - [07 AI Visual & Disclosure](../../rules/07-AI-VISUAL-DISCLOSURE-STANDARD.md)
 - [skills/write-ota-listing](../../skills/write-ota-listing/SKILL.md)

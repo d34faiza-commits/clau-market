@@ -97,4 +97,4 @@ Satu baris per tipe kamar atau unit.
 
 ---
 
-Vertical lain (restaurant/cafe/beach club, spa/wellness) belum punya fact sheet khusus. Sementara itu, pakai bagian 0, 1, 3, 5, 6, 7 template ini, ditambah menu atau treatment list resmi client.
+Vertical lain punya fact sheet khusus: [restaurant/cafe/beach club](./fnb-fact-sheet.md), [wedding & event](./wedding-fact-sheet.md), [travel & tour](./travel-fact-sheet.md). Spa/wellness belum punya; sementara pakai bagian 0, 1, 3, 5, 6, 7 template ini ditambah treatment list resmi client.

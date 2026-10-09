@@ -38,6 +38,11 @@ POSITIONING_TERMS = [
     "5-star", "7-star", "bintang 5", "bintang lima", "world-class", "kelas dunia",
     "terbaik", "best", "nomor 1", "number one", "termurah",
 ]
+# Rule 02 / segment travel & wedding — promises nobody can guarantee (satwa, cuaca, keselamatan, hasil).
+GUARANTEE_TERMS = [
+    "dijamin", "pasti lihat", "pasti melihat", "100% aman", "100% safe", "guaranteed", "guarantee",
+    "dijamin sunrise", "pasti sunrise", "tanpa risiko", "risk-free", "anti gagal",
+]
 # Voice guide — clichés.
 CLICHES = [
     "hidden gem", "surga tersembunyi", "pengalaman tak terlupakan", "unforgettable experience",
@@ -80,7 +85,7 @@ def load_captions(args: argparse.Namespace) -> list[tuple[str, str]]:
 
 
 def forbidden_terms(brief_path: str | None) -> list[str]:
-    terms = POSITIONING_TERMS + CLICHES
+    terms = POSITIONING_TERMS + GUARANTEE_TERMS + CLICHES
     if brief_path:
         brief = json.loads(Path(brief_path).read_text(encoding="utf-8"))
         terms += brief.get("restrictions", {}).get("forbidden_terms", [])
@@ -122,7 +127,7 @@ def check(caption: str, args: argparse.Namespace, terms: list[str]) -> list[str]
         problems.append("emoji in hook")
     hits = term_hits(caption, terms)
     if hits:
-        problems.append("forbidden/positioning terms: " + ", ".join(hits))
+        problems.append("forbidden/positioning/guarantee terms: " + ", ".join(hits))
     ctas = cta_types(caption)
     if len(ctas) > args.max_cta:
         problems.append(f"{len(ctas)} CTA types > {args.max_cta}: " + ", ".join(ctas))
