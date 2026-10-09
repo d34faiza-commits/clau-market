@@ -23,7 +23,7 @@ Menguji alur [CONTENT-WORKFLOW.md](../../CONTENT-WORKFLOW.md) untuk paket weddin
 | Klaim | ✅ 8 klaim berlabel; 3 ditahan (halal, waktu tempuh, legal WNA) |
 | Draft | ✅ 2 caption + 1 section website |
 | QA mekanis | ✅ PASS |
-| Review independen | ✅ 2026-10-09 oleh Dea Karisna (owner): v1 **belum lulus** (view laut & meja panjang tanpa fakta, "kapasitas yang sama") → v2 di drafts.md, menunggu cek ulang |
+| Review independen | ✅ 2026-10-09 oleh Dea Karisna (owner): v1 **belum lulus** (view laut & meja panjang tanpa fakta, "kapasitas yang sama") → **v2 lulus** (cek ulang 2026-10-09) |
 | Approval | SIMULASI |
 
 Dijalankan 2026-10-09 oleh AI agent (Claude Code). Review owner tetap diperlukan.

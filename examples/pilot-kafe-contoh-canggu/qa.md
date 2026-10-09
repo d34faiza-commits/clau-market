@@ -44,7 +44,7 @@
 | Reviewer | **Dea Karisna (d34faiza)**, owner — bukan pembuat draft (draft dibuat AI agent) |
 | Metode | AI agent menyusun **pre-review kritis** atas draft-nya sendiri (bukan review independen); reviewer membaca dan menyatakan **"setuju"** di sesi Claude Code 2026-10-09. Penilaian akhir = reviewer |
 | Objek | Varian A v1 (IG). Temuan #1 dan #3 juga berlaku untuk Varian B (EN: "dawn patrol", "early surf", "Kintamani arabica") — Varian B harus direvisi dengan pola yang sama sebelum dipakai |
-| Keputusan | **Belum lulus — revisi kecil.** v2 di [drafts.md](./drafts.md) |
+| Keputusan | v1 belum lulus → **v2 lulus** (cek ulang 2026-10-09, reviewer: "lulus semua"; dapat di-upgrade kapan saja). v2 di [drafts.md](./drafts.md) |
 
 | # | Kalimat (v1) | Hasil | Catatan |
 |---|---|---|---|
@@ -67,7 +67,7 @@
 | Versi | Penghitung | Status | A | B | C | D | Total | Kesiapan | Catatan |
 |---|---|---|---|---|---|---|---|---|---|
 | v1 | Dea Karisna (owner) atas pre-review AI | Independent score | 60 | 89 | 100 | — | 83 | **0** (blocker: klaim tersirat non-DATA FINAL) | A = 3 dari 5 kalimat klaim OK tanpa perubahan (#2, #4, #5); B = 100 − 8 − 3; D tidak dihitung (publication checklist belum dijalankan di pilot ini); total = rata-rata A–C. Self-check agent sebelumnya "lulus" → selisih dengan self-score = temuan K-03 |
-| v2 | — | Menunggu cek ulang reviewer | | | | | | | Revisi atas semua temuan v1 |
+| v2 | Dea Karisna (owner) atas cek ulang AI | Independent score — **Lulus** (2026-10-09) | 100 | 100 | 100 | — | 100 | 100 | IG ID/EN + GBP v2; semua kalimat klaim cocok DATA FINAL. Catatan: perjelas "tanpa daging" (telur/seafood) di menu outlet. Kesiapan berlaku dalam SIMULASI saja; tidak pernah publish |
 
 ## Temuan pilot
 
@@ -77,3 +77,4 @@
 | K-02 | Brief tidak bisa menandai "halal" sebagai klaim berisiko selain lewat forbidden_terms | Cukup: label RISK di `claims` + `forbidden_terms` |
 | K-03 | Review independen: kalimat pembuka suasana ("ombak pagi") dan CTA ("sebelum surf") menyiratkan lokasi yang belum DATA FINAL, tetapi lolos self-check agent | **Selesai** — contoh ditambahkan di self-check `skills/draft-caption` (#7) |
 | K-04 | Kata di brief ("arabika") tidak ada di fact sheet | Brief diperbaiki; aturan: klaim brief harus sama persis dengan fact sheet |
+| K-05 | Cek ulang v2: GBP v1 masih memuat "arabika" — review independen hanya menilai IG | GBP v2 di drafts.md; aturan: revisi atas temuan diterapkan ke **semua kanal** di draft, bukan hanya objek review |

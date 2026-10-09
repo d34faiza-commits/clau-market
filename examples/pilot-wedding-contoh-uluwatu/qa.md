@@ -45,7 +45,7 @@
 | Reviewer | **Dea Karisna (d34faiza)**, owner — bukan pembuat draft (draft dibuat AI agent) |
 | Metode | AI agent menyusun **pre-review kritis** atas draft-nya sendiri (bukan review independen); reviewer membaca dan menyatakan **"setuju"** di sesi Claude Code 2026-10-09. Penilaian akhir = reviewer |
 | Objek | Varian A v1 (IG). Temuan 1a, 1b, 3 juga berlaku untuk Varian B (EN: "one long table", "the ocean behind you", "seats the same number") — revisi dengan pola yang sama sebelum dipakai |
-| Keputusan | **Belum lulus — revisi kecil.** v2 di [drafts.md](./drafts.md) |
+| Keputusan | v1 belum lulus → **v2 lulus** (cek ulang 2026-10-09, reviewer: "lulus semua"; dapat di-upgrade kapan saja). v2 di [drafts.md](./drafts.md) |
 
 | # | Kalimat (v1) | Hasil | Catatan |
 |---|---|---|---|
@@ -70,7 +70,7 @@
 | Versi | Penghitung | Status | A | B | C | D | Total | Kesiapan | Catatan |
 |---|---|---|---|---|---|---|---|---|---|
 | v1 | Dea Karisna (owner) atas pre-review AI | Independent score | 67 | 86 | 100 | — | 84 | **0** (blocker: klaim view non-DATA FINAL) | A = 4 dari 6 baris klaim OK tanpa perubahan (#2, #4, #5, #6; #1 dihitung 1 kalimat dengan 2 klaim gagal, #3 diubah); B = 100 − 8 − 3 − 3; D tidak dihitung; total = rata-rata A–C |
-| v2 | — | Menunggu cek ulang reviewer | | | | | | | Revisi atas semua temuan v1 |
+| v2 | Dea Karisna (owner) atas cek ulang AI | Independent score — **Lulus** (2026-10-09) | 100 | 100 | 100 | — | 100 | 100 | IG ID/EN v2 + website; tanpa klaim view/layout. Catatan opsional: EN "cliff-top area" boleh diganti "Area Tebing" saja. Kesiapan berlaku dalam SIMULASI saja; tidak pernah publish |
 
 ## Temuan pilot
 
@@ -81,3 +81,4 @@
 | W-03 | Pertanyaan legal pernikahan WNA berpotensi datang lewat DM | Masuk Level C (eskalasi) saat AI Sales aktif — catat di blueprint Sales |
 | W-04 | Review independen: klaim view & layout tersirat di kalimat pembuka lolos self-check; QA v1 merujuk foto padahal fakta view tidak ada di fact sheet | Template wedding fact sheet ditambah baris **View dari area** (§ 2); self-check klaim tersirat sudah mencakup view |
 | W-05 | "Kapasitas yang sama" untuk area cadangan menyamakan layout berbeda | Aturan: kapasitas selalu ditulis dengan jenis layout (sudah di segment wedding) — dicek ulang di QA |
+| W-06 | Cek ulang v2: terjemahan nama area ("Cliff Lawn", "Joglo Hall") menambah klaim tersirat (rumput, ruang tertutup) | Varian B v2 memakai nama area asli + deskripsi dari fact sheet ("cliff-top", "semi-indoor") |

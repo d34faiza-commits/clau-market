@@ -23,7 +23,7 @@ Menguji alur [CONTENT-WORKFLOW.md](../../CONTENT-WORKFLOW.md) untuk vertical F&B
 | Klaim | ✅ 7 klaim berlabel; 3 ditahan (jarak, pajak %, halal) |
 | Draft | ✅ 2 caption + 1 GBP |
 | QA mekanis | ✅ PASS (`check_caption`) |
-| Review independen | ✅ 2026-10-09 oleh Dea Karisna (owner): v1 **belum lulus** (klaim lokasi tersirat, "arabika" tanpa sumber) → v2 di drafts.md, menunggu cek ulang |
+| Review independen | ✅ 2026-10-09 oleh Dea Karisna (owner): v1 **belum lulus** (klaim lokasi tersirat, "arabika" tanpa sumber) → **v2 lulus** (cek ulang 2026-10-09) |
 | Approval | SIMULASI |
 
 Dijalankan 2026-10-09 oleh AI agent (Claude Code). Review owner tetap diperlukan untuk menerima temuan.

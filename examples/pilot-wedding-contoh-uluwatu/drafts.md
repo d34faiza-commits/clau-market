@@ -15,6 +15,19 @@ Hubungi kami lewat WhatsApp di bio untuk daftar lengkap yang termasuk dan tidak 
 #UluwatuWedding #IntimateWedding #BaliWedding #VillaContohUluwatu
 ```
 
+## Instagram — Varian B v2 (EN, en-GB)
+
+Pola revisi sama dengan Varian A v2 (tanpa "one long table", "the ocean behind you", "seats the same number"). Nama area tidak diterjemahkan: "Cliff Lawn" menyiratkan rumput dan "Joglo Hall" menyiratkan ruang tertutup, keduanya tidak ada di fact sheet (cek ulang 2026-10-09, temuan W-06).
+
+```text
+An intimate wedding for 20–40 guests at the Area Tebing, the cliff-top area of Villa Contoh Uluwatu.
+The Intimate Cliff Wedding package: six hours at the Area Tebing, a three-course dinner, basic styling, sound and lighting, and an on-the-day coordinator. If it rains, the event moves to the semi-indoor Ruang Joglo, which seats 40.
+IDR 185,000,000++ per event (tax & service not included), for dates throughout 2027. Music until 22.00.
+Photos from a real wedding here, with the couple's permission · Photos: Studio Contoh.
+Message us on WhatsApp via the link in bio for the full list of inclusions and exclusions.
+#UluwatuWedding #IntimateWedding #BaliWedding #VillaContohUluwatu
+```
+
 ## Instagram — carousel (CTA: WhatsApp, ref VCW-WA-01) — v1
 
 ### Varian A (ID)
