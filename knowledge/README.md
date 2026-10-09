@@ -11,7 +11,7 @@ Knowledge **reusable** untuk produksi konten hospitality Indonesia. Bukan arsip 
 | [market/](./market/indonesia-tourism-stats-2025-2026.md) | Statistik BPS/Kemenpar 2025–2026 + [peta agency kompetitor](./market/competitor-content-agencies.md) |
 | [platforms/](./platforms/instagram.md) | Spec IG/TikTok/GBP + **[tren hospitality 2026](./platforms/content-trends-hospitality-2026.md)** |
 | [regulasi/](./regulasi/hospitality-content-2026.md) | UU PDP, endorsement, halal/CHSE/bintang, AI disclosure |
-| [segments/](./segments/hotel.md) | Hotel, villa, restaurant, spa |
+| [segments/](./segments/hotel.md) | **Aktif:** hotel, villa, restaurant, spa. **Planned** (knowledge awal ASSUMPTION, belum untuk client; urutan di `clau-ai-core/docs/verticals.md`): [wedding](./segments/wedding.md), [travel](./segments/travel.md), [salon](./segments/salon.md), [retail](./segments/retail.md), [rental](./segments/rental.md), [contractor](./segments/contractor.md), [professional-services](./segments/professional-services.md) |
 | [voice-guides/](./voice-guides/hospitality-voice.md) | Default hospitality voice |
 
 Riset pasar/regulasi/kalender 2026 diakses **2026-10-04**. Lihat kolom Sumber + Tanggal akses di tiap file.
