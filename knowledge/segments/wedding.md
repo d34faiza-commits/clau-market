@@ -1,0 +1,72 @@
+# Segment: Wedding & Event
+
+> **Status: Planned — belum dipakai untuk client.** Disiapkan 2026-10-09 sebagai knowledge awal (**ASSUMPTION**) untuk vertical gelombang 1 (`clau-ai-core/docs/verticals.md`). Aktif setelah checklist aktivasi vertical selesai (TASK-041).
+
+## Scope
+
+Venue wedding (villa, hotel, resort, gedung), wedding organizer/planner, paket intimate wedding & elopement, vendor pendukung (dekor, katering, MUA, dokumentasi), dan event privat (ulang tahun, lamaran, gathering kantor).
+
+> Knowledge ini **Reusable** dan generik. Paket, harga, kapasitas, dan vendor dari dokumen client (**DATA FINAL**).
+
+## Karakter Segment
+
+- Keputusan lama (3–12 bulan sebelum hari H), melibatkan pasangan + keluarga; banyak perbandingan.
+- Visual adalah bukti utama; calon klien menilai dari portofolio nyata.
+- Momen: musim kering & tanggal cantik, akhir tahun, setelah Lebaran; pameran wedding.
+
+## Audience Umum
+
+| Segmen | Kebutuhan | Angle konten |
+|---|---|---|
+| Pasangan lokal | Paket jelas, kapasitas tamu, adat, katering halal | Paket all-in yang transparan, timeline acara |
+| Pasangan destinasi (asing/luar kota) | Legalitas, akomodasi tamu, koordinator | Panduan "menikah di Bali/Lombok", logistik |
+| Intimate / elopement | Privat, kecil, fotogenik | Cerita momen, setting sunset/alam |
+| Corporate / event privat | Kapasitas, AV, harga per pax | Layout ruang, paket meeting/gathering |
+
+## Content Pillars (contoh)
+
+1. **Real Weddings** — dokumentasi acara nyata (dengan consent pasangan).
+2. **Venue & Setup** — layout, kapasitas, pilihan dekor.
+3. **Behind the Scenes** — persiapan tim, gladi.
+4. **Planning Tips** — timeline, checklist, adat.
+5. **Packages** — isi paket, syarat, periode.
+6. **Testimonials** — dengan izin tertulis.
+
+## Claim Hotspots
+
+| Klaim | Masalah umum | Perlakuan |
+|---|---|---|
+| "All-in package" | Tidak semua item termasuk (pajak, service, overtime, genset, izin) | Rinci yang termasuk/tidak; **CLIENT CONFIRMATION** |
+| Kapasitas tamu | Beda untuk standing vs seated, indoor vs outdoor | Sebut jenis layout + angka dari client |
+| Foto portofolio | Foto milik fotografer/vendor lain, atau acara venue lain | Hanya foto acara di venue ini + izin fotografer & pasangan (rule 04) |
+| Pernikahan WNA / legal | Persyaratan dokumen berubah & bergantung agama/daerah | Jangan menjelaskan prosedur hukum; arahkan ke WO/instansi resmi → **RISK** |
+| "Tanggal tersedia" | Ketersediaan berubah | Tidak menyebut ketersediaan di konten publik tanpa cek terbaru |
+| Harga per pax | Tanpa pajak/service/minimum pax | Tulis net/++ dan minimum pax |
+| Dekor/upacara adat & agama | Sensitif budaya | Konsultasi pihak keluarga/pemangku adat; tidak dijadikan gimmick (AI-CONSTITUTION §4.6) |
+
+## Foto & Video
+
+- Wajah pasangan, keluarga, dan tamu = consent tertulis; anak-anak hanya dengan izin orang tua.
+- Visual AI hanya untuk moodboard berlabel, tidak sebagai portofolio.
+- Kredit fotografer/videografer sesuai perjanjian.
+
+## Practical Info Wajib Konsisten
+
+| Item | Sumber |
+|---|---|
+| Kapasitas per area | Fact sheet venue |
+| Isi paket & syarat | Price list resmi periode berjalan |
+| Jam acara & batas suara/musik | Kebijakan venue + aturan lingkungan setempat |
+| Kontak resmi | WA/email resmi client |
+
+## Kesalahan Umum
+
+- Memposting foto acara tanpa izin pasangan.
+- Menyebut "harga mulai" tanpa minimum pax dan item yang tidak termasuk.
+- Memakai foto venue lain/stok sebagai portofolio.
+
+## References
+
+- [02 Hospitality Claim](../../rules/02-HOSPITALITY-CLAIM-STANDARD.md)
+- [04 Privacy, Consent & UGC](../../rules/04-PRIVACY-CONSENT-UGC-STANDARD.md)
+- [villa.md](./villa.md) · [hotel.md](./hotel.md)
