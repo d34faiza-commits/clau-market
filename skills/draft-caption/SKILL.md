@@ -46,7 +46,7 @@ Baca sebelum bekerja:
 4. Hanya 1 CTA.
 5. Tidak ada nama/foto tamu tanpa consent.
 6. Konten berbayar → disclosure tercantum.
-7. Klaim tersirat ikut dicek: setiap kalimat yang menggambarkan apa yang *akan dialami* tamu (view, jarak/waktu tempuh, suasana sepi/ramai, kapasitas, kecepatan, kebersihan, "bisa lihat X dan Y sekaligus") dicatat sebagai klaim di tabel klaim dan harus **DATA FINAL**; kalau tidak, kalimatnya dihapus atau diubah. Contoh pilot: "view sawah dan kolam dua-duanya kelihatan" adalah klaim view yang butuh foto bukti.
+7. Klaim tersirat ikut dicek: setiap kalimat yang menggambarkan apa yang *akan dialami* tamu (view, jarak/waktu tempuh, suasana sepi/ramai, kapasitas, kecepatan, kebersihan, "bisa lihat X dan Y sekaligus") dicatat sebagai klaim di tabel klaim dan harus **DATA FINAL**; kalau tidak, kalimatnya dihapus atau diubah. Contoh pilot: "view sawah dan kolam dua-duanya kelihatan" adalah klaim view yang butuh foto bukti. Kalimat pembuka suasana juga dihitung: "ombak pagi sudah menunggu" atau CTA "buat pagi sebelum surf" menyiratkan lokasi dekat pantai, dan "pagi yang tenang" menyiratkan suasana sepi — keduanya klaim (review independen pilot Kafe Contoh Canggu, 2026-10-09).
 8. Hook (baris pertama) ≤125 karakter; alt text ada untuk setiap gambar/slide.
 9. Tidak ada kata positioning tanpa dasar (mewah/luxury/premium/eksklusif/5-star) dan tidak ada kalimat yang memperkuat klaim tersirat dari nama brand (rule 02).
 
