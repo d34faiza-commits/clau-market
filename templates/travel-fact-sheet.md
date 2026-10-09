@@ -41,6 +41,7 @@ Satu blok per trip.
 | Titik & jam penjemputan | | | |
 | Jadwal keberangkatan / tanggal open trip | | | |
 | Kuota minimum & maksimum peserta | | | |
+| Kebijakan bila kuota minimum tidak terpenuhi (batal/reschedule/refund) | | | |
 | Harga (unit: per-pax / per-trip; net / ++) | | | |
 | Periode harga berlaku | | | |
 | Level fisik (ringan/sedang/berat) & syarat (umur, bisa berenang, sertifikat diving) | | | |
