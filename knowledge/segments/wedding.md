@@ -1,6 +1,6 @@
 # Segment: Wedding & Event
 
-> **Status: Planned — belum dipakai untuk client.** Disiapkan 2026-10-09 sebagai knowledge awal (**ASSUMPTION**) untuk vertical gelombang 1 (`clau-ai-core/docs/verticals.md`). Aktif setelah checklist aktivasi vertical selesai (TASK-041).
+> **Status: Fokus — aktivasi enterprise (2026-10-09).** Vertical fokus menurut AI-CONSTITUTION v3.0.0 §2. Knowledge di bawah masih **ASSUMPTION** (pengetahuan umum, belum diverifikasi sumber resmi); sebelum dipakai untuk client, selesaikan [Status Verifikasi](#status-verifikasi). Fact sheet: [templates/wedding-fact-sheet.md](../../templates/wedding-fact-sheet.md) · Pilot SIMULASI: [examples/pilot-wedding-contoh-uluwatu](../../examples/pilot-wedding-contoh-uluwatu/README.md).
 
 ## Scope
 
@@ -64,6 +64,15 @@ Venue wedding (villa, hotel, resort, gedung), wedding organizer/planner, paket i
 - Memposting foto acara tanpa izin pasangan.
 - Menyebut "harga mulai" tanpa minimum pax dan item yang tidak termasuk.
 - Memakai foto venue lain/stok sebagai portofolio.
+
+## Status Verifikasi
+
+| Item | Status | Untuk jadi DATA FINAL / dipakai client |
+|---|---|---|
+| Karakter, audience, content pillars | ASSUMPTION | Validasi lewat 3–5 wawancara owner venue/WO (design/research/interview-guide) |
+| Claim hotspots | ASSUMPTION (prinsip mengikuti rule 01/02/04) | Legal review untuk baris pernikahan WNA & izin acara |
+| Fact sheet & pilot | ✅ Template + pilot SIMULASI tersedia | Review independen manusia atas pilot (rule 08) |
+| Eval agent | ✅ Kasus wedding di `clau-ai-agents/agents/evals/` | Penilaian rubrik oleh manusia |
 
 ## References
 

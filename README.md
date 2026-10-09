@@ -43,7 +43,7 @@ clau-ai-marketing/
 ├── knowledge/         # segment, platform, kalender, destinasi, voice, market, regulasi
 ├── templates/         # brief, fact sheet, calendar, campaign, onboarding, approval, report
 ├── qa/                # 5 QA gate + rubrik skor
-├── schemas/           # content-brief.schema.json (v1.3)
+├── schemas/           # content-brief.schema.json (v1.4; brief v1.3 tetap valid)
 ├── automations/       # Level 1 manual
 ├── examples/          # pilot fiktif (SIMULASI)
 └── scripts/           # validate.py, check_caption.py, sync-submodules.sh, check-core-pins.sh

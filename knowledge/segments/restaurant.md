@@ -68,6 +68,8 @@ Restoran (casual, fine dining, warung modern), cafe & coffee shop, bakery, bar, 
 
 ## References
 
+- [templates/fnb-fact-sheet.md](../../templates/fnb-fact-sheet.md) · pilot SIMULASI [Kafe Contoh Canggu](../../examples/pilot-kafe-contoh-canggu/README.md)
+
 - [02 Hospitality Claim](../../rules/02-HOSPITALITY-CLAIM-STANDARD.md)
 - [knowledge/platforms/google-business.md](../platforms/google-business.md)
 - [prompts/promo-seasonal/seasonal-campaign.md](../../prompts/promo-seasonal/seasonal-campaign.md)

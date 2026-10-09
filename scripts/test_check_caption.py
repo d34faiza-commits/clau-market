@@ -9,7 +9,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from check_caption import EMOJI_RE, cta_types, term_hits  # noqa: E402
+from check_caption import EMOJI_RE, GUARANTEE_TERMS, cta_types, term_hits  # noqa: E402
 
 
 class CtaTypes(unittest.TestCase):
@@ -36,6 +36,12 @@ class Terms(unittest.TestCase):
     def test_whole_word(self):
         self.assertEqual(term_hits("villa mewah di ubud", ["mewah"]), ["mewah"])
         self.assertEqual(term_hits("kemewahan", ["mewah"]), [])
+
+    def test_guarantee_terms_caught(self):
+        # Travel & wedding: satwa, cuaca, keselamatan, dan hasil tidak bisa dijamin (rule 02).
+        self.assertEqual(term_hits("Trip 3 hari, pasti lihat manta!", GUARANTEE_TERMS), ["pasti lihat"])
+        self.assertEqual(term_hits("Snorkeling 100% aman untuk anak", GUARANTEE_TERMS), ["100% aman"])
+        self.assertEqual(term_hits("Manta sering terlihat di musim ini, bila cuaca mendukung.", GUARANTEE_TERMS), [])
 
 
 

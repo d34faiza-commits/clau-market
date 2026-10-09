@@ -1,6 +1,6 @@
 # Segment: Travel & Tour Operator
 
-> **Status: Planned — belum dipakai untuk client.** Disiapkan 2026-10-09 sebagai knowledge awal (**ASSUMPTION**) untuk vertical gelombang 1 (`clau-ai-core/docs/verticals.md`). Aktif setelah checklist aktivasi vertical selesai (TASK-041).
+> **Status: Fokus — aktivasi enterprise (2026-10-09).** Vertical fokus menurut AI-CONSTITUTION v3.0.0 §2. Knowledge di bawah masih **ASSUMPTION** (pengetahuan umum, belum diverifikasi sumber resmi); sebelum dipakai untuk client, selesaikan [Status Verifikasi](#status-verifikasi). Fact sheet: [templates/travel-fact-sheet.md](../../templates/travel-fact-sheet.md) · Pilot SIMULASI: [examples/pilot-trip-contoh-labuan-bajo](../../examples/pilot-trip-contoh-labuan-bajo/README.md).
 
 ## Scope
 
@@ -65,6 +65,16 @@ Tour operator, agen perjalanan, open trip, private tour, aktivitas (surf, dive, 
 - Menjanjikan penampakan satwa atau cuaca.
 - Harga "mulai dari" tanpa menyebut minimum peserta.
 - Memakai foto destinasi milik orang lain tanpa izin.
+
+## Status Verifikasi
+
+| Item | Status | Untuk jadi DATA FINAL / dipakai client |
+|---|---|---|
+| Karakter, audience, content pillars | ASSUMPTION | Validasi lewat 3–5 wawancara operator |
+| Aturan kawasan (taman nasional, retribusi, drone) | ASSUMPTION | Cek sumber resmi pengelola kawasan per destinasi + tanggal akses; per client = **CLIENT CONFIRMATION** |
+| Izin usaha & sertifikat pemandu | CLIENT CONFIRMATION per client | Dokumen client di workspace |
+| Fact sheet & pilot | ✅ Template + pilot SIMULASI tersedia | Review independen manusia atas pilot (rule 08) |
+| Eval agent | ✅ Kasus travel di `clau-ai-agents/agents/evals/` | Penilaian rubrik oleh manusia |
 
 ## References
 

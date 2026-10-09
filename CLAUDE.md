@@ -19,9 +19,9 @@
 | `rules/01–09` | Standard konten (integritas, klaim, voice, privacy, platform, bahasa, AI visual, approval, data) |
 | `skills/` · `prompts/` | 7 skill agent · prompt library |
 | `knowledge/` | Segment, platform, kalender, destinasi, voice guide, market, regulasi |
-| `templates/` · `schemas/` | Template brief/fact sheet/approval · `content-brief.schema.json` (v1.3) |
+| `templates/` · `schemas/` | Template brief/approval + fact sheet per vertical (akomodasi, F&B, wedding, travel) · `content-brief.schema.json` (v1.4) |
 | `qa/` | Claim verification (per kalimat), content review, privacy, visual AI, publication, scoring rubric |
-| `examples/` | Pilot **fiktif** (SIMULASI). Nama properti fiktif wajib mengandung "Contoh" |
+| `examples/` | Pilot **fiktif** (SIMULASI) untuk 4 vertical fokus: villa, kafe, wedding, travel. Nama properti fiktif wajib mengandung "Contoh" |
 | `scripts/` | `validate.py`, `check_caption.py`, `sync-submodules.sh`, `check-core-pins.sh` |
 | `SUBMODULE.md` | Update, sync, troubleshooting submodule & setup token Actions |
 

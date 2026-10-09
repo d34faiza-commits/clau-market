@@ -27,6 +27,17 @@ Tulis seperti host yang menyambut tamu di depan pintu:
 | **Santai & Playful** | `santai-playful` | Cafe, beach club, surf camp | Energi, humor ringan, emoji relevan | "Ombak pagi oke, kopi kedua juga oke 🌊" |
 | **Informatif & Praktis** | `informatif-praktis` | Business hotel, transit, budget | Poin, jelas, efisien | "5 menit ke stasiun. Check-in mulai 14.00. Wi-Fi di semua area." |
 
+## Catatan per Vertical Fokus
+
+| Vertical | Arketipe yang biasanya cocok | Lakukan | Hindari |
+|---|---|---|---|
+| Villa | `tenang-membumi`, `hangat-kekeluargaan` | Detail ruang & ritme pagi; akses jujur (gang, tangga) | "Private paradise", "surga tersembunyi" |
+| Restoran / cafe | `santai-playful`, `hangat-kekeluargaan`, `elegan-tertata` (fine dining) | Nama menu persis, proses, bahan bersumber; jam & cara pesan jelas | "Rasa terbaik", "paling autentik" tanpa dasar |
+| Wedding & event | `elegan-tertata`, `hangat-kekeluargaan` | Momen nyata (dengan consent), layout & kapasitas spesifik, isi paket transparan | "Pernikahan impian sempurna", "dijamin tanpa kendala", tekanan tanggal ("tanggal hampir habis") tanpa data |
+| Travel & tour | `informatif-praktis`, `santai-playful` | Itinerary per hari, level fisik, termasuk/tidak termasuk, "bila cuaca mendukung" | "Pasti lihat manta", "100% aman", "dijamin sunrise" |
+
+Wedding: sebut pasangan hanya dengan izin; jangan memakai foto acara milik venue/fotografer lain. Travel: keselamatan ditulis sebagai langkah nyata (briefing, life jacket), bukan janji.
+
 ## Sapaan
 
 | Pilihan | Kapan |
