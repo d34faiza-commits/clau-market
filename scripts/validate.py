@@ -299,6 +299,26 @@ def check_versions(report: Report) -> None:
             report.fail("README.md", f"Versi Dokumen row for {rel} is {listed.get(rel)}, expected ({version}, {status})")
 
 
+CONSTITUTION_REF_RE = re.compile(r"AI-CONSTITUTION(?:\.md`?)?\s+v(\d+\.\d+\.\d+)")
+
+
+def check_constitution_refs(report: Report) -> None:
+    """Every 'AI-CONSTITUTION vX.Y.Z' mention must match the pinned core/AI-CONSTITUTION.md."""
+    if not CORE_READY:
+        return
+    meta = parse_frontmatter((ROOT / "core" / "AI-CONSTITUTION.md").read_text(encoding="utf-8")) or {}
+    current = meta.get("version", "").strip('"')
+    if not current:
+        report.fail(ROOT / "core" / "AI-CONSTITUTION.md", "frontmatter missing version")
+        return
+    for path in iter_files():
+        if path.suffix != ".md":
+            continue
+        for found in CONSTITUTION_REF_RE.findall(path.read_text(encoding="utf-8")):
+            if found != current:
+                report.fail(path, f"mentions AI-CONSTITUTION v{found}, pinned core is v{current}")
+
+
 TASK_BOARDS = {
     "backlog.md": "Backlog",
     "in-progress.md": "In Progress",
@@ -437,6 +457,7 @@ def main() -> int:
     check_prompts(report)
     check_skills(report)
     check_versions(report)
+    check_constitution_refs(report)
     check_tasks(report)
     check_json(report)
     check_links(report)
