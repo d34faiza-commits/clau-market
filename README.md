@@ -54,7 +54,7 @@ clau-ai-marketing/
 | Dokumen | Versi | Status |
 |---|---|---|
 | [CONTENT-WORKFLOW.md](./CONTENT-WORKFLOW.md) | 1.0.0 | Approved |
-| [AGENTS.md](./AGENTS.md) | 1.0.0 | Approved |
+| [AGENTS.md](./AGENTS.md) | 1.1.0 | Approved |
 
 Constitution & boundary di-version di clau-ai-core.
 

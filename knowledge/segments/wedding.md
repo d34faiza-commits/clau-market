@@ -1,6 +1,6 @@
 # Segment: Wedding & Event
 
-> **Status: Fokus — aktivasi enterprise (2026-10-09).** Vertical fokus menurut AI-CONSTITUTION v3.0.0 §2. Knowledge di bawah masih **ASSUMPTION** (pengetahuan umum, belum diverifikasi sumber resmi); sebelum dipakai untuk client, selesaikan [Status Verifikasi](#status-verifikasi). Fact sheet: [templates/wedding-fact-sheet.md](../../templates/wedding-fact-sheet.md) · Pilot SIMULASI: [examples/pilot-wedding-contoh-uluwatu](../../examples/pilot-wedding-contoh-uluwatu/README.md).
+> **Status: Fokus — aktivasi enterprise (2026-10-09).** Vertical fokus menurut AI-CONSTITUTION §2. Knowledge di bawah masih **ASSUMPTION** (pengetahuan umum, belum diverifikasi sumber resmi); sebelum dipakai untuk client, selesaikan [Status Verifikasi](#status-verifikasi). Fact sheet: [templates/wedding-fact-sheet.md](../../templates/wedding-fact-sheet.md) · Pilot SIMULASI: [examples/pilot-wedding-contoh-uluwatu](../../examples/pilot-wedding-contoh-uluwatu/README.md).
 
 ## Scope
 

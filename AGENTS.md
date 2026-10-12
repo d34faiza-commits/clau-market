@@ -1,10 +1,10 @@
 ---
 document_title: "AGENTS.md — Instruksi AI Agent"
 document_owner: "Dea Karisna / AI Marketing"
-version: "1.0.0"
+version: "1.1.0"
 status: "Approved"
-effective_date: "2026-10-04"
-approval_reference: "Approval tertulis owner (Dea Karisna / d34faiza) via sesi Claude Code, 2026-10-04 (\"untuk saat ini semua approve dulu\"); perubahan ada di main"
+effective_date: "2026-10-12"
+approval_reference: "v1.1.0: approval tertulis owner (Dea Karisna / d34faiza) via sesi Claude Code, 2026-10-12: \"Saya Dea Karisna (d34faiza), owner CLAU. Saya approve: semua push ke main di clau-ai-core, clau-ai-marketing, clau-ai-agents wajib lewat PR dengan CI hijau; push langsung tidak lagi diizinkan. Penegakan lewat main-guard karena GitHub Free.\" v1.0.0: approval tertulis owner (Dea Karisna / d34faiza) via sesi Claude Code, 2026-10-04 (\"untuk saat ini semua approve dulu\"); perubahan ada di main"
 classification: "Internal"
 ---
 
@@ -91,9 +91,9 @@ Setiap varian dalam code block terpisah supaya bisa di-copy satu per satu.
 
 ## Kontribusi ke Repo
 
-- Direct push ke `main` = **DIIZINKAN** untuk solo dev (GitHub Free). WAJIB: commit message format (`feat:`, `fix:`, `docs:`, `refactor:`, `chore:`), validator lokal lulus, backup rutin. Kalau tim 2+ orang, pakai branch + PR.
+- Semua perubahan ke `main` **wajib lewat pull request dengan CI hijau** (`validate`, `cross-validate`); push langsung dan force push ke `main` **tidak diizinkan** (keputusan owner 2026-10-12, `core/AI-BOUNDARY.md` § Disiplin Push). WAJIB juga: commit message format (`feat:`, `fix:`, `docs:`, `refactor:`, `chore:`, `test:`), validator lokal lulus, backup rutin di feature branch.
 
-  **Status:** **ASSUMPTION** — sesuai realita solo dev, GitHub Free tier. Akan di-review kalau: tim bertambah, upgrade GitHub Team, atau repo jadi public.
+  **RISK:** GitHub Free tidak memaksa branch protection di repo private; `main-guard` membuat check merah + email bila aturan ini dilanggar.
 - Jalankan `python scripts/validate.py` sebelum commit.
 - Rule baru ikut format 10 section (lihat [rule 01](./rules/01-CONTENT-INTEGRITY-STANDARD.md)).
 - Skill baru: `skills/<nama>/SKILL.md` (frontmatter hanya `name` + `description`) + `skills/<nama>/agents/openai.yaml`.
@@ -114,3 +114,4 @@ Perubahan atas dokumen Approved hanya atas perintah **Pak Indra** atau **Dea Kar
 | 0.1.3 | 2026-10-04 | Draft | Tambah aturan QA oleh agent = self-review (TASK-026) |
 | 0.2.0 | 2026-10-04 | Draft | Dipindah ke clau-ai-marketing (instruksi agent Pilar 1); instruksi lintas repo ada di core/AGENTS.md |
 | 1.0.0 | 2026-10-04 | Approved | Approved oleh owner (Dea Karisna / d34faiza); ditambah aturan otoritas perubahan |
+| 1.1.0 | 2026-10-12 | Approved | Kontribusi: semua perubahan ke `main` wajib lewat PR dengan CI hijau; push langsung tidak lagi diizinkan; penegakan `main-guard` (approval tertulis owner Dea Karisna / d34faiza) |

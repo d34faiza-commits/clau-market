@@ -1,6 +1,6 @@
 # Segment: Travel & Tour Operator
 
-> **Status: Fokus — aktivasi enterprise (2026-10-09).** Vertical fokus menurut AI-CONSTITUTION v3.0.0 §2. Knowledge di bawah masih **ASSUMPTION** (pengetahuan umum, belum diverifikasi sumber resmi); sebelum dipakai untuk client, selesaikan [Status Verifikasi](#status-verifikasi). Fact sheet: [templates/travel-fact-sheet.md](../../templates/travel-fact-sheet.md) · Pilot SIMULASI: [examples/pilot-trip-contoh-labuan-bajo](../../examples/pilot-trip-contoh-labuan-bajo/README.md).
+> **Status: Fokus — aktivasi enterprise (2026-10-09).** Vertical fokus menurut AI-CONSTITUTION §2. Knowledge di bawah masih **ASSUMPTION** (pengetahuan umum, belum diverifikasi sumber resmi); sebelum dipakai untuk client, selesaikan [Status Verifikasi](#status-verifikasi). Fact sheet: [templates/travel-fact-sheet.md](../../templates/travel-fact-sheet.md) · Pilot SIMULASI: [examples/pilot-trip-contoh-labuan-bajo](../../examples/pilot-trip-contoh-labuan-bajo/README.md).
 
 ## Scope
 
