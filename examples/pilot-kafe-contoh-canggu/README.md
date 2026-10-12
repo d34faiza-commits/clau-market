@@ -1,6 +1,6 @@
 # Pilot — Kafe Contoh Canggu (FIKTIF)
 
-> **Outlet fiktif, SIMULASI.** Vertical fokus restoran/cafe (AI-CONSTITUTION v3.0.0 §2). Tidak ada data client nyata ([AI-BOUNDARY.md](../../core/AI-BOUNDARY.md)).
+> **Outlet fiktif, SIMULASI.** Vertical fokus restoran/cafe (AI-CONSTITUTION §2). Tidak ada data client nyata ([AI-BOUNDARY.md](../../core/AI-BOUNDARY.md)).
 
 ## Tujuan
 

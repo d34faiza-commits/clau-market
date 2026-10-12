@@ -1,6 +1,6 @@
 # Pilot — Trip Contoh Labuan Bajo (FIKTIF)
 
-> **Operator fiktif, SIMULASI.** Vertical fokus travel & tour (AI-CONSTITUTION v3.0.0 §2). Tidak ada data client nyata ([AI-BOUNDARY.md](../../core/AI-BOUNDARY.md)).
+> **Operator fiktif, SIMULASI.** Vertical fokus travel & tour (AI-CONSTITUTION §2). Tidak ada data client nyata ([AI-BOUNDARY.md](../../core/AI-BOUNDARY.md)).
 
 ## Tujuan
 
