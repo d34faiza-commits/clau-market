@@ -6,7 +6,7 @@
 > **Fondasi:** submodule [`core/`](https://github.com/d34faiza-commits/clau-ai-core) → `AI-CONSTITUTION.md`, `AI-BOUNDARY.md`, pipeline, orchestrator
 > **Workflow konten:** [CONTENT-WORKFLOW.md](./CONTENT-WORKFLOW.md) · **Agent:** [AGENTS.md](./AGENTS.md) · **Credit:** [ACKNOWLEDGMENT.md](./ACKNOWLEDGMENT.md)
 
-> **Constitution:** `core/AI-CONSTITUTION.md` v3.0.0 **Approved** (2026-10-09: 5 pilar v2, otonomi A/B/C default B, 4 vertical fokus; v2.0.0 2026-10-04); menggantikan *CLAU AI Content Constitution v1.0.0* (Superseded, arsip di repo [CLAU-AI-CONTENT](https://github.com/d34faiza-commits/CLAU-AI-CONTENT/blob/main/CONTENT-CONSTITUTION.md)).
+> **Constitution:** `core/AI-CONSTITUTION.md` v3.1.0 **Approved** (2026-10-12: `main` wajib lewat PR + CI hijau; v3.0.0 2026-10-09: 5 pilar v2, otonomi A/B/C default B, 4 vertical fokus; v2.0.0 2026-10-04); menggantikan *CLAU AI Content Constitution v1.0.0* (Superseded, arsip di repo [CLAU-AI-CONTENT](https://github.com/d34faiza-commits/CLAU-AI-CONTENT/blob/main/CONTENT-CONSTITUTION.md)).
 >
 > **Otoritas perubahan:** Perubahan atas dokumen Approved hanya atas perintah **Pak Indra** atau **Dea Karisna (d34faiza)** (`core/AI-CONSTITUTION.md` §14).
 
