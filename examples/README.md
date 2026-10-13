@@ -1,6 +1,6 @@
 # Examples
 
-Contoh dan pilot memakai **properti fiktif**, sesuai [AI-BOUNDARY.md](../core/AI-BOUNDARY.md) (konten yang diizinkan, poin 5).
+Contoh dan pilot memakai **properti fiktif**, sesuai [AI-BOUNDARY.md](../core/AI-BOUNDARY.md) (konten yang diizinkan, poin 3).
 
 ## Aturan
 
