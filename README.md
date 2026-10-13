@@ -1,8 +1,8 @@
 # clau-ai-marketing
 
-**Pilar 1 CLAU AI: Marketing & Content** untuk hospitality & tourism Indonesia. Berisi rules, prompt, skill, knowledge, template, dan QA gate untuk memproduksi konten yang **jujur, legal, on-brand, dan siap publish**, dengan AI sebagai content partner, bukan pengganti approval manusia.
+**Pilar 1 CLAU AI: AI Marketing** (konten & pemasaran) untuk hospitality & tourism Indonesia. Berisi rules, prompt, skill, knowledge, template, dan QA gate untuk memproduksi konten yang **jujur, legal, on-brand, dan siap publish**, dengan AI sebagai content partner, bukan pengganti approval manusia.
 
-> **Status:** Private — v0.1.0 (split dari `CLAU-AI-CONTENT`, 2026-10-04)
+> **Status:** Private (split dari `CLAU-AI-CONTENT`, 2026-10-04). Status kerja terkini: [status & handoff](https://github.com/d34faiza-commits/CLAU-AI-CONTENT/blob/main/docs/status.md)
 > **Fondasi:** submodule [`core/`](https://github.com/d34faiza-commits/clau-ai-core) → `AI-CONSTITUTION.md`, `AI-BOUNDARY.md`, pipeline, orchestrator
 > **Workflow konten:** [CONTENT-WORKFLOW.md](./CONTENT-WORKFLOW.md) · **Agent:** [AGENTS.md](./AGENTS.md) · **Credit:** [ACKNOWLEDGMENT.md](./ACKNOWLEDGMENT.md)
 

@@ -1,6 +1,6 @@
 # CLAUDE.md — clau-ai-marketing
 
-> Peta repo untuk AI agent. Baca file ini dulu sebelum menjelajah repo. Last updated: 2026-10-09
+> Peta repo untuk AI agent. Baca file ini dulu sebelum menjelajah repo. Last updated: 2026-10-13
 
 > 🔔 **Sesi baru: baca [status & handoff CLAU AI](https://github.com/d34faiza-commits/CLAU-AI-CONTENT/blob/main/docs/status.md) dulu** (otoritas, keputusan yang sudah diambil, status, pekerjaan terbuka). Repo Jerco milik Pak Indra: jangan disentuh tanpa persetujuan beliau.
 
@@ -9,23 +9,25 @@
 | Item | Nilai |
 |---|---|
 | Repo | `d34faiza-commits/clau-ai-marketing` (private) |
-| Peran | Pilar 1 — Marketing & Content untuk hospitality Indonesia |
-| Submodule | `core/` → clau-ai-core · `agents/` → clau-ai-agents (`agents/core/` ikut pin agents) |
+| Peran | Pilar 1 — AI Marketing (konten & pemasaran) untuk hospitality Indonesia |
+| Submodule | `core/` → clau-ai-core · `agents/` → clau-ai-agents (`agents/core/` ikut pin agents; `core/` disamakan dengan pin itu) |
 | Default branch | `main` |
 
 ## 2. Peta File
 
 | Path | Fungsi |
 |---|---|
-| `CONTENT-WORKFLOW.md` · `AGENTS.md` | Workflow konten 9 langkah · instruksi agent Pilar 1 (v1.0.0 Approved) |
+| `CONTENT-WORKFLOW.md` · `AGENTS.md` | Workflow konten 9 langkah · instruksi agent Pilar 1 (v1.1.0 Approved) |
 | `rules/01–09` | Standard konten (integritas, klaim, voice, privacy, platform, bahasa, AI visual, approval, data) |
 | `skills/` · `prompts/` | 7 skill agent · prompt library |
 | `knowledge/` | Segment, platform, kalender, destinasi, voice guide, market, regulasi |
 | `templates/` · `schemas/` | Template brief/approval + fact sheet per vertical (akomodasi, F&B, wedding, travel) · `content-brief.schema.json` (v1.4) |
 | `qa/` | Claim verification (per kalimat), content review, privacy, visual AI, publication, scoring rubric |
-| `examples/` | Pilot **fiktif** (SIMULASI) untuk 4 vertical fokus: villa, kafe, wedding, travel. Nama properti fiktif wajib mengandung "Contoh" |
-| `scripts/` | `validate.py`, `check_caption.py`, `sync-submodules.sh`, `check-core-pins.sh` |
-| `SUBMODULE.md` | Update, sync, troubleshooting submodule & setup token Actions |
+| `examples/` | Pilot **fiktif** (SIMULASI) untuk 4 vertical fokus: villa, kafe, wedding, travel, plus `pilot-2/` (uji ulang alur lengkap). Nama properti fiktif wajib mengandung "Contoh" |
+| `automations/` | Otomasi bertahap; `level-1-manual/` = alur manual yang berlaku sekarang (dirujuk `core/docs/getting-started.md`) |
+| `scripts/` | `validate.py`, `check_caption.py` (+ `test_check_caption.py`), `sync-submodules.sh`, `check-core-pins.sh` |
+| `SUBMODULE.md` | Update, sync, troubleshooting submodule & setup token Actions (identik dengan clau-ai-agents) |
+| `.github/workflows/` | `validate.yml`, `cross-repo-validate.yml`, `sync-submodules.yml` (PR bot bump agents + core), `main-guard.yml` |
 
 ## 3. Command
 
@@ -46,3 +48,4 @@ Jangan mengedit file di `core/` atau `agents/`; edit di repo aslinya.
 - **Jangan** commit data client nyata (brief, fact sheet, caption, harga, foto, data tamu), `.env`, atau credential. Data client nyata ada di Client Workspace (Drive), bukan repo.
 - Label evidence dipakai persis: `DATA FINAL`, `ASSUMPTION`, `CLIENT CONFIRMATION`, `FIELD VERIFICATION`, `RISK`, `NEXT ACTION`.
 - Commit message: `feat:`, `fix:`, `docs:`, `refactor:`, `chore:`, `test:`. Jalankan validator sebelum push.
+- `main` wajib lewat PR dengan CI hijau (`validate`, `cross-validate`; dijaga `main-guard`). Jangan push langsung.
