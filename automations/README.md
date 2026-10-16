@@ -1,6 +1,6 @@
 # Automations
 
-Tingkat otomasi workflow konten CLAU-AI-CONTENT. Naik level hanya kalau level sebelumnya sudah stabil dan kontrol di [AI-CONSTITUTION.md](../core/AI-CONSTITUTION.md) tetap terpenuhi.
+Tingkat otomasi workflow konten clau-content. Naik level hanya kalau level sebelumnya sudah stabil dan kontrol di [AI-CONSTITUTION.md](../core/AI-CONSTITUTION.md) tetap terpenuhi.
 
 | Level | Nama | Siapa yang menjalankan | Status |
 |---|---|---|---|

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Menetapkan klasifikasi data empat axis untuk semua data client, konten, dan asset di CLAU-AI-CONTENT, sehingga jelas apa yang boleh dipakai, disimpan di mana, dan boleh dipublish atau tidak.
+Menetapkan klasifikasi data empat axis untuk semua data client, konten, dan asset di clau-content, sehingga jelas apa yang boleh dipakai, disimpan di mana, dan boleh dipublish atau tidak.
 
 ## Scope
 

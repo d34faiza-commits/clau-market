@@ -166,5 +166,5 @@ Konten **tidak boleh** publish bila salah satu ini terjadi:
 | 0.1.1 | 2026-10-03 | Draft | Seragamkan metadata (owner, classification, format revision history) |
 | 0.1.2 | 2026-10-04 | Draft | Tambah Mode SIMULASI untuk pilot & contoh (TASK-017) |
 | 0.1.3 | 2026-10-04 | Draft | Tambah brief sanity check di Step 1 (TASK-023) |
-| 0.2.0 | 2026-10-04 | Draft | Dipindah ke clau-ai-marketing sebagai CONTENT-WORKFLOW.md; constitution & boundary dirujuk dari core/ (split repo) |
+| 0.2.0 | 2026-10-04 | Draft | Dipindah ke clau-market sebagai CONTENT-WORKFLOW.md; constitution & boundary dirujuk dari core/ (split repo) |
 | 1.0.0 | 2026-10-04 | Approved | Approved oleh owner (Dea Karisna / d34faiza); berlaku efektif 2026-10-04 |
