@@ -2,7 +2,7 @@
 
 **Pilar 1 CLAU AI: AI Marketing** (konten & pemasaran) untuk hospitality & tourism Indonesia. Berisi rules, prompt, skill, knowledge, template, dan QA gate untuk memproduksi konten yang **jujur, legal, on-brand, dan siap publish**, dengan AI sebagai content partner, bukan pengganti approval manusia.
 
-> **Status:** Private (split dari `clau-content`, 2026-10-04). Status kerja terkini: [status & handoff](https://github.com/d34faiza-commits/clau-content/blob/main/docs/status.md)
+> **Status:** Public, hanya untuk dilihat ([LICENSE](./LICENSE)), split dari `clau-content` 2026-10-04. Status kerja terkini: [status & handoff](https://github.com/d34faiza-commits/clau-content/blob/main/docs/status.md)
 > **Fondasi:** submodule [`core/`](https://github.com/d34faiza-commits/clau-core) → `AI-CONSTITUTION.md`, `AI-BOUNDARY.md`, pipeline, orchestrator
 > **Workflow konten:** [CONTENT-WORKFLOW.md](./CONTENT-WORKFLOW.md) · **Agent:** [AGENTS.md](./AGENTS.md) · **Credit:** [ACKNOWLEDGMENT.md](./ACKNOWLEDGMENT.md)
 
@@ -129,4 +129,4 @@ Mengecek file wajib, section rules/prompts/skills, frontmatter skill, versi doku
 
 ## Lisensi
 
-Proprietary, private use. Lihat [LICENSE](./LICENSE).
+Proprietary, source-available (hanya untuk dilihat; tidak boleh disalin, dipakai, atau dipakai melatih AI tanpa izin tertulis). Lihat [LICENSE](./LICENSE).
