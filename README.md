@@ -1,19 +1,19 @@
-# clau-ai-marketing
+# clau-market
 
 **Pilar 1 CLAU AI: AI Marketing** (konten & pemasaran) untuk hospitality & tourism Indonesia. Berisi rules, prompt, skill, knowledge, template, dan QA gate untuk memproduksi konten yang **jujur, legal, on-brand, dan siap publish**, dengan AI sebagai content partner, bukan pengganti approval manusia.
 
-> **Status:** Private (split dari `CLAU-AI-CONTENT`, 2026-10-04). Status kerja terkini: [status & handoff](https://github.com/d34faiza-commits/CLAU-AI-CONTENT/blob/main/docs/status.md)
-> **Fondasi:** submodule [`core/`](https://github.com/d34faiza-commits/clau-ai-core) → `AI-CONSTITUTION.md`, `AI-BOUNDARY.md`, pipeline, orchestrator
+> **Status:** Public, hanya untuk dilihat ([LICENSE](./LICENSE)), split dari `clau-content` 2026-10-04. Status kerja terkini: [status & handoff](https://github.com/d34faiza-commits/clau-content/blob/main/docs/status.md)
+> **Fondasi:** submodule [`core/`](https://github.com/d34faiza-commits/clau-core) → `AI-CONSTITUTION.md`, `AI-BOUNDARY.md`, pipeline, orchestrator
 > **Workflow konten:** [CONTENT-WORKFLOW.md](./CONTENT-WORKFLOW.md) · **Agent:** [AGENTS.md](./AGENTS.md) · **Credit:** [ACKNOWLEDGMENT.md](./ACKNOWLEDGMENT.md)
 
-> **Constitution:** `core/AI-CONSTITUTION.md` v3.1.0 **Approved** (2026-10-12: `main` wajib lewat PR + CI hijau; v3.0.0 2026-10-09: 5 pilar v2, otonomi A/B/C default B, 4 vertical fokus; v2.0.0 2026-10-04); menggantikan *CLAU AI Content Constitution v1.0.0* (Superseded, arsip di repo [CLAU-AI-CONTENT](https://github.com/d34faiza-commits/CLAU-AI-CONTENT/blob/main/CONTENT-CONSTITUTION.md)).
+> **Constitution:** `core/AI-CONSTITUTION.md` v3.1.0 **Approved** (2026-10-12: `main` wajib lewat PR + CI hijau; v3.0.0 2026-10-09: 5 pilar v2, otonomi A/B/C default B, 4 vertical fokus; v2.0.0 2026-10-04); menggantikan *CLAU AI Content Constitution v1.0.0* (Superseded, arsip di repo [clau-content](https://github.com/d34faiza-commits/clau-content/blob/main/CONTENT-CONSTITUTION.md)).
 >
 > **Otoritas perubahan:** Perubahan atas dokumen Approved hanya atas perintah **Pak Indra** atau **Dea Karisna (d34faiza)** (`core/AI-CONSTITUTION.md` §14).
 
 ## Setup
 
 ```bash
-git clone --recurse-submodules https://github.com/d34faiza-commits/clau-ai-marketing.git
+git clone --recurse-submodules https://github.com/d34faiza-commits/clau-market.git
 # atau, bila sudah ter-clone:
 git submodule update --init --recursive
 ```
@@ -33,10 +33,10 @@ Link ke `core/...` dan `agents/...` di dokumen repo ini baru berfungsi setelah s
 ## Struktur
 
 ```text
-clau-ai-marketing/
+clau-market/
 ├── README.md · AGENTS.md · CONTENT-WORKFLOW.md · SUBMODULE.md · ACKNOWLEDGMENT.md · LICENSE
-├── core/              # submodule → clau-ai-core (jangan diedit di sini)
-├── agents/            # submodule → clau-ai-agents (registry & platform; jangan diedit di sini)
+├── core/              # submodule → clau-core (jangan diedit di sini)
+├── agents/            # submodule → clau-agent (registry & platform; jangan diedit di sini)
 ├── rules/             # 9 content standard
 ├── prompts/           # prompt library (caption, campaign, OTA, review, destination, seasonal, reel, stories)
 ├── skills/            # 7 AI agent skill (SKILL.md + agents/openai.yaml)
@@ -56,7 +56,7 @@ clau-ai-marketing/
 | [CONTENT-WORKFLOW.md](./CONTENT-WORKFLOW.md) | 1.0.0 | Approved |
 | [AGENTS.md](./AGENTS.md) | 1.1.0 | Approved |
 
-Constitution & boundary di-version di clau-ai-core.
+Constitution & boundary di-version di clau-core.
 
 ## Klasifikasi Wajib
 
@@ -117,7 +117,7 @@ Level 1 (manual/semi-manual) aktif: [automations/level-1-manual/README.md](./aut
 
 ## Task Management
 
-Task board (Backlog → In Progress → Review → Done) tetap di repo arsip [CLAU-AI-CONTENT/tasks](https://github.com/d34faiza-commits/CLAU-AI-CONTENT/tree/main/tasks) dan GitHub Project **CLAU-AI-CONTENT Roadmap** (bisa menampung issue dari semua repo).
+Task board (Backlog → In Progress → Review → Done) tetap di repo arsip [clau-content/tasks](https://github.com/d34faiza-commits/clau-content/tree/main/tasks) dan GitHub Project **clau-content Roadmap** (bisa menampung issue dari semua repo).
 
 ## Validation
 
@@ -129,4 +129,4 @@ Mengecek file wajib, section rules/prompts/skills, frontmatter skill, versi doku
 
 ## Lisensi
 
-Proprietary, private use. Lihat [LICENSE](./LICENSE).
+Proprietary, source-available (hanya untuk dilihat; tidak boleh disalin, dipakai, atau dipakai melatih AI tanpa izin tertulis). Lihat [LICENSE](./LICENSE).

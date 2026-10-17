@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Repository validator for clau-ai-marketing (Pilar 1).
+"""Repository validator for clau-market (Pilar 1).
 
 Checks (stdlib only; jsonschema is used when installed):
   - required repository files exist

@@ -4,7 +4,7 @@ document_owner: "Dea Karisna / AI Marketing"
 version: "1.1.0"
 status: "Approved"
 effective_date: "2026-10-12"
-approval_reference: "v1.1.0: approval tertulis owner (Dea Karisna / d34faiza) via sesi Claude Code, 2026-10-12: \"Saya Dea Karisna (d34faiza), owner CLAU. Saya approve: semua push ke main di clau-ai-core, clau-ai-marketing, clau-ai-agents wajib lewat PR dengan CI hijau; push langsung tidak lagi diizinkan. Penegakan lewat main-guard karena GitHub Free.\" v1.0.0: approval tertulis owner (Dea Karisna / d34faiza) via sesi Claude Code, 2026-10-04 (\"untuk saat ini semua approve dulu\"); perubahan ada di main"
+approval_reference: "v1.1.0: approval tertulis owner (Dea Karisna / d34faiza) via sesi Claude Code, 2026-10-12: \"Saya Dea Karisna (d34faiza), owner CLAU. Saya approve: semua push ke main di clau-core, clau-market, clau-agent wajib lewat PR dengan CI hijau; push langsung tidak lagi diizinkan. Penegakan lewat main-guard karena GitHub Free.\" v1.0.0: approval tertulis owner (Dea Karisna / d34faiza) via sesi Claude Code, 2026-10-04 (\"untuk saat ini semua approve dulu\"); perubahan ada di main"
 classification: "Internal"
 ---
 
@@ -112,6 +112,6 @@ Perubahan atas dokumen Approved hanya atas perintah **Pak Indra** atau **Dea Kar
 | 0.1.1 | 2026-10-03 | Draft | Sesuaikan enforcement dengan realita solo dev |
 | 0.1.2 | 2026-10-03 | Draft | Seragamkan metadata (owner, classification, format revision history) |
 | 0.1.3 | 2026-10-04 | Draft | Tambah aturan QA oleh agent = self-review (TASK-026) |
-| 0.2.0 | 2026-10-04 | Draft | Dipindah ke clau-ai-marketing (instruksi agent Pilar 1); instruksi lintas repo ada di core/AGENTS.md |
+| 0.2.0 | 2026-10-04 | Draft | Dipindah ke clau-market (instruksi agent Pilar 1); instruksi lintas repo ada di core/AGENTS.md |
 | 1.0.0 | 2026-10-04 | Approved | Approved oleh owner (Dea Karisna / d34faiza); ditambah aturan otoritas perubahan |
 | 1.1.0 | 2026-10-12 | Approved | Kontribusi: semua perubahan ke `main` wajib lewat PR dengan CI hijau; push langsung tidak lagi diizinkan; penegakan `main-guard` (approval tertulis owner Dea Karisna / d34faiza) |

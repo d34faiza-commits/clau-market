@@ -86,7 +86,7 @@ Tour operator, agen perjalanan, open trip, private tour, aktivitas (surf, dive, 
 | Aturan kawasan (taman nasional, retribusi, drone) | ASSUMPTION — sebagian bersumber sekunder untuk TN Komodo (lihat Temuan Riset) | Konfirmasi ke sumber primer (Balai TN Komodo / SiOra); aturan drone belum ditemukan; per client = **CLIENT CONFIRMATION** |
 | Izin usaha & sertifikat pemandu | CLIENT CONFIRMATION per client | Dokumen client di workspace |
 | Fact sheet & pilot | ✅ Template + pilot SIMULASI tersedia | Review independen manusia atas pilot (rule 08) |
-| Eval agent | ✅ Kasus travel di `clau-ai-agents/agents/evals/` | Penilaian rubrik oleh manusia |
+| Eval agent | ✅ Kasus travel di `clau-agent/agents/evals/` | Penilaian rubrik oleh manusia |
 
 ## References
 

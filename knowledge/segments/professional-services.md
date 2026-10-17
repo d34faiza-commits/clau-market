@@ -1,6 +1,6 @@
 # Segment: Jasa Profesional
 
-> **Status: Planned — belum dipakai untuk client.** Disiapkan 2026-10-09 sebagai knowledge awal (**ASSUMPTION**) untuk vertical gelombang 4 (`clau-ai-core/docs/verticals.md`). Risiko hukum tertinggi: butuh amandemen scope AI-CONSTITUTION §2 (TASK-040), rule etika profesi, dan legal review per profesi sebelum aktif (TASK-041).
+> **Status: Planned — belum dipakai untuk client.** Disiapkan 2026-10-09 sebagai knowledge awal (**ASSUMPTION**) untuk vertical gelombang 4 (`clau-core/docs/verticals.md`). Risiko hukum tertinggi: butuh amandemen scope AI-CONSTITUTION §2 (TASK-040), rule etika profesi, dan legal review per profesi sebelum aktif (TASK-041).
 
 ## Scope
 

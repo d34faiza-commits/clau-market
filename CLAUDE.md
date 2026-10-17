@@ -1,16 +1,16 @@
-# CLAUDE.md — clau-ai-marketing
+# CLAUDE.md — clau-market
 
 > Peta repo untuk AI agent. Baca file ini dulu sebelum menjelajah repo. Last updated: 2026-10-13
 
-> 🔔 **Sesi baru: baca [status & handoff CLAU AI](https://github.com/d34faiza-commits/CLAU-AI-CONTENT/blob/main/docs/status.md) dulu** (otoritas, keputusan yang sudah diambil, status, pekerjaan terbuka). Repo Jerco milik Pak Indra: jangan disentuh tanpa persetujuan beliau.
+> 🔔 **Sesi baru: baca [status & handoff CLAU AI](https://github.com/d34faiza-commits/clau-content/blob/main/docs/status.md) dulu** (otoritas, keputusan yang sudah diambil, status, pekerjaan terbuka). Repo Jerco milik Pak Indra: jangan disentuh tanpa persetujuan beliau.
 
 ## 1. Identitas
 
 | Item | Nilai |
 |---|---|
-| Repo | `d34faiza-commits/clau-ai-marketing` (private) |
+| Repo | `d34faiza-commits/clau-market` (public, hanya untuk dilihat; LICENSE) |
 | Peran | Pilar 1 — AI Marketing (konten & pemasaran) untuk hospitality Indonesia |
-| Submodule | `core/` → clau-ai-core · `agents/` → clau-ai-agents (`agents/core/` ikut pin agents; `core/` disamakan dengan pin itu) |
+| Submodule | `core/` → clau-core · `agents/` → clau-agent (`agents/core/` ikut pin agents; `core/` disamakan dengan pin itu) |
 | Default branch | `main` |
 
 ## 2. Peta File
@@ -26,7 +26,7 @@
 | `examples/` | Pilot **fiktif** (SIMULASI) untuk 4 vertical fokus: villa, kafe, wedding, travel, plus `pilot-2/` (uji ulang alur lengkap). Nama properti fiktif wajib mengandung "Contoh" |
 | `automations/` | Otomasi bertahap; `level-1-manual/` = alur manual yang berlaku sekarang (dirujuk `core/docs/getting-started.md`) |
 | `scripts/` | `validate.py`, `check_caption.py` (+ `test_check_caption.py`), `sync-submodules.sh`, `check-core-pins.sh` |
-| `SUBMODULE.md` | Update, sync, troubleshooting submodule & setup token Actions (identik dengan clau-ai-agents) |
+| `SUBMODULE.md` | Update, sync, troubleshooting submodule & setup token Actions (identik dengan clau-agent) |
 | `.github/workflows/` | `validate.yml`, `cross-repo-validate.yml`, `sync-submodules.yml` (PR bot bump agents + core), `main-guard.yml` |
 
 ## 3. Command

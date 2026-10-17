@@ -83,7 +83,7 @@ Implikasi: venue/WO client yang menawarkan bantuan dokumen harus melakukannya le
 | Karakter, audience, content pillars | ASSUMPTION | Validasi lewat 3–5 wawancara owner venue/WO (design/research/interview-guide) |
 | Claim hotspots | ASSUMPTION (prinsip mengikuti rule 01/02/04); konteks hukum pernikahan WNA bersumber sekunder (lihat Temuan Riset) | Legal review untuk baris pernikahan WNA & izin acara |
 | Fact sheet & pilot | ✅ Template + pilot SIMULASI tersedia | Review independen manusia atas pilot (rule 08) |
-| Eval agent | ✅ Kasus wedding di `clau-ai-agents/agents/evals/` | Penilaian rubrik oleh manusia |
+| Eval agent | ✅ Kasus wedding di `clau-agent/agents/evals/` | Penilaian rubrik oleh manusia |
 
 ## References
 

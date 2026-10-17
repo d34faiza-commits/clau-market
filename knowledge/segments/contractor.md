@@ -1,6 +1,6 @@
 # Segment: Kontraktor & Renovasi
 
-> **Status: Planned — belum dipakai untuk client.** Disiapkan 2026-10-09 sebagai knowledge awal (**ASSUMPTION**) untuk vertical gelombang 3 (`clau-ai-core/docs/verticals.md`). Di luar hospitality: butuh amandemen scope AI-CONSTITUTION §2 (TASK-040) sebelum aktif (TASK-041).
+> **Status: Planned — belum dipakai untuk client.** Disiapkan 2026-10-09 sebagai knowledge awal (**ASSUMPTION**) untuk vertical gelombang 3 (`clau-core/docs/verticals.md`). Di luar hospitality: butuh amandemen scope AI-CONSTITUTION §2 (TASK-040) sebelum aktif (TASK-041).
 
 ## Scope
 

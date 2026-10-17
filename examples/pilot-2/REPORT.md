@@ -1,4 +1,4 @@
-# REPORT — Pilot 2: Test End-to-End "Otak" CLAU-AI-CONTENT
+# REPORT — Pilot 2: Test End-to-End "Otak" clau-content
 
 > **SIMULASI / FIKTIF.** Tanggal: 2026-10-04. Dijalankan oleh AI agent (Claude Code) di repo `main` setelah commit `2867170`.
 

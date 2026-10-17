@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "clau-ai-marketing/schemas/content-brief.schema.json",
+  "$id": "clau-market/schemas/content-brief.schema.json",
   "title": "CLAU Content Brief",
   "description": "Machine-readable content brief for Indonesian hospitality content (v1.4: wedding & event, travel & tour). Mirrors templates/content-brief.md. Filled briefs live in the client workspace, not in this repository.",
   "type": "object",
