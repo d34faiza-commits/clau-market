@@ -29,6 +29,20 @@ Klasifikasi wajib: **DATA FINAL**, **ASSUMPTION**, **CLIENT CONFIRMATION**, **FI
 | L3 | Ads berbayar, kolaborasi influencer, balasan review negatif, konten krisis, topik agama/budaya | Owner/GM client per konten |
 
 - Balasan review positif rutin boleh memakai template yang sudah di-approve (L1); review negatif = L3.
+- **Penanda isi konten di platform** (clau-agent, kontrak `core/shared/api-contracts.md` § Penanda Isi Konten): level di tabel atas dicatat per draft sebagai penanda, dan approval di bawah level penanda ditolak server. Pembuat draft wajib menyatakan penanda (atau menyatakan tidak ada); sistem menambah penanda otomatis untuk harga di teks, kata agama/adat yang spesifik, review rating ≤ 3, dan listing OTA.
+
+  | Jenis konten (tabel atas) | Penanda | Level minimum |
+  |---|---|---|
+  | Harga, promo, diskon | `price_promo` | L2 |
+  | Konten dengan orang | `people` | L2 |
+  | Listing OTA | `ota_listing` | L2 |
+  | Balasan review negatif | `negative_review` | L3 |
+  | Ads berbayar | `paid_ads` | L3 |
+  | Kolaborasi influencer | `influencer` | L3 |
+  | Topik agama/budaya | `religion_culture` | L3 |
+  | Konten krisis | `crisis` | L3 (+ eskalasi Level C) |
+
+  Terjemahan (`localize`) mengikuti level konten asal. Penanda hanya dihapus owner/content lead dengan alasan tertulis.
 - Publikasi dicatat: URL, waktu, versi, publisher.
 
 ## Required Inputs
