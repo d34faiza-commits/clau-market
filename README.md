@@ -22,13 +22,17 @@ Link ke `core/...` dan `agents/...` di dokumen repo ini baru berfungsi setelah s
 
 ## Target Industri
 
-| # | Vertical | Status |
-|---|---|---|
-| 1 | Villa / Guesthouse / Homestay | Fokus awal |
-| 2 | Hotel / Resort | Fokus awal |
-| 3 | Restaurant / Cafe / Beach Club | Fokus awal |
-| 4 | Spa / Wellness / Retreat | Fokus awal |
-| 5 | Tourism Experience (surf, dive, tour, adventure, cruise) | Planned |
+Sesuai `core/AI-CONSTITUTION.md` v3.1.0 § 2 dan `core/docs/verticals.md`:
+
+| # | Vertical | Status | Fact sheet |
+|---|---|---|---|
+| 1 | Villa / Guesthouse / Homestay | **Fokus** | [akomodasi](./templates/property-fact-sheet.md) |
+| 2 | Restaurant / Cafe / Beach Club | **Fokus** | [F&B](./templates/fnb-fact-sheet.md) |
+| 3 | Wedding & Event | **Fokus** | [wedding](./templates/wedding-fact-sheet.md) |
+| 4 | Travel & Tour | **Fokus** | [travel](./templates/travel-fact-sheet.md) |
+| 5 | Hotel / Resort, Spa / Wellness / Retreat, Tourism Experience | Tetap dilayani | [akomodasi](./templates/property-fact-sheet.md) |
+
+Paket yang dijual, kontrak, dan SOP delivery: [commercial/](./commercial/README.md).
 
 ## Struktur
 
@@ -44,6 +48,7 @@ clau-market/
 ├── templates/         # brief, fact sheet, calendar, campaign, onboarding, approval, report
 ├── qa/                # 5 QA gate + rubrik skor
 ├── schemas/           # content-brief.schema.json (v1.4; brief v1.3 tetap valid)
+├── commercial/        # katalog paket, discovery, proposal, kontrak & DPA (draft), FAQ klien, SOP delivery
 ├── automations/       # Level 1 manual
 ├── examples/          # pilot fiktif (SIMULASI)
 └── scripts/           # validate.py, check_caption.py, sync-submodules.sh, check-core-pins.sh
@@ -117,7 +122,7 @@ Level 1 (manual/semi-manual) aktif: [automations/level-1-manual/README.md](./aut
 
 ## Task Management
 
-Task board (Backlog → In Progress → Review → Done) tetap di repo arsip [clau-content/tasks](https://github.com/d34faiza-commits/clau-content/tree/main/tasks) dan GitHub Project **clau-content Roadmap** (bisa menampung issue dari semua repo).
+Board kerja: **ClickUp** Space **Clau AI** → folder **CLAU AI** → list **Pilar 1 – AI Marketing** (sejak 2026-10-21). Board Markdown [clau-content/tasks](https://github.com/d34faiza-commits/clau-content/tree/main/tasks) dibekukan sebagai riwayat.
 
 ## Validation
 

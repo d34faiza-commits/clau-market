@@ -25,7 +25,7 @@ Baca sebelum bekerja:
 3. Cek segment knowledge vertical (`../../knowledge/segments`) untuk angle konten yang relevan.
 4. Tulis hook sensory dan spesifik di baris pertama.
 5. Buat 3 varian (storytelling, informatif, conversational) sesuai Voice Card.
-6. Tambahkan 1 CTA dan 3–8 hashtag relevan.
+6. Tambahkan 1 CTA dan 3–5 hashtag relevan (Instagram menerima maks 5 hashtag per post/Reels sejak 18 Des 2025; lihat [instagram.md](../../knowledge/platforms/instagram.md)).
 7. Tulis alt text **per gambar/slide** (carousel 5 slide = 5 alt text), deskriptif, tanpa hashtag.
 8. Isi tabel klaim, termasuk **klaim tersirat**: baca ulang setiap varian kalimat per kalimat dan catat semua gambaran pengalaman (view, jarak, suasana, kapasitas) sebagai klaim. Lalu jalankan self-check.
 
@@ -59,4 +59,4 @@ Baca sebelum bekerja:
 
 ## Exit Criteria
 
-**Pass** bila self-check lulus semua, `scripts/check_caption.py` lulus mekanis (hook ≤125 karakter, hashtag 3–8, tanpa kata positioning/terlarang, satu CTA sesuai `--expect-cta` dari brief), dan open items tercatat. **Fail** bila ada klaim non-**DATA FINAL** di teks caption, termasuk klaim tersirat. Klaim tersirat yang belum **DATA FINAL** tidak boleh hanya diberi tanda ⚠️: **ubah atau hapus kalimatnya sebelum diserahkan**. Kalau masih ada saat diserahkan = **Fail**.
+**Pass** bila self-check lulus semua, `scripts/check_caption.py` lulus mekanis (hook ≤125 karakter, hashtag 3–5, tanpa kata positioning/terlarang, satu CTA sesuai `--expect-cta` dari brief), dan open items tercatat. **Fail** bila ada klaim non-**DATA FINAL** di teks caption, termasuk klaim tersirat. Klaim tersirat yang belum **DATA FINAL** tidak boleh hanya diberi tanda ⚠️: **ubah atau hapus kalimatnya sebelum diserahkan**. Kalau masih ada saat diserahkan = **Fail**.

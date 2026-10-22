@@ -10,12 +10,12 @@ Feed post, carousel, Reels, Stories, Highlights, dan bio untuk akun bisnis hospi
 
 | Item | Nilai kerja | Sumber | Status | Diverifikasi |
 |---|---|---|---|---|
-| Panjang caption maksimum | 2.200 karakter | Instagram Help Center | **ASSUMPTION** | — |
-| Hashtag maksimum per post | 30 | Instagram Help Center | **ASSUMPTION** | — |
-| Rasio feed portrait | 4:5 (1080×1350 px) | Meta Business Help Center | **ASSUMPTION** | — |
+| Panjang caption maksimum | 2.200 karakter | Banyak dikutip pihak ketiga; tidak ditemukan di Help Center saat dicek | **ASSUMPTION** | Dicek 2026-10-22, belum ketemu sumber resmi |
+| Hashtag maksimum per post / Reels | **5** (sejak 18 Des 2025; dulu 30). Help Center: "You can use up to 5 tags on a post"; lebih dari 5 → post/komentar bisa gagal tayang. Anggap 5 = total caption + komentar pertama. Developer API docs masih menulis 30: ikuti batas 5 | Pengumuman @creators 18 Des 2025; Instagram Help Center | **DATA FINAL** | 2026-10-22 (lewat pencarian; halaman belum dibuka langsung karena network policy) |
+| Rasio feed portrait | 4:5 (1080×1350 px) tetap rasio feed tertinggi yang direkomendasikan; grid profil kini memotong pratinjau ke **3:4**, jadi isi penting di tengah | Meta Business Help Center; pihak ketiga untuk grid 3:4 | **ASSUMPTION** | Dicek 2026-10-22 (sumber pihak ketiga) |
 | Rasio Reels / Stories | 9:16 (1080×1920 px) | Meta Business Help Center | **ASSUMPTION** | — |
 | Bagian caption terlihat sebelum "more" | ±125 karakter (tergantung perangkat) | Observasi umum | **ASSUMPTION** | — |
-| Durasi maksimum Reels | — | Instagram Help Center | **CLIENT CONFIRMATION** | — |
+| Durasi maksimum Reels | Hingga 20 menit; Reels > 3 menit tidak direkomendasikan ke audiens baru. Reels yang di-boost: ≤ 90 detik, 9:16 | Instagram Help Center (Record a reel; Boost a reel) | **DATA FINAL** | 2026-10-22 (lewat pencarian; halaman belum dibuka langsung karena network policy) |
 
 ## Praktik Konten Hospitality
 

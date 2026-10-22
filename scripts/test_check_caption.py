@@ -3,13 +3,21 @@
 Run: python -m unittest discover -s scripts -p "test_*.py"
 """
 
+import argparse
 import sys
 import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from check_caption import EMOJI_RE, GUARANTEE_TERMS, cta_types, term_hits  # noqa: E402
+from check_caption import EMOJI_RE, GUARANTEE_TERMS, check, cta_types, term_hits  # noqa: E402
+
+
+def default_args(**overrides):
+    base = dict(max_hook=125, max_chars=2200, min_tags=3, max_tags=5, max_emoji=None,
+                no_emoji_hook=False, max_cta=1, expect_cta=None)
+    base.update(overrides)
+    return argparse.Namespace(**base)
 
 
 class CtaTypes(unittest.TestCase):
@@ -43,6 +51,16 @@ class Terms(unittest.TestCase):
         self.assertEqual(term_hits("Snorkeling 100% aman untuk anak", GUARANTEE_TERMS), ["100% aman"])
         self.assertEqual(term_hits("Manta sering terlihat di musim ini, bila cuaca mendukung.", GUARANTEE_TERMS), [])
 
+
+class HashtagLimit(unittest.TestCase):
+    # Instagram accepts at most 5 hashtags per post/Reels since 2025-12-18 (knowledge/platforms/instagram.md).
+    def test_five_tags_pass(self):
+        caption = "Pagi di villa.\n#bali #ubud #villa #slowliving #staycation"
+        self.assertEqual(check(caption, default_args(), []), [])
+
+    def test_six_tags_fail(self):
+        caption = "Pagi di villa.\n#bali #ubud #villa #slowliving #staycation #honeymoon"
+        self.assertIn("6 hashtags, expected 3-5", check(caption, default_args(), []))
 
 
 class EmojiCount(unittest.TestCase):

@@ -4,7 +4,7 @@
 Checks each caption for:
   - hook (first line) length <= --max-hook characters (default 125)
   - total length <= --max-chars (default 2200; ASSUMPTION until TASK-011 verifies)
-  - hashtag count within --min-tags..--max-tags (default 3..8) when hashtags are used
+  - hashtag count within --min-tags..--max-tags (default 3..5; Instagram max 5 since 2025-12-18) when hashtags are used
   - emoji count <= --max-emoji, and no emoji in the hook when --no-emoji-hook
   - forbidden terms: rule 02 positioning words + brief restrictions.forbidden_terms
   - CTA count (heuristic): distinct call-to-action types (save, share, comment,
@@ -148,7 +148,7 @@ def main() -> int:
     parser.add_argument("--max-hook", type=int, default=125)
     parser.add_argument("--max-chars", type=int, default=2200)
     parser.add_argument("--min-tags", type=int, default=3)
-    parser.add_argument("--max-tags", type=int, default=8)
+    parser.add_argument("--max-tags", type=int, default=5)
     parser.add_argument("--max-emoji", type=int, default=None)
     parser.add_argument("--no-emoji-hook", action="store_true")
     parser.add_argument("--max-cta", type=int, default=1, help="max distinct CTA types (heuristic)")

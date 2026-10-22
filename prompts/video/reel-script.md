@@ -60,7 +60,7 @@ ATURAN
 TUGAS
 1. Tulis 2 opsi hook (visual + teks).
 2. Tabel shot: detik | shot | aset | on-screen text | klaim (label) | orang/consent | catatan teknis.
-3. Caption reel (hook ≤125 karakter, 1 CTA, 3–8 hashtag).
+3. Caption reel (hook ≤125 karakter, 1 CTA, 3–5 hashtag).
 4. Daftar "yang sengaja tidak ditampilkan" + alasan.
 
 OUTPUT

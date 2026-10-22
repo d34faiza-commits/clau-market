@@ -12,6 +12,7 @@ description: Build a monthly social media content calendar for an Indonesian hos
 - `../../rules/06-LOCALIZATION-BAHASA-STANDARD.md`
 - `../../rules/08-APPROVAL-PUBLICATION-STANDARD.md`
 - `../../knowledge/calendar-id/national-holidays.md`
+- `../../knowledge/calendar-id/national-holidays-2026.md` dan `../../knowledge/calendar-id/national-holidays-2027.md` (tanggal SKB tahun yang direncanakan)
 - `../../knowledge/segments` (file sesuai vertical client)
 - `../../templates/content-calendar.md`
 - `../../knowledge/voice-guides/hospitality-voice.md`

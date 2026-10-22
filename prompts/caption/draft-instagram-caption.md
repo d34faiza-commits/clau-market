@@ -52,7 +52,7 @@ ATURAN
 - Jangan superlatif tanpa bukti. Jangan klaim halal/bintang/medis tanpa bukti.
 - Harga (bila ada): Rp, unit, periode, syarat, net/++.
 - Satu CTA saja.
-- Hashtag: 3–8 relevan (brand + lokasi + niche), di akhir.
+- Hashtag: 3–5 relevan (brand + lokasi + niche), di akhir. Instagram menolak lebih dari 5.
 - Fakta yang tidak ada di daftar → <KONFIRMASI: ...>.
 
 TUGAS

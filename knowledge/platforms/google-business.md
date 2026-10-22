@@ -10,8 +10,8 @@ Profil bisnis di Google Search & Maps: info bisnis, foto, posts/updates, Q&A, da
 
 | Item | Nilai kerja | Sumber | Status | Diverifikasi |
 |---|---|---|---|---|
-| Panjang teks post/update maksimum | 1.500 karakter | Google Business Profile Help | **ASSUMPTION** | — |
-| Jenis post | Update, Offer, Event | Google Business Profile Help | **ASSUMPTION** | — |
+| Panjang teks post/update maksimum | 1.500 karakter (konsisten di alat pihak ketiga; tidak ditemukan di Help resmi). Yang terlihat sebelum "Read more" jauh lebih pendek: taruh info inti di ±100 karakter pertama | Pihak ketiga | **ASSUMPTION** | Dicek 2026-10-22 |
+| Jenis post | Update, Offer, Event. Offer wajib judul + tanggal/jam berlaku dan otomatis punya tombol "View offer"; Event wajib judul + tanggal & jam mulai/selesai (tanpa jam = dianggap 24 jam) | Google Business Profile Help: Create & manage posts (answer 7342169) | **DATA FINAL** | 2026-10-22 (lewat pencarian; halaman belum dibuka langsung karena network policy) |
 | Tombol CTA post | Book, Order, Learn more, Call, dll. | Google Business Profile Help | **ASSUMPTION** | — |
 | Kebijakan konten post (mis. nomor telepon di teks) | — | Google Business Profile Help | **CLIENT CONFIRMATION** | — |
 
