@@ -19,6 +19,9 @@ Gate terakhir tepat sebelum publish/schedule. Rule: [08 Approval & Publication](
 - [ ] Alt text / subtitle terpasang.
 - [ ] Tag & mention hanya akun yang mengizinkan.
 - [ ] Musik/audio berlisensi untuk akun bisnis.
+- [ ] Instagram: hashtag ≤ 5 (caption + komentar pertama).
+- [ ] Facebook: caption sudah diadaptasi (info praktis di ±125 karakter pertama, tanpa "link di bio", hashtag 0–3); post di Group hanya bila aturan group mengizinkan ([facebook.md](../knowledge/platforms/facebook.md)).
+- [ ] Bukti approval yang sah tersimpan (WhatsApp: pesan yang dibalas menyebut versi/Record ID).
 
 ## Saat Publish
 
@@ -36,6 +39,7 @@ Gate terakhir tepat sebelum publish/schedule. Rule: [08 Approval & Publication](
 - [ ] Bio/link in bio.
 - [ ] Highlight/pinned post.
 - [ ] GBP offer/jam buka.
+- [ ] Facebook Page: info, jam buka, tombol, Event yang masih aktif.
 - [ ] OTA (harga/paket sama).
 
 ## Record

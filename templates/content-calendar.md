@@ -9,7 +9,8 @@
 | Objective bulan ini | |
 | Offer aktif | (nama + periode + label) |
 | Kapasitas produksi (post/minggu) | |
-| Channel aktif | |
+| Channel aktif | (IG / Facebook / TikTok / GBP / OTA) |
+| Paket & kuota bulan ini | (mis. Growth: 20 konten feed, 12 stories, 4 GBP, 80 balasan review) |
 | Approver | |
 
 ## Momen Bulan Ini
@@ -28,7 +29,9 @@
 
 | Tgl publish | Hari | Channel | Format | Pillar | Topik | CTA | Asset | Status asset | Level approval | Deadline approval | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| | | IG | Reels | | | | | ada / perlu shoot / perlu consent | L1/L2/L3 | | Draft / For Review / Approved / Published |
+| | | IG + FB | Reels | | | | | ada / perlu shoot / perlu consent | L1/L2/L3 | | Draft / For Review / Approved / Published |
+
+Deadline approval dihitung mundur dalam **hari kerja** (libur nasional, cuti bersama, dan di Bali Nyepi/Galungan/Kuningan tidak dihitung; [kalender 2027](../knowledge/calendar-id/national-holidays-2027.md)). Konten IG + FB = satu slot, caption diadaptasi per platform.
 
 ## Kebutuhan Produksi
 

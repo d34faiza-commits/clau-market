@@ -13,9 +13,20 @@
 | Channel | Direncanakan | Dipublish | Selisih & alasan |
 |---|---|---|---|
 | Instagram | | | |
+| Facebook | | | |
 | TikTok | | | |
 | GBP | | | |
 | OTA update | | | |
+
+## 2a. Kuota Paket & SLA
+
+| Item | Kuota paket | Terpakai | Catatan (mis. tertunda karena approval) |
+|---|---|---|---|
+| Konten feed | | | |
+| Stories | | | |
+| Post GBP | | | |
+| Balasan review | | | |
+| SLA tepat waktu (kalender, batch, balasan review) | ≥ 90% | % | |
 
 ## 3. Performa per Channel
 
@@ -23,6 +34,7 @@
 |---|---|---|---|---|---|
 | Instagram | Reach | | | Instagram Insights | |
 | Instagram | Interaksi | | | Instagram Insights | |
+| Facebook | Jangkauan / interaksi | | | Meta Business Suite Insights | |
 | TikTok | Views | | | TikTok Analytics | |
 | GBP | Views / aksi (call, direction, website) | | | GBP Performance | |
 | Review | Jumlah & rata-rata rating | | | GBP / OTA | |

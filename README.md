@@ -43,10 +43,10 @@ clau-market/
 ├── agents/            # submodule → clau-agent (registry & platform; jangan diedit di sini)
 ├── rules/             # 9 content standard
 ├── prompts/           # prompt library (caption, campaign, OTA, review, destination, seasonal, reel, stories)
-├── skills/            # 7 AI agent skill (SKILL.md + agents/openai.yaml)
+├── skills/            # 9 AI agent skill (SKILL.md + agents/openai.yaml)
 ├── knowledge/         # segment, platform, kalender, destinasi, voice, market, regulasi
 ├── templates/         # brief, fact sheet, calendar, campaign, onboarding, approval, report
-├── qa/                # 5 QA gate + rubrik skor
+├── qa/                # 5 QA gate + rubrik skor + lembar kerja review independen (manusia)
 ├── schemas/           # content-brief.schema.json (v1.4; brief v1.3 tetap valid)
 ├── commercial/        # katalog paket, discovery, proposal, kontrak & DPA (draft), FAQ klien, SOP delivery
 ├── automations/       # Level 1 manual
@@ -73,7 +73,7 @@ Constitution & boundary di-version di clau-core.
 2. Onboard client: [templates/client-onboarding.md](./templates/client-onboarding.md).
 3. Isi [templates/property-fact-sheet.md](./templates/property-fact-sheet.md), lalu [templates/content-brief.md](./templates/content-brief.md) (valid terhadap [schema](./schemas/content-brief.schema.json)).
 4. Pakai skill/prompt yang sesuai (index di bawah).
-5. Jalankan `python scripts/check_caption.py` (hasilnya *PASS (mekanis)*, bukan lulus QA), QA gate di [qa/](./qa/claim-verification.md), lalu skor dengan [rubrik](./qa/scoring-rubric.md).
+5. Jalankan `python scripts/check_caption.py` (hasilnya *PASS (mekanis)*, bukan lulus QA), QA gate di [qa/](./qa/claim-verification.md), lalu skor dengan [rubrik](./qa/scoring-rubric.md). Untuk L2/L3 dan penilaian pilot, reviewer manusia memakai [lembar kerja review independen](./qa/independent-review-worksheet.md).
 6. Catat approval di [templates/approval-record.md](./templates/approval-record.md).
 
 ## Index Rules
@@ -101,6 +101,8 @@ Constitution & boundary di-version di clau-core.
 | [`write-ota-listing`](./skills/write-ota-listing/SKILL.md) | Deskripsi properti untuk OTA & website |
 | [`localize-content`](./skills/localize-content/SKILL.md) | Lokalisasi ID ↔ EN |
 | [`plan-seasonal-campaign`](./skills/plan-seasonal-campaign/SKILL.md) | Campaign musiman (Ramadan, Nataru, libur sekolah) |
+| [`draft-stories`](./skills/draft-stories/SKILL.md) | Stories IG/Facebook 3–5 frame, info harian yang berlaku hari itu |
+| [`build-monthly-report`](./skills/build-monthly-report/SKILL.md) | Laporan bulanan apa adanya: kuota paket, SLA, performa, review |
 
 ## Index Prompts
 

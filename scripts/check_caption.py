@@ -4,7 +4,8 @@
 Checks each caption for:
   - hook (first line) length <= --max-hook characters (default 125)
   - total length <= --max-chars (default 2200; ASSUMPTION until TASK-011 verifies)
-  - hashtag count within --min-tags..--max-tags (default 3..5; Instagram max 5 since 2025-12-18) when hashtags are used
+  - hashtag count within --min-tags..--max-tags when hashtags are used; default per --platform:
+    instagram/tiktok 3..5 (Instagram max 5 since 2025-12-18), facebook 1..3
   - emoji count <= --max-emoji, and no emoji in the hook when --no-emoji-hook
   - forbidden terms: rule 02 positioning words + brief restrictions.forbidden_terms
   - CTA count (heuristic): distinct call-to-action types (save, share, comment,
@@ -20,6 +21,7 @@ Usage:
   python scripts/check_caption.py --markdown drafts.md --brief brief.json
       (only ```text blocks with hashtags = captions; add --all-blocks for every block)
   python scripts/check_caption.py caption.txt --expect-cta save   # CTA from brief channels[].cta.type
+  python scripts/check_caption.py caption.txt --platform facebook  # hashtag 1..3 (or none)
   echo "caption" | python scripts/check_caption.py -
 Exit code 0 = all captions pass, 1 = at least one failure.
 """
@@ -107,6 +109,16 @@ def cta_types(text: str) -> list[str]:
     ]
 
 
+# Hashtag range per platform (knowledge/platforms/*.md). Facebook: few or no hashtags.
+PLATFORM_TAGS = {"instagram": (3, 5), "tiktok": (3, 5), "facebook": (1, 3)}
+
+
+def tag_range(platform: str, min_tags: int | None, max_tags: int | None) -> tuple[int, int]:
+    """Explicit --min-tags/--max-tags win over the --platform preset."""
+    preset_min, preset_max = PLATFORM_TAGS[platform]
+    return (preset_min if min_tags is None else min_tags, preset_max if max_tags is None else max_tags)
+
+
 def check(caption: str, args: argparse.Namespace, terms: list[str]) -> list[str]:
     problems: list[str] = []
     lines = [line for line in caption.splitlines() if line.strip()]
@@ -147,8 +159,10 @@ def main() -> int:
     parser.add_argument("--brief", help="brief.json; adds restrictions.forbidden_terms")
     parser.add_argument("--max-hook", type=int, default=125)
     parser.add_argument("--max-chars", type=int, default=2200)
-    parser.add_argument("--min-tags", type=int, default=3)
-    parser.add_argument("--max-tags", type=int, default=5)
+    parser.add_argument("--platform", choices=sorted(PLATFORM_TAGS), default="instagram",
+                        help="sets the default hashtag range (instagram/tiktok 3-5, facebook 1-3)")
+    parser.add_argument("--min-tags", type=int, default=None)
+    parser.add_argument("--max-tags", type=int, default=None)
     parser.add_argument("--max-emoji", type=int, default=None)
     parser.add_argument("--no-emoji-hook", action="store_true")
     parser.add_argument("--max-cta", type=int, default=1, help="max distinct CTA types (heuristic)")
@@ -158,6 +172,7 @@ def main() -> int:
     if args.expect_cta and args.markdown:
         parser.error("--expect-cta applies to one caption; check Markdown blocks per channel instead")
 
+    args.min_tags, args.max_tags = tag_range(args.platform, args.min_tags, args.max_tags)
     terms = forbidden_terms(args.brief)
     failed = 0
     for name, caption in load_captions(args):

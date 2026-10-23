@@ -10,7 +10,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from check_caption import EMOJI_RE, GUARANTEE_TERMS, check, cta_types, term_hits  # noqa: E402
+from check_caption import EMOJI_RE, GUARANTEE_TERMS, check, cta_types, tag_range, term_hits  # noqa: E402
 
 
 def default_args(**overrides):
@@ -61,6 +61,23 @@ class HashtagLimit(unittest.TestCase):
     def test_six_tags_fail(self):
         caption = "Pagi di villa.\n#bali #ubud #villa #slowliving #staycation #honeymoon"
         self.assertIn("6 hashtags, expected 3-5", check(caption, default_args(), []))
+
+
+class PlatformPresets(unittest.TestCase):
+    def test_presets(self):
+        self.assertEqual(tag_range("instagram", None, None), (3, 5))
+        self.assertEqual(tag_range("facebook", None, None), (1, 3))
+
+    def test_explicit_flags_win(self):
+        self.assertEqual(tag_range("facebook", None, 4), (1, 4))
+
+    def test_facebook_without_hashtags_passes(self):
+        caption = "Paket sarapan keluarga, Sabtu-Minggu 07.00-10.00. Pesan lewat tombol Kirim Pesan."
+        self.assertEqual(check(caption, default_args(min_tags=1, max_tags=3), []), [])
+
+    def test_facebook_five_tags_fail(self):
+        caption = "Paket sarapan keluarga.\n#a #b #c #d #e"
+        self.assertIn("5 hashtags, expected 1-3", check(caption, default_args(min_tags=1, max_tags=3), []))
 
 
 class EmojiCount(unittest.TestCase):

@@ -9,7 +9,7 @@
 | Mode | **NYATA** / **SIMULASI** (pilot/contoh — lihat [WORKFLOW Mode SIMULASI](../CONTENT-WORKFLOW.md#mode-simulasi-pilot--contoh)) |
 | Record ID | `<CLIENTCODE>-APR-<YYYYMMDD>-<NN>` |
 | Brief ID | |
-| Channel & format | |
+| Channel & format | (mis. IG carousel + Facebook post adaptasi; GBP update) |
 | Versi konten | v1 / v2 / ... |
 | Jadwal publish | (tanggal, jam, zona waktu WIB/WITA/WIT) |
 | Level approval | L1 / L2 / L3 |
@@ -39,7 +39,10 @@
 | Keputusan | Approved / Approved with changes / Rejected (Mode SIMULASI: selalu "SIMULASI — tidak ada approval nyata") |
 | Nama & peran approver | |
 | Tanggal & jam | |
-| Kanal approval (email/tool/chat yang diarsipkan) | |
+| Kanal approval | Email / tool approval / **WhatsApp** (diarsipkan) |
+| Bukti approval | Lokasi screenshot + ekspor chat di workspace client |
+| Pesan yang disetujui memuat Record ID / versi? | Ya / Tidak (Tidak = belum sah; minta konfirmasi ulang yang menyebut versi) |
+| Approval lisan / voice note? | Ditulis ulang di sini + konfirmasi "ok" tertulis dari approver (tanggal & jam) |
 | Catatan / perubahan yang diminta | |
 
 ## Perubahan Setelah Approval

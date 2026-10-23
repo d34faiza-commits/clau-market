@@ -60,7 +60,7 @@ Satu content lead penuh waktu (±120 jam produktif/bulan) ≈ contoh campuran: 4
 |---|---|---|
 | Konten tayang dengan klaim tanpa fact sheet | 0 | Sampling 5 konten/bulan oleh reviewer independen |
 | Konten tayang tanpa approval tertulis | 0 | Approval record vs log publikasi |
-| Skor rubrik rata-rata | ≥ 85 ([rubrik](../qa/scoring-rubric.md)) | Sampling bulanan |
+| Skor rubrik rata-rata | ≥ 85 ([rubrik](../qa/scoring-rubric.md)) | Sampling bulanan dengan [lembar kerja review independen](../qa/independent-review-worksheet.md) |
 | Ketepatan SLA (kalender, batch, balasan review) | ≥ 90% | Log tanggal kirim |
 
 ## 7. Insiden (konten salah tayang)
