@@ -1,6 +1,6 @@
 # Template Perjanjian Layanan Konten
 
-> **Status: Draft (2026-10-22), disusun AI agent. BUKAN nasihat hukum.** Wajib dicek konsultan hukum/notaris sebelum dipakai (TASK-053). Identitas badan usaha penyedia, domisili hukum, dan klausul pajak diisi setelah keputusan owner. Versi terisi disimpan di Client Workspace, tidak di repo.
+> **Status: template disetujui owner (2026-10-23, TASK-067 K1–K8), BELUM BOLEH DITANDATANGANI** sampai dicek konsultan hukum (K6c, TASK-053). Disusun AI agent. **BUKAN nasihat hukum.** Wajib dicek konsultan hukum/notaris sebelum dipakai (TASK-053). Identitas badan usaha penyedia, domisili hukum, dan klausul pajak diisi setelah keputusan owner. Versi terisi disimpan di Client Workspace, tidak di repo.
 
 ---
 

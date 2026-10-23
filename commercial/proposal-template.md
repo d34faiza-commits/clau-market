@@ -1,6 +1,6 @@
 # Template Proposal — Layanan Konten Hospitality CLAU AI
 
-> **Status: Draft (2026-10-22).** Salin ke Client Workspace lalu isi. Jangan menambah janji di luar [katalog](./service-catalog.md). Harga diisi dari price sheet owner. Semua `[...]` wajib diganti.
+> **Status:** **Approved v1.0.0 (2026-10-23)**: owner Dea Karisna (d34faiza) menjawab paket keputusan TASK-067 K1–K8 "setuju semua". Salin ke Client Workspace lalu isi. Jangan menambah janji di luar [katalog](./service-catalog.md). Harga diisi dari price sheet owner. Semua `[...]` wajib diganti.
 
 ---
 

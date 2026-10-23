@@ -1,6 +1,6 @@
 # SOP Delivery Bulanan — Paket Konten Pilar 1
 
-> **Status: Draft (2026-10-22).** Menjalankan paket di [katalog](./service-catalog.md) dengan alur yang sudah berlaku: [CONTENT-WORKFLOW](../CONTENT-WORKFLOW.md) 9 langkah + [automation level 1](../automations/level-1-manual/README.md) (manual, AI lewat chat/agent). Berlaku sampai platform CLAU AI dipakai klien (server hidup, provider AI nyata, domain; TASK-065, TASK-052, TASK-047).
+> **Status:** **Approved v1.0.0 (2026-10-23)**: owner Dea Karisna (d34faiza) menjawab paket keputusan TASK-067 K1–K8 "setuju semua". Menjalankan paket di [katalog](./service-catalog.md) dengan alur yang sudah berlaku: [CONTENT-WORKFLOW](../CONTENT-WORKFLOW.md) 9 langkah + [automation level 1](../automations/level-1-manual/README.md) (manual, AI lewat chat/agent). Berlaku sampai platform CLAU AI dipakai klien (server hidup, provider AI nyata, domain; TASK-065, TASK-052, TASK-047).
 
 ## 1. Peran
 
@@ -76,3 +76,24 @@ Satu content lead penuh waktu (±120 jam produktif/bulan) ≈ contoh campuran: 4
 2. Klien mencabut akses partner; CLAU konfirmasi akses sudah tidak dipakai.
 3. Kembalikan lalu hapus data klien ≤ 30 hari ([Lampiran C § 6](./data-processing-addendum.md#6-retensi--pengakhiran)).
 4. Minta izin tertulis bila hasil kerja akan dipakai sebagai case study (TASK-062).
+
+## 9. Realita Lapangan (cara menanganinya)
+
+Klien hospitality Indonesia jarang bekerja seperti di template. Yang paling sering terjadi, dan cara CLAU menanganinya tanpa melanggar rules:
+
+| Situasi nyata | Cara menangani | Dasar |
+|---|---|---|
+| Approval lewat **WhatsApp** ("ok kak", stiker 👍, voice note) | Sah sebagai approval tertulis **bila** membalas pesan yang memuat versi spesifik (nomor/tanggal batch + teks/visual). Screenshot + ekspor chat disimpan di approval record. Voice note: tulis ulang isinya dan minta "ok" tertulis | [Rule 08](../rules/08-APPROVAL-PUBLICATION-STANDARD.md) (approval tertulis & dapat ditelusuri) |
+| Klien lambat membalas approval | Pengingat H+1 (sopan, satu pesan). Lewat 2 hari kerja → jadwal tayang mundur; kuota tidak hangus. Jangan pernah posting "karena sudah lama tidak dijawab" | Katalog § 6, kontrak Pasal 2.4 |
+| "Besok posting promo ya kak" (mendadak) | Dikerjakan bila fakta promo lengkap (harga, periode, syarat) dan approver L2 bisa dihubungi hari itu. Kalau tidak, tawarkan versi tanpa harga ("info promo segera") | Rule 02, rule 08 |
+| Harga/promo berubah setelah konten disetujui | Konten yang belum tayang ditahan; konten yang sudah tayang diedit atau ditambah koreksi; fact sheet dinaikkan versinya | Rule 02, SOP § 7 |
+| Foto dari HP, gelap, atau sedikit | Pilih yang terbaik + brief foto sederhana untuk staf (cahaya pagi, horizontal untuk feed, vertikal untuk Reels). **Tidak** "memperbaiki" dengan AI sampai mengubah fakta (ukuran kamar, view, porsi) | Rule 07 |
+| Klien mengirim data tamu mentah di WA (nama, nomor, foto KTP, bukti transfer) | Jangan diteruskan ke AI; minta klien menghapus dari chat kerja; hapus salinan di perangkat CLAU; samarkan bila memang dibutuhkan untuk balasan review | Rule 04, Lampiran C § 2 |
+| Owner/GM klien sulit dihubungi untuk L3 (review negatif) | Draft siap ≤ 1 hari kerja; tanpa approval L3, review **tidak dibalas** (lebih baik terlambat daripada salah). Tawarkan approver L3 cadangan di onboarding | Rule 08 |
+| Klien minta "pakai foto villa sebelah dulu" / foto stok seolah milik sendiri | Tolak dengan sopan; tawarkan foto detail yang ada atau ilustrasi berlabel | Rule 01, rule 07 |
+| Content lead CLAU sakit/cuti | Klien diberi tahu ≥ 3 hari kerja sebelumnya untuk cuti; batch dikerjakan lebih awal; sakit mendadak → owner mengambil alih atau jadwal mundur dengan pemberitahuan hari itu juga. Tidak ada AI yang "jalan sendiri" saat manusia tidak ada | SOP § 1, § 5 |
+| Libur panjang (Lebaran, Nyepi, Nataru) = momen paling ramai klien | Batch kampanye dikunci sebelum libur (lihat tabel lead time di [kalender 2027](../knowledge/calendar-id/national-holidays-2027.md) § D); selama libur hanya balasan review yang dijadwalkan dan konten yang sudah disetujui | Kalender 2027 |
+| Pembayaran terlambat | Pengingat sopan H+3; lewat 14 hari → pemberitahuan tertulis lalu penangguhan (kontrak Pasal 4.4). Konten yang sudah disetujui tetap diserahkan | Kontrak Pasal 4 |
+| Klien membandingkan dengan "AI Rp 1 juta 28 post" | Jelaskan bedanya tanpa menjelekkan kompetitor: cek klaim, privasi tamu, approval, kalender Indonesia, balasan review | [competitor-content-agencies.md](../knowledge/market/competitor-content-agencies.md), AI-CONSTITUTION § 13 |
+
+Catat setiap situasi baru yang tidak ada di tabel ini di Client Workspace; bila terjadi dua kali, tambahkan barisnya lewat PR.
