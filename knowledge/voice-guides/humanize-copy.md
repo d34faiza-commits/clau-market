@@ -125,9 +125,17 @@ Terima kasih telah menyebut sarapan di teras. Tim dapur kami ikut membaca ulasan
 ```
 (Detail harus ada di ulasan atau fact sheet; nama staf hanya dengan izin.)
 
-## 7. English Copy (Bali, Lombok, Gili, Labuan Bajo, and other international markets)
+## 7. English Copy (untuk wisatawan mancanegara)
 
-The same four traits apply: **short, clear, elegant, evocative**. Many guests, villa owners, and investors in Bali and Lombok read English first, so English copy is written natively, never translated word for word ([rule 06](../../rules/06-LOCALIZATION-BAHASA-STANDARD.md), skill [`localize-content`](../../skills/localize-content/SKILL.md)).
+**Bahasa mengikuti pilihan klien.** Bali, Lombok, Gili, Labuan Bajo, dan banyak destinasi lain di Indonesia menerima wisatawan mancanegara, jadi agent menulis dalam bahasa yang dipilih klien di Voice Card dan brief: **Bahasa Indonesia, English, atau bilingual** ([client-onboarding § 3](../../templates/client-onboarding.md), [rule 06](../../rules/06-LOCALIZATION-BAHASA-STANDARD.md)). Bila belum dipilih, tanyakan ke klien (**CLIENT CONFIRMATION**); jangan menebak.
+
+| Pilihan klien | Yang dibuat agent |
+|---|---|
+| Bahasa Indonesia | Copy ID sesuai § 1–6 |
+| English | Copy EN sesuai § 7, ditulis langsung dalam English (bukan terjemahan) |
+| Bilingual | Dua versi yang ditulis masing-masing secara alami; klaim, harga, dan syarat **sama persis** di kedua bahasa (skill [`localize-content`](../../skills/localize-content/SKILL.md)) |
+
+The same four traits apply in English: **short, clear, elegant, evocative**. International guests read English copy as natives do, so it is written natively, never translated word for word.
 
 ### 7a. Stiff English and what to write instead
 
@@ -190,10 +198,6 @@ Three days at sea: Padar at sunrise, snorkelling by noon, Kalong Island at dusk.
 Mantas are often seen in season, but never guaranteed.
 February departures in bio.
 ```
-
-### 7e. Do not write (foreign investor and villa-sale topics)
-
-CLAU writes **hospitality** content (stays, dining, weddings, trips). Copy that sells **property or investment** to foreigners is outside the service and carries legal risk: under Indonesian land law, only Indonesian citizens may hold freehold title (*Hak Milik*, UU 5/1960 Pasal 21). Never write "own a freehold villa in Bali", "guaranteed rental yield/ROI", or similar; escalate to the owner. Rental listings for foreign guests are fine.
 
 ## References
 

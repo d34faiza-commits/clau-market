@@ -90,9 +90,9 @@ Tanpa balasan setelah tindak lanjut kedua: berhenti, catat di daftar prospek, da
 - Testimoni, angka hasil, atau logo klien yang belum ada atau belum diizinkan tertulis.
 - Pesan yang sama ke banyak orang sekaligus.
 
-## 7. English Scripts (foreign villa owners, managers, and operators)
+## 7. English Scripts (klien yang lebih nyaman berkomunikasi dalam English)
 
-Many villa and resort owners in Bali and Lombok are foreign or run their business with foreign partners. Same rules as above: no promised results, no fake testimonials, open about AI with human review, one message at a time.
+Dipakai untuk pemilik atau manajer villa, restoran, dan operator trip yang tamunya banyak wisatawan mancanegara dan lebih nyaman berkomunikasi dalam English. Aturannya sama: tanpa janji hasil, tanpa testimoni karangan, terbuka soal AI dengan pemeriksaan manusia, satu pesan untuk satu orang.
 
 **First message (introduced contact)**
 ```text
@@ -126,7 +126,6 @@ Precise details are what make guests trust you.
 | "We already have someone posting." | "Great. We can also just handle review replies and the English/Indonesian versions, so your team keeps the visuals." |
 | "AI copy sounds generic." | "Drafts are AI-assisted, then edited by us to sound like your team. Let us send two samples; you decide." |
 | "Can you guarantee more bookings?" | "We don't promise numbers; bookings depend on price, season, and much more. We guarantee consistent content, accurate claims, timely review replies, and an honest monthly report." |
-| "Can you also promote our villas for sale to investors?" | "That's outside our service. Property sales to foreign buyers have specific legal requirements in Indonesia; we focus on guest-facing hospitality content." |
 
 **Follow-up (max. two)**
 ```text
