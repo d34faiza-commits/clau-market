@@ -29,7 +29,7 @@ Satuan "konten feed" = satu post (single, carousel, atau Reels) berisi caption +
 | Stories | 8 set (3 frame) | 12 set | 20 set |
 | Post GBP | 4 | 4 | 8 |
 | Balasan review (Google + OTA) | Hingga 30 | Hingga 80 | Hingga 150 |
-| Bahasa | ID **atau** EN | ID + EN untuk semua konten publik | ID + EN |
+| Bahasa (pilihan klien) | ID **atau** EN | ID, EN, atau bilingual untuk semua konten publik | ID, EN, atau bilingual |
 | Listing OTA / website | — | Refresh 1 listing per kuartal | Refresh 2 listing per kuartal |
 | Laporan | Laporan bulanan 1 halaman | Laporan + call 30 menit | Laporan + call mingguan 30 menit |
 | Waktu respon draft balasan review | 2 hari kerja | 1 hari kerja | 1 hari kerja (prioritas) |

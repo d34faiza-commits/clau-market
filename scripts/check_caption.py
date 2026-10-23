@@ -52,6 +52,8 @@ CLICHES = [
     # Stiff "AI copy" phrases (knowledge/voice-guides/humanize-copy.md § 2).
     "momen berharga", "liburan impian", "pernikahan impian", "manjakan diri", "tunggu apa lagi",
     "dengan senang hati mempersembahkan", "sekali seumur hidup", "di tengah hiruk pikuk",
+    # Stiff English travel copy (humanize-copy.md § 7a).
+    "slice of paradise", "tucked away", "look no further", "once-in-a-lifetime", "escape to paradise",
 ]
 # One match per visible emoji: a base symbol plus any skin-tone modifier, variation selector,
 # or ZWJ-joined parts ("👍🏽" and "👨‍👩‍👧" each count as one).

@@ -125,6 +125,80 @@ Terima kasih telah menyebut sarapan di teras. Tim dapur kami ikut membaca ulasan
 ```
 (Detail harus ada di ulasan atau fact sheet; nama staf hanya dengan izin.)
 
+## 7. English Copy (untuk wisatawan mancanegara)
+
+**Bahasa mengikuti pilihan klien.** Bali, Lombok, Gili, Labuan Bajo, dan banyak destinasi lain di Indonesia menerima wisatawan mancanegara, jadi agent menulis dalam bahasa yang dipilih klien di Voice Card dan brief: **Bahasa Indonesia, English, atau bilingual** ([client-onboarding § 3](../../templates/client-onboarding.md), [rule 06](../../rules/06-LOCALIZATION-BAHASA-STANDARD.md)). Bila belum dipilih, tanyakan ke klien (**CLIENT CONFIRMATION**); jangan menebak.
+
+| Pilihan klien | Yang dibuat agent |
+|---|---|
+| Bahasa Indonesia | Copy ID sesuai § 1–6 |
+| English | Copy EN sesuai § 7, ditulis langsung dalam English (bukan terjemahan) |
+| Bilingual | Dua versi yang ditulis masing-masing secara alami; klaim, harga, dan syarat **sama persis** di kedua bahasa (skill [`localize-content`](../../skills/localize-content/SKILL.md)) |
+
+The same four traits apply in English: **short, clear, elegant, evocative**. International guests read English copy as natives do, so it is written natively, never translated word for word.
+
+### 7a. Stiff English and what to write instead
+
+| Stiff | Example | Write instead |
+|---|---|---|
+| Brochure openers | "Indulge in…", "Experience…", "Discover…", "Escape to…" | Start with the scene: "Morning starts on the terrace, above the rice fields." |
+| Travel-ad clichés | "hidden gem", "slice of paradise", "nestled", "tucked away", "breathtaking", "unforgettable" | One concrete detail: "Two bedrooms, one private pool, breakfast served on your terrace." |
+| Inflated verbs | "elevate your stay", "curated experiences", "unparalleled luxury" | Say what is actually included |
+| Pushy close | "Look no further! Book now!" | A calm invitation with a clear path: "December dates: link in bio." |
+| Over-explaining Indonesia | "exotic", "mystical island of the gods" | Respectful, specific: "Nyepi, the Balinese Day of Silence, falls on 8 March 2027." |
+
+### 7b. Persuasion that works in English (honestly)
+
+Same principles as § 3: let readers picture themselves there, be specific, use contrast, show real social proof ("4.8 on Google from 312 reviews"), remove friction ("airport transfer included"), tie to real dates, and state capacity only as fact ("Only five rooms"). International guests trust **specific numbers, inclusions, and policies** (cancellation, deposit, what is not included) more than adjectives.
+
+### 7c. Local terms and formats
+
+- Keep Indonesian terms that carry meaning, with a short gloss on first use: *nasi goreng*, *joglo*, *Nyepi* (Balinese Day of Silence), *lulur* (traditional body scrub).
+- Prices: state currency clearly (IDR 2,500,000 or Rp2,500,000, per night, taxes included or "++"); never convert to USD unless the client's rate card does.
+- Choose one variant (US or UK spelling) per client and keep it.
+
+### 7d. Before → After (fictional)
+
+**Villa, Instagram**
+
+Before:
+```text
+Escape to paradise at Villa Contoh Ubud! Indulge in an unforgettable experience at our hidden gem nestled in breathtaking rice fields. Book now! ✨🌴
+```
+After:
+```text
+Open the glass doors, and the rice fields are right at your feet.
+Two bedrooms, one private pool, Indonesian breakfast served on your terrace.
+December dates: link in bio. 🌿
+#VillaContohUbud #ubud #balivilla
+```
+
+**Wedding, Instagram**
+
+Before:
+```text
+Make your dream wedding come true at our exclusive clifftop venue with stunning ocean views!
+```
+After:
+```text
+Vows on the clifftop lawn as the sun begins to drop.
+Intimate package for 50 guests: styling, sound, and an on-the-day coordinator.
+2027 dates via the link in bio.
+```
+
+**Travel, Reels caption**
+
+Before:
+```text
+Explore the breathtaking beauty of Komodo on a once-in-a-lifetime adventure!
+```
+After:
+```text
+Three days at sea: Padar at sunrise, snorkelling by noon, Kalong Island at dusk.
+Mantas are often seen in season, but never guaranteed.
+February departures in bio.
+```
+
 ## References
 
 - [hospitality-voice.md](./hospitality-voice.md) · [rule 03](../../rules/03-CLIENT-BRAND-VOICE-STANDARD.md) · [rule 01](../../rules/01-CONTENT-INTEGRITY-STANDARD.md) · [rule 02](../../rules/02-HOSPITALITY-CLAIM-STANDARD.md)

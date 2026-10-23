@@ -89,3 +89,46 @@ Tanpa balasan setelah tindak lanjut kedua: berhenti, catat di daftar prospek, da
 - Perbandingan negatif dengan agency lain.
 - Testimoni, angka hasil, atau logo klien yang belum ada atau belum diizinkan tertulis.
 - Pesan yang sama ke banyak orang sekaligus.
+
+## 7. English Scripts (klien yang lebih nyaman berkomunikasi dalam English)
+
+Dipakai untuk pemilik atau manajer villa, restoran, dan operator trip yang tamunya banyak wisatawan mancanegara dan lebih nyaman berkomunikasi dalam English. Aturannya sama: tanpa janji hasil, tanpa testimoni karangan, terbuka soal AI dengan pemeriksaan manusia, satu pesan untuk satu orang.
+
+**First message (introduced contact)**
+```text
+Hi [Name], I'm [owner name] from CLAU AI. [Referrer] suggested I get in touch.
+We write Instagram and Facebook content and reply to Google reviews for villas, restaurants, and wedding venues in Bali and Lombok.
+Your photos are strong; I noticed nine Google reviews from the last two months are still unanswered.
+If useful, we can review your last three posts and send three short notes, free and with no obligation.
+```
+
+**Audit notes**
+```text
+Hi [Name], three notes on [business name]'s recent posts:
+1. The 12 Oct caption says "5 minutes to the beach"; Maps shows 15. Gaps like this often end up in reviews.
+2. The 8 Oct promo price doesn't say whether tax and service are included.
+3. Nine Google reviews from the last two months are unanswered, two of them three-star.
+All easy to fix. Happy to send two sample captions and one review reply so you can judge our style first.
+```
+
+**Facebook / LinkedIn post (CLAU AI page)**
+```text
+"Five minutes to the beach."
+A small line that turns into a two-star review when it is really fifteen.
+Before posting: walking, scooter, or car? At what time of day?
+Precise details are what make guests trust you.
+```
+
+**Objections**
+
+| They say | Answer |
+|---|---|
+| "We already have someone posting." | "Great. We can also just handle review replies and the English/Indonesian versions, so your team keeps the visuals." |
+| "AI copy sounds generic." | "Drafts are AI-assisted, then edited by us to sound like your team. Let us send two samples; you decide." |
+| "Can you guarantee more bookings?" | "We don't promise numbers; bookings depend on price, season, and much more. We guarantee consistent content, accurate claims, timely review replies, and an honest monthly report." |
+
+**Follow-up (max. two)**
+```text
+Hi [Name], just checking whether the notes on your recent posts were useful.
+If now isn't the right time, no problem at all; let me know and I won't follow up again.
+```
