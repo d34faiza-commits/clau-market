@@ -1,90 +1,91 @@
-# Skrip Jualan CLAU AI (bahasa manusia, bukan brosur)
+# Skrip Jualan CLAU AI
 
-> **Status: Draft (2026-10-23)**, disiapkan AI agent atas permintaan owner; dipakai setelah owner membaca dan menyesuaikan dengan gaya bicaranya sendiri. Semua contoh memakai properti fiktif "Contoh". Prinsip menulis: [humanize-copy.md](../knowledge/voice-guides/humanize-copy.md).
+> **Status: Draft (2026-10-23)**, disiapkan AI agent atas permintaan owner. Gaya: singkat, jelas, elegan, menggugah ([humanize-copy.md](../knowledge/voice-guides/humanize-copy.md)). Sesuaikan dengan cara bicara owner sebelum dipakai. Contoh memakai properti fiktif "Contoh".
 
-Aturan yang tidak boleh dilanggar di semua skrip: tidak menjanjikan followers/booking, tidak menjelekkan agency lain, tidak memakai testimoni yang tidak ada, terbuka bahwa CLAU memakai AI dengan pemeriksaan manusia, dan tidak mengirim pesan massal ke orang yang tidak dikenal (spam). Kirim satu per satu, ke orang yang memang relevan.
+Aturan di semua skrip: tidak menjanjikan followers/booking, tidak menjelekkan agency lain, tidak memakai testimoni yang tidak ada, terbuka bahwa CLAU memakai AI dengan pemeriksaan manusia, dan tidak mengirim pesan massal ke orang yang tidak dikenal. Kirim satu per satu, hanya ke orang yang relevan.
 
-## 1. Pesan Pertama ke Calon Klien (WhatsApp/DM, orang yang sudah dikenal atau dikenalkan)
+## 1. Pesan Pertama (WhatsApp/DM, kontak yang dikenal atau dikenalkan)
 
 ```text
-Halo Kak [Nama], saya [nama owner] dari CLAU AI, dapat nomor Kakak dari [nama yang mengenalkan].
-Saya bantu villa, kafe, dan WO bikin konten IG/FB dan balas review Google tiap bulan.
-Kemarin sempat lihat IG [nama usaha], fotonya bagus banget, cuma caption-nya jarang update dan ada 9 review Google yang belum dibalas.
-Kalau Kakak mau, saya bisa cek gratis 3 post terakhir dan kirim catatan singkatnya. Tidak ada kewajiban apa-apa.
+Selamat siang, Bapak/Ibu [Nama]. Saya [nama owner] dari CLAU AI, mendapat kontak Anda dari [nama yang mengenalkan].
+Kami membantu villa, kafe, dan wedding organizer menyusun konten Instagram/Facebook dan membalas ulasan Google setiap bulan.
+Saya melihat foto-foto [nama usaha] sangat kuat, sementara ada 9 ulasan Google yang belum dibalas.
+Bila berkenan, kami dapat meninjau 3 unggahan terakhir dan mengirimkan catatan singkat, tanpa biaya dan tanpa kewajiban.
 ```
 
-Kenapa begini: menyebut dari mana kenal, satu pengamatan nyata yang bisa dicek sendiri, tawaran kecil tanpa tekanan.
+Kenapa berhasil: sumber kontak jelas, satu pujian yang tulus, satu pengamatan yang dapat dicek, tawaran kecil tanpa tekanan.
 
-## 2. Setelah Audit Gratis (kirim catatan, bukan langsung harga)
+## 2. Catatan Audit Gratis
 
 ```text
-Kak [Nama], ini catatan dari 3 post terakhir [nama usaha]:
-1. Caption 12 Okt menulis "5 menit ke pantai". Kalau di Maps 15 menit, tamu bisa kecewa dan nulis di review.
-2. Harga promo di post 8 Okt belum ada keterangan sudah/belum termasuk pajak.
-3. 9 review Google 2 bulan terakhir belum dibalas, 2 di antaranya bintang 3.
-Semua bisa dibenahi. Kalau mau, saya kirim contoh 2 caption baru dan 1 balasan review, gratis, biar Kakak lihat gaya kami dulu.
+Bapak/Ibu [Nama], berikut tiga catatan dari unggahan terakhir [nama usaha]:
+1. Caption 12 Okt menulis "5 menit ke pantai"; di Maps tercatat 15 menit. Selisih seperti ini sering muncul di ulasan tamu.
+2. Harga promo 8 Okt belum menyebut sudah atau belum termasuk pajak.
+3. Sembilan ulasan Google dua bulan terakhir belum dibalas, dua di antaranya bintang tiga.
+Semuanya mudah dibenahi. Bila berkenan, kami kirimkan dua contoh caption dan satu balasan ulasan agar Anda dapat menilai gaya kami terlebih dahulu.
 ```
 
-## 3. Post Facebook Page CLAU AI (edukasi, bukan iklan keras)
+## 3. Post Facebook Page CLAU AI
 
-**a. Kesalahan klaim**
+**a. Klaim kecil, dampak besar**
 ```text
-"5 menit ke pantai."
-Kalimat sesederhana itu bisa jadi review bintang 2 kalau kenyataannya 15 menit naik motor.
-Sebelum posting, coba cek: jarak ini dihitung jalan kaki, motor, atau mobil? Jam berapa?
-Detail kecil begini yang bikin tamu percaya.
+"Lima menit ke pantai."
+Kalimat sederhana yang dapat berubah menjadi ulasan bintang dua bila kenyataannya lima belas.
+Sebelum mengunggah, pastikan: berjalan kaki, motor, atau mobil? Pada jam berapa?
+Ketepatan kecil seperti ini yang membuat tamu percaya.
 ```
 
-**b. Kalender momen**
+**b. Momen 2027**
 ```text
-Pemilik villa dan kafe di Bali, catat: tahun depan Nyepi jatuh Senin 8 Maret, lalu langsung disambung libur Lebaran sampai 15 Maret.
-Tamu yang booking tanggal itu perlu tahu aturan Nyepi sejak awal, jangan sampai kaget di hari H.
-Konten Ramadan & Lebaran 2027 idealnya mulai diposting akhir Januari.
+Untuk villa dan kafe di Bali: Nyepi 2027 jatuh pada Senin, 8 Maret, langsung disambung libur Lebaran hingga 15 Maret.
+Tamu yang memesan tanggal tersebut perlu mengetahui aturan Nyepi sejak awal.
+Konten Ramadan dan Lebaran idealnya mulai tayang akhir Januari.
 ```
 
-**c. Balas review**
+**c. Ulasan yang dibalas**
 ```text
-Review bintang 3 yang dibalas dengan baik sering lebih meyakinkan daripada deretan bintang 5 tanpa balasan.
-Kuncinya: sebut satu hal spesifik yang ditulis tamu, jangan pakai kalimat template yang sama untuk semua review.
+Ulasan bintang tiga yang dibalas dengan baik sering lebih meyakinkan daripada deretan bintang lima tanpa jawaban.
+Kuncinya sederhana: tanggapi satu hal spesifik yang ditulis tamu.
 ```
 
 **d. Terbuka soal AI**
 ```text
-Kami pakai AI untuk menyusun draft caption dan balasan review.
-Tapi tidak ada satu pun yang tayang sebelum dicek orang kami dan disetujui pemilik usahanya.
-AI cepat menulis; yang memastikan isinya benar tetap manusia.
+Kami menggunakan AI untuk menyusun draft caption dan balasan ulasan.
+Tidak satu pun tayang sebelum diperiksa tim kami dan disetujui pemilik usaha.
+AI mempercepat; manusia memastikan kebenarannya.
 ```
 
-**e. Ajakan audit**
+**e. Undangan audit**
 ```text
-Punya villa, kafe, WO, atau usaha trip?
-Kirim link IG atau Google Maps usaha Anda di komentar atau inbox. Kami cek 3 post terakhir dan kasih 3 catatan, gratis.
-Kuota kami batasi 5 usaha per minggu supaya catatannya tetap teliti.
+Villa, kafe, wedding organizer, atau penyelenggara trip?
+Kirimkan tautan Instagram atau Google Maps usaha Anda melalui pesan.
+Kami tinjau tiga unggahan terakhir dan kirimkan tiga catatan, tanpa biaya.
+Lima usaha setiap minggu, agar setiap catatan tetap teliti.
 ```
-(Kuota hanya ditulis bila memang dipegang; kalau tidak, hapus kalimat terakhir.)
+(Kalimat terakhir hanya dipakai bila kuota itu benar-benar dijalankan.)
 
 ## 4. Menjawab Keberatan
 
-| Mereka bilang | Jawab dengan jujur (contoh) |
+| Mereka berkata | Jawaban (contoh) |
 |---|---|
-| "Mahal, ada yang Rp1 juta dapat 28 post." | "Betul, ada. Bedanya, tiap caption kami cek dulu ke data usaha Kakak, review dibalas, dan Kakak setujui sebelum tayang. Kalau yang Kakak cari jumlah post saja, paket itu mungkin lebih cocok, dan itu tidak apa-apa." |
-| "Pakai AI ya? Nanti kaku." | "Draft-nya memang dibantu AI, tapi kami tulis ulang supaya terdengar seperti tim Kakak sendiri. Coba kami kirim 2 contoh dulu, Kakak nilai sendiri." |
-| "Bisa naikin booking berapa persen?" | "Kami tidak berani janji angka, karena booking dipengaruhi harga, musim, dan banyak hal lain. Yang bisa kami janjikan: konten rutin, isinya benar, review terbalas tepat waktu, dan laporan apa adanya tiap bulan." |
-| "Nanti dulu, lagi sepi." | "Paham. Justru kalau mau kampanye Lebaran 2027, persiapannya mulai Desember. Saya simpan dulu kontak Kakak, nanti awal Desember saya kabari, boleh?" |
-| "Saya kasih password IG ya." | "Jangan, Kak, demi keamanan akun Kakak. Kita pakai akses partner dari Meta Business Suite, bisa dicabut kapan saja." |
+| "Mahal. Ada yang Rp1 juta untuk 28 post." | "Benar, pilihan itu ada. Bedanya, setiap caption kami cocokkan dengan data usaha Anda, ulasan dibalas, dan semuanya Anda setujui sebelum tayang. Bila yang dibutuhkan jumlah unggahan saja, paket tersebut mungkin lebih sesuai." |
+| "Pakai AI, nanti kaku." | "Draft dibantu AI, lalu kami sunting agar terdengar seperti tim Anda sendiri. Kami kirimkan dua contoh terlebih dahulu; Anda yang menilai." |
+| "Bisa menaikkan booking berapa persen?" | "Kami tidak menjanjikan angka, karena pemesanan dipengaruhi harga, musim, dan banyak hal lain. Yang kami jamin: konten rutin, isi yang benar, ulasan terbalas tepat waktu, dan laporan apa adanya setiap bulan." |
+| "Nanti dulu, sedang sepi." | "Kami mengerti. Untuk Lebaran 2027, persiapan idealnya dimulai Desember. Bolehkah kami menghubungi kembali awal Desember?" |
+| "Ini password Instagram kami." | "Mohon jangan dikirim, demi keamanan akun Anda. Kita gunakan akses partner Meta Business Suite yang dapat dicabut kapan saja." |
 
-## 5. Follow-up (maksimal 2 kali, jarak ≥ 5 hari kerja)
+## 5. Tindak Lanjut (maksimal dua kali, jarak ≥ 5 hari kerja)
 
 ```text
-Kak [Nama], mau tanya kabar soal catatan 3 post kemarin. Kalau belum sempat dibaca, santai saja.
-Kalau memang belum perlu sekarang juga tidak apa-apa, kabari saja biar saya tidak mengganggu.
+Bapak/Ibu [Nama], izin menanyakan catatan tiga unggahan yang kami kirimkan.
+Bila saat ini belum diperlukan, tidak apa-apa; mohon kabari agar kami tidak mengganggu.
 ```
 
-Setelah follow-up kedua tidak dibalas: berhenti. Catat di daftar prospek; hubungi lagi hanya bila ada alasan baru (momen musiman, mereka bertanya).
+Tanpa balasan setelah tindak lanjut kedua: berhenti, catat di daftar prospek, dan hubungi kembali hanya bila ada alasan baru (momen musiman atau pertanyaan dari mereka).
 
-## 6. Yang Jangan Ditulis
+## 6. Yang Tidak Ditulis
 
 - "Dijamin viral", "pasti ramai", "followers naik 10x".
-- "Agency lain cuma pakai template" atau menyebut nama kompetitor secara negatif.
+- Perbandingan negatif dengan agency lain.
 - Testimoni, angka hasil, atau logo klien yang belum ada atau belum diizinkan tertulis.
-- Pesan yang sama dikirim ke banyak orang sekaligus.
+- Pesan yang sama ke banyak orang sekaligus.

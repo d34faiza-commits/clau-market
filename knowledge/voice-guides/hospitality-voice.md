@@ -60,7 +60,7 @@ Satu sapaan per client, konsisten.
 | kemewahan tiada tara | unparalleled luxury |
 | terletak di jantung... (dipakai berulang) | nestled in the heart of... |
 
-Klise boleh hanya bila Voice Card client secara eksplisit mengizinkan. Daftar pola bahasa AI yang kaku, cara menggantinya, tes sebelum diserahkan, dan contoh sebelum → sesudah per vertical: [humanize-copy.md](./humanize-copy.md).
+Klise boleh hanya bila Voice Card client secara eksplisit mengizinkan. Copy promosi yang singkat, jelas, elegan, dan menggugah (pola kaku & gantinya, psikologi persuasi yang jujur, tes, contoh per vertical): [humanize-copy.md](./humanize-copy.md).
 
 ## Kata Positioning yang Butuh Dasar
 
