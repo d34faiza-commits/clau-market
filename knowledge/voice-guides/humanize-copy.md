@@ -1,4 +1,4 @@
-# Copy Promosi: Singkat, Jelas, Elegan, Menggugah
+# Copy Promosi: Jelas, Singkat, Elegan, Menarik
 
 ## Scope
 
@@ -6,60 +6,71 @@ Panduan wajib untuk semua teks promosi (caption, Stories, Reels, GBP, Facebook, 
 
 Batas yang tidak berubah: menggugah bukan berarti mengarang atau menekan. Tidak ada cerita, tamu, testimoni, angka, atau kelangkaan yang tidak benar ([rule 01](../../rules/01-CONTENT-INTEGRITY-STANDARD.md), [rule 02](../../rules/02-HOSPITALITY-CLAIM-STANDARD.md)).
 
-## 1. Empat Ciri Copy yang Baik
+## 1. Jelas Dulu, Baru Indah (prinsip utama)
+
+Koreksi owner 2026-10-23: kalimat puitis membuat tamu harus menebak ("sawah sudah di depan kaki", "matahari mulai turun"). **Tamu harus paham dalam sekali baca.** Pakai kata yang biasa dipakai tamu saat mencari dan bercerita, lalu tambahkan satu detail yang membuatnya menarik.
+
+| Puitis / ambigu | Jelas dan tetap menarik |
+|---|---|
+| "Bangun, buka pintu kaca, dan sawah sudah di depan kaki." | "Kamar langsung menghadap sawah." |
+| "Sarapan Indonesia diantar ke teras." | "Sarapan khas Indonesia (nasi goreng, bubur ayam, atau pilihan Barat) disajikan di teras kamar." |
+| "Akad di rumput tebing saat matahari mulai turun." | "Akad nikah di taman tepi tebing saat matahari terbenam." |
+| "Pagi dimulai dari teras, di atas sawah." | "Teras kamar dengan pemandangan sawah, cocok untuk minum kopi pagi." |
+| "Malam di meja panjang yang tenang." | "Makan malam bersama di satu meja panjang, maksimal 12 orang." |
+| "Hanya suara air di parit." | "Suasana tenang, jauh dari jalan raya (±300 m)." (jarak dari fact sheet) |
+
+Kata yang dicari tamu dan aman dipakai (bila sesuai fakta): *pemandangan sawah/laut/gunung, kolam renang pribadi, dekat pantai (sebut menit & kendaraan), sunset/matahari terbenam, sarapan khas Indonesia, ramah keluarga, cocok untuk pasangan, antar-jemput bandara.*
+
+## 2. Empat Ciri Copy yang Baik
 
 | Ciri | Artinya | Ukuran praktis |
 |---|---|---|
+| **Jelas** | Paham sekali baca: apa, di mana, kapan, berapa, cara pesan | Tidak ada kalimat yang perlu ditafsirkan |
 | **Singkat** | Satu ide per konten | Hook ≤ 10 kata; caption IG 2–4 baris inti |
-| **Jelas** | Pembaca tahu apa, kapan, berapa, bagaimana | Info praktis tidak tersembunyi di kalimat puitis |
-| **Elegan** | Tenang, rapi, percaya diri; tidak berteriak | Tanpa "!!!", tanpa huruf kapital semua, emoji 0–2 |
-| **Menggugah** | Pembaca bisa membayangkan dirinya di sana | Minimal satu detail indrawi atau momen yang spesifik |
+| **Elegan** | Rapi, tenang, percaya diri; tidak berteriak | Tanpa "!!!", tanpa huruf kapital semua, emoji 0–2 |
+| **Menarik** | Ada satu detail yang membuat tamu ingin datang | Detail nyata: menu, view, ukuran, jam, fasilitas |
 
-## 2. Yang Membuat Copy Terasa Kaku (dan gantinya)
+## 3. Yang Membuat Copy Terasa Kaku (dan gantinya)
 
 | Kaku | Contoh | Ganti dengan |
 |---|---|---|
-| Pembuka perintah generik | "Nikmati…", "Rasakan…", "Manjakan diri…" | Langsung ke gambaran: "Pagi dimulai dari teras, di atas sawah." |
-| Tiga kata sifat berderet | "nyaman, asri, dan menenangkan" | Satu detail yang membuktikannya: "Hanya suara air di parit." |
-| Kata besar tanpa isi | "momen berharga", "tak terlupakan", "sempurna", "impian" | Momen konkret yang memang terjadi di sana |
-| "Tidak hanya… tetapi juga…" | "Tidak hanya menginap, tetapi juga…" | Dua kalimat pendek |
-| Pengumuman formal | "Kami dengan senang hati mempersembahkan…" | "Paket Sarapan Keluarga kini tersedia di akhir pekan." |
-| Ajakan memaksa | "Tunggu apa lagi? Booking sekarang!" | Undangan tenang + cara yang jelas: "Tanggal Desember dapat ditanyakan melalui tautan di bio." |
-| Ritme datar | Semua kalimat sama panjang | Kalimat pendek, lalu satu yang lebih panjang dengan detail |
+| Pembuka perintah generik | "Nikmati…", "Rasakan…", "Manjakan diri…" | Langsung ke fakta yang menarik: "Kamar langsung menghadap sawah." |
+| Tiga kata sifat berderet | "nyaman, asri, dan menenangkan" | Satu bukti: "Tenang, ±300 m dari jalan raya." |
+| Kata besar tanpa isi | "momen berharga", "tak terlupakan", "sempurna", "impian" | Apa yang didapat tamu |
+| Bahasa sastra/puitis | "sawah di depan kaki", "matahari mulai turun" | Kata sehari-hari: "menghadap sawah", "saat matahari terbenam" |
+| Pengumuman formal | "Kami dengan senang hati mempersembahkan…" | "Paket Sarapan Keluarga kini tersedia setiap akhir pekan." |
+| Ajakan memaksa | "Tunggu apa lagi? Booking sekarang!" | "Pemesanan melalui WhatsApp di bio." |
 
-## 3. Psikologi yang Membuat Orang Tergerak (dipakai dengan jujur)
+## 4. Psikologi yang Membuat Orang Tergerak (dipakai dengan jujur)
 
-| Prinsip | Cara memakai | Contoh (fiktif) | Batas |
-|---|---|---|---|
-| **Membayangkan diri** (mental imagery) | Tulis dari sudut pandang tamu: apa yang dilihat, didengar, dirasa | "Membuka tirai, dan sawah sudah di depan mata." | Hanya yang benar-benar dialami tamu |
-| **Spesifik = dipercaya** | Angka, nama, jam, ukuran | "Kolam 4 × 12 m, untuk dua kamar saja." | Angka dari fact sheet (**DATA FINAL**) |
-| **Kontras** | Sandingkan dua keadaan | "Siang di pantai, malam di meja panjang yang tenang." | Kedua hal harus nyata |
-| **Rasa memiliki** (ownership) | Pakai "Anda/kamu" dan kata milik | "Teras Anda menghadap timur." | Hanya bila memang privat |
-| **Bukti sosial** | Kutip ulasan asli (diizinkan, identitas disamarkan) atau angka nyata | "Rating Google 4,8 dari 312 ulasan." | Hanya data yang bisa dicek; tanpa testimoni karangan |
-| **Kemudahan** | Hilangkan keraguan: cara pesan, syarat, apa yang termasuk | "Sudah termasuk sarapan dan antar-jemput bandara." | Sesuai fact sheet |
-| **Waktu yang relevan** | Kaitkan dengan momen nyata | "Libur Lebaran 2027: 6–15 Maret." | Tanggal dari kalender resmi |
-| **Kelangkaan** | Hanya fakta kapasitas | "Hanya 5 kamar." | Dilarang kelangkaan palsu ("tinggal 1!" tanpa data hari itu) |
-| **Rasa ingin tahu** | Satu pertanyaan atau kalimat yang membuka | "Ada alasan kami menyajikan kopi pukul enam pagi." | Jawabannya ada di slide/caption berikutnya |
+| Prinsip | Contoh (fiktif) | Batas |
+|---|---|---|
+| **Membayangkan diri** | "Teras kamar dengan pemandangan sawah, cocok untuk minum kopi pagi." | Hanya yang benar-benar dialami tamu |
+| **Spesifik = dipercaya** | "Kolam renang pribadi 4 × 12 m." | Angka dari fact sheet (**DATA FINAL**) |
+| **Kontras** | "Siang ke pantai, malam makan bersama di villa." | Kedua hal harus nyata |
+| **Rasa memiliki** | "Kolam renang khusus untuk tamu villa Anda." | Hanya bila memang privat |
+| **Bukti sosial** | "Rating Google 4,8 dari 312 ulasan." | Hanya data yang bisa dicek |
+| **Kemudahan** | "Sudah termasuk sarapan dan antar-jemput bandara." | Sesuai fact sheet |
+| **Waktu yang relevan** | "Libur Lebaran 2027: 6–15 Maret." | Tanggal dari kalender resmi |
+| **Kelangkaan (fakta)** | "Hanya 5 kamar." | Dilarang kelangkaan palsu |
 
-## 4. Rumus Singkat
+## 5. Rumus Singkat dan Tes
 
 ```text
-Gambaran (1 kalimat indrawi) → Fakta pendukung (1–2 kalimat spesifik) → Undangan tenang (1 kalimat, cara yang jelas)
+Fakta paling menarik (1 kalimat jelas) → Detail pendukung (1–2 kalimat) → Cara pesan (1 kalimat)
 ```
-
-## 5. Tes Sebelum Diserahkan (±1 menit)
 
 | # | Tes | Lulus bila |
 |---|---|---|
-| 1 | **Baca keras** | Mengalir, tidak terdengar seperti pengumuman atau brosur |
-| 2 | **Tukar nama** | Bila nama properti diganti, copy tidak lagi cocok (cukup spesifik) |
-| 3 | **Bayangkan** | Pembaca bisa membayangkan satu momen setelah membaca hook |
-| 4 | **Kata besar** | Tidak ada pola di § 2 (sebagian dicek otomatis oleh `scripts/check_caption.py`) |
+| 1 | **Paham sekali baca** | Orang awam paham tanpa menebak maksud |
+| 2 | **Baca keras** | Mengalir, tidak seperti pengumuman |
+| 3 | **Tukar nama** | Bila nama properti diganti, copy tidak lagi cocok |
+| 4 | **Kata besar** | Tidak ada pola di § 3 (sebagian dicek `scripts/check_caption.py`) |
 | 5 | **Jujur** | Setiap detail ada di fact sheet, foto, atau catatan staf (**DATA FINAL**) |
 
 ## 6. Sebelum → Sesudah (semua fiktif)
 
-**Villa — Instagram (tenang-membumi)**
+**Villa — Instagram**
 
 Sebelum:
 ```text
@@ -67,13 +78,13 @@ Nikmati pengalaman menginap yang tak terlupakan di Villa Contoh Ubud! Rasakan su
 ```
 Sesudah:
 ```text
-Bangun, buka pintu kaca, dan sawah sudah di depan kaki.
-Dua kamar, satu kolam privat, sarapan Indonesia diantar ke teras setiap pagi.
-Tanggal Desember dapat ditanyakan melalui tautan di bio. 🌿
+Villa 2 kamar dengan pemandangan sawah langsung dari kamar.
+Kolam renang pribadi dan sarapan khas Indonesia di teras setiap pagi.
+Tanggal Desember masih tersedia, pemesanan melalui WhatsApp di bio. 🌿
 #VillaContohUbud #ubud #villaubud
 ```
 
-**Kafe — Facebook (hangat-kekeluargaan)**
+**Kafe — Facebook**
 
 Sebelum:
 ```text
@@ -81,13 +92,13 @@ Kafe Contoh Canggu dengan senang hati mempersembahkan Paket Sarapan Keluarga yan
 ```
 Sesudah:
 ```text
-Paket Sarapan Keluarga, Sabtu–Minggu 07.00–10.00.
+Paket Sarapan Keluarga, Sabtu–Minggu pukul 07.00–10.00.
 Rp185.000 untuk 2 dewasa dan 2 anak, sudah termasuk pajak.
-Nasi goreng kampung, pancake pisang, dan teh jahe hangat.
-Meja di taman terbatas empat; pemesanan melalui tombol Kirim Pesan.
+Menu: nasi goreng kampung, pancake pisang, dan teh jahe hangat.
+Meja di taman hanya 4, pesan melalui tombol Kirim Pesan.
 ```
 
-**Wedding — Instagram (elegan-tertata)**
+**Wedding — Instagram**
 
 Sebelum:
 ```text
@@ -95,12 +106,12 @@ Wujudkan pernikahan impian Anda yang sempurna di venue eksklusif kami dengan pem
 ```
 Sesudah:
 ```text
-Akad di rumput tebing saat matahari mulai turun.
-Paket intimate untuk 50 tamu: dekorasi, tata suara, dan koordinator acara di hari H.
-Jadwal 2027 tersedia melalui tautan di bio.
+Akad nikah di taman tepi tebing saat matahari terbenam.
+Paket intimate untuk 50 tamu: dekorasi, sound system, dan koordinator acara.
+Cek tanggal kosong 2027 melalui tautan di bio.
 ```
 
-**Travel — Reels (informatif-praktis)**
+**Travel — Reels**
 
 Sebelum:
 ```text
@@ -108,9 +119,9 @@ Jelajahi keindahan Labuan Bajo yang menakjubkan! Pengalaman sekali seumur hidup!
 ```
 Sesudah:
 ```text
-Tiga hari di laut: Padar saat pagi, snorkeling siang hari, Pulau Kalong menjelang senja.
-Manta sering terlihat di musimnya, namun tidak dapat dijanjikan.
-Jadwal Februari tersedia melalui tautan di bio.
+Open trip 3 hari 2 malam di kapal: Pulau Padar, snorkeling, dan Pulau Kalong saat sunset.
+Manta sering terlihat di musimnya, tapi tidak bisa dijamin.
+Jadwal Februari ada di tautan bio.
 ```
 
 **Balasan review positif (Google)**
@@ -121,7 +132,7 @@ Terima kasih atas ulasan positif Anda. Kami senang Anda menikmati pengalaman men
 ```
 Sesudah:
 ```text
-Terima kasih telah menyebut sarapan di teras. Tim dapur kami ikut membaca ulasan ini dengan senang. Sampai bertemu lagi di musim hujan, saat wedang jahe sore menjadi favorit tamu kami.
+Terima kasih sudah menyukai sarapan di teras. Ulasan ini kami sampaikan ke tim dapur. Semoga bisa menyambut Anda lagi di Villa Contoh Ubud.
 ```
 (Detail harus ada di ulasan atau fact sheet; nama staf hanya dengan izin.)
 
@@ -141,15 +152,16 @@ The same four traits apply in English: **short, clear, elegant, evocative**. Int
 
 | Stiff | Example | Write instead |
 |---|---|---|
-| Brochure openers | "Indulge in…", "Experience…", "Discover…", "Escape to…" | Start with the scene: "Morning starts on the terrace, above the rice fields." |
-| Travel-ad clichés | "hidden gem", "slice of paradise", "nestled", "tucked away", "breathtaking", "unforgettable" | One concrete detail: "Two bedrooms, one private pool, breakfast served on your terrace." |
+| Brochure openers | "Indulge in…", "Experience…", "Discover…", "Escape to…" | Start with the clearest appealing fact: "Every room faces the rice fields." |
+| Travel-ad clichés | "hidden gem", "slice of paradise", "nestled", "tucked away", "breathtaking", "unforgettable" | One concrete detail: "Two bedrooms, private pool, Indonesian breakfast on your terrace." |
+| Poetic or vague lines | "the rice fields at your feet", "as the sun begins to drop" | Plain words guests search for: "rice field view", "at sunset" |
 | Inflated verbs | "elevate your stay", "curated experiences", "unparalleled luxury" | Say what is actually included |
 | Pushy close | "Look no further! Book now!" | A calm invitation with a clear path: "December dates: link in bio." |
 | Over-explaining Indonesia | "exotic", "mystical island of the gods" | Respectful, specific: "Nyepi, the Balinese Day of Silence, falls on 8 March 2027." |
 
 ### 7b. Persuasion that works in English (honestly)
 
-Same principles as § 3: let readers picture themselves there, be specific, use contrast, show real social proof ("4.8 on Google from 312 reviews"), remove friction ("airport transfer included"), tie to real dates, and state capacity only as fact ("Only five rooms"). International guests trust **specific numbers, inclusions, and policies** (cancellation, deposit, what is not included) more than adjectives.
+Clear first, then appealing (§ 1). Same principles as § 4: let readers picture themselves there, be specific, use contrast, show real social proof ("4.8 on Google from 312 reviews"), remove friction ("airport transfer included"), tie to real dates, and state capacity only as fact ("Only five rooms"). International guests trust **specific numbers, inclusions, and policies** (cancellation, deposit, what is not included) more than adjectives.
 
 ### 7c. Local terms and formats
 
@@ -167,9 +179,9 @@ Escape to paradise at Villa Contoh Ubud! Indulge in an unforgettable experience 
 ```
 After:
 ```text
-Open the glass doors, and the rice fields are right at your feet.
-Two bedrooms, one private pool, Indonesian breakfast served on your terrace.
-December dates: link in bio. 🌿
+Two-bedroom villa with a rice field view from every room.
+Private pool and traditional Indonesian breakfast on your terrace.
+December dates available, book via WhatsApp in bio. 🌿
 #VillaContohUbud #ubud #balivilla
 ```
 
@@ -181,9 +193,9 @@ Make your dream wedding come true at our exclusive clifftop venue with stunning 
 ```
 After:
 ```text
-Vows on the clifftop lawn as the sun begins to drop.
-Intimate package for 50 guests: styling, sound, and an on-the-day coordinator.
-2027 dates via the link in bio.
+Clifftop garden ceremony at sunset.
+Intimate package for 50 guests: decoration, sound system, and wedding coordinator.
+Check available 2027 dates via the link in bio.
 ```
 
 **Travel, Reels caption**
@@ -194,7 +206,7 @@ Explore the breathtaking beauty of Komodo on a once-in-a-lifetime adventure!
 ```
 After:
 ```text
-Three days at sea: Padar at sunrise, snorkelling by noon, Kalong Island at dusk.
+3-day, 2-night boat trip: Padar Island, snorkelling, and Kalong Island at sunset.
 Mantas are often seen in season, but never guaranteed.
 February departures in bio.
 ```
