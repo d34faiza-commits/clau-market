@@ -11,10 +11,10 @@ Video pendek, photo mode, dan profil akun bisnis hospitality di TikTok.
 | Item | Nilai kerja | Sumber | Status | Diverifikasi |
 |---|---|---|---|---|
 | Rasio video | 9:16 (1080×1920 px) | TikTok Help Center | **ASSUMPTION** | — |
-| Panjang caption maksimum | — | TikTok Help Center | **CLIENT CONFIRMATION** | — |
+| Panjang caption maksimum | Sumber tidak seragam (2.200 vs 4.000 karakter); pakai ≤ 2.200 supaya aman | Halaman Discover/pengguna, bukan Help Center | **ASSUMPTION** | Dicek 2026-10-22 |
 | Durasi video maksimum | — | TikTok Help Center | **CLIENT CONFIRMATION** | — |
-| Label konten berbayar (branded content toggle) | Tersedia untuk akun tertentu | TikTok Help Center | **ASSUMPTION** | — |
-| Label konten AI | Tersedia | TikTok Help Center | **ASSUMPTION** | — |
+| Label konten berbayar | Setting **Commercial Content Disclosure** wajib untuk post yang mempromosikan brand/produk/jasa; pilih "Your brand" atau "Branded content" (label "Paid partnership"). Post yang tidak diungkapkan bisa tidak tampil di For You | TikTok Help (ads.tiktok.com: About the Commercial Content Disclosure setting) | **DATA FINAL** | 2026-10-22 (lewat pencarian; halaman belum dibuka langsung karena network policy) |
+| Label konten AI | Wajib untuk konten realistis yang dibuat/diedit signifikan dengan AI: aktifkan setting AI-generated content di Post settings sebelum posting; label otomatis tidak bisa dihapus; melabeli konten asli sebagai AI juga pelanggaran | TikTok Support: AI-generated content | **DATA FINAL** | 2026-10-22 (lewat pencarian; halaman belum dibuka langsung karena network policy) |
 
 ## Praktik Konten Hospitality
 

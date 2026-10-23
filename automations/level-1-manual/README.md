@@ -6,7 +6,7 @@
 
 | Termasuk | Tidak termasuk |
 |---|---|
-| Rutinitas harian, mingguan, dan bulanan yang dijalankan manusia | Bot/script yang publish, schedule, atau membalas otomatis |
+| Rutinitas harian, mingguan, dan bulanan yang dijalankan manusia (jadwal per paket: [commercial/delivery-sop.md](../../commercial/delivery-sop.md)) | Bot/script yang publish, schedule, atau membalas otomatis |
 | Memakai skill & prompt repo di AI chat (copy-paste atau upload) | Integrasi API ke Instagram, TikTok, GBP, atau OTA |
 | Scheduling **manual** di tools platform oleh publisher manusia | AI yang login ke akun client |
 | Checklist QA yang diisi manual | Approval otomatis |
@@ -17,7 +17,7 @@
 
 | # | Langkah | Rujukan | Output |
 |---|---|---|---|
-| 1 | Cek board: kartu **In Progress** maks 3, pilih yang dikerjakan hari ini | [tasks/README.md](https://github.com/d34faiza-commits/clau-content/blob/main/tasks/README.md) | Fokus hari ini |
+| 1 | Cek board ClickUp (Space **Clau AI**): kartu **in progress** maks 3, pilih yang dikerjakan hari ini | [tasks/README.md § Board ClickUp](https://github.com/d34faiza-commits/clau-content/blob/main/tasks/README.md#board-clickup) | Fokus hari ini |
 | 2 | Cek komentar, DM, dan review baru di setiap channel client (24–72 jam setelah publish) | [WORKFLOW Step 9](../../CONTENT-WORKFLOW.md) | Daftar yang perlu dibalas / dieskalasi |
 | 3 | Draft balasan review dengan skill `reply-guest-review`; review negatif berat → eskalasi L3, bukan balasan final | [skill](../../skills/reply-guest-review/SKILL.md) | Draft balasan + level approval |
 | 4 | Draft konten yang jatuh tempo (caption/listing) dengan skill terkait | [index skills](../../README.md#index-skills) | Draft + tabel klaim |
@@ -70,7 +70,7 @@ Repo ini tidak terhubung otomatis ke AI tool. Di Level 1, konteks dibawa **manua
 | Kebutuhan | Jenis tool | Aturan |
 |---|---|---|
 | Drafting & review | AI chat / AI coding agent | Tanpa credential, tanpa data tamu mentah |
-| Task tracking | Board Markdown `tasks/` + GitHub Projects | Board Markdown = source of truth |
+| Task tracking | ClickUp Space **Clau AI** | Tanpa data client nyata di kartu; data client di Client Workspace |
 | Kalender & approval | Dokumen/spreadsheet di workspace client | Bukan di repo |
 | Scheduling & publish | Fitur penjadwalan bawaan platform atau scheduler resmi yang dipilih client | Dijalankan **manusia** dengan akun client; AI tidak punya akses |
 | Media & consent | Media library dan consent register client | Bukan di repo |

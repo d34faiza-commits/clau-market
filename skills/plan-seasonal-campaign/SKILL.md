@@ -13,6 +13,7 @@ description: Plan seasonal promotions for Indonesian hospitality businesses arou
 - `../../rules/06-LOCALIZATION-BAHASA-STANDARD.md`
 - `../../rules/08-APPROVAL-PUBLICATION-STANDARD.md`
 - `../../knowledge/calendar-id/national-holidays.md`
+- `../../knowledge/calendar-id/national-holidays-2026.md` dan `../../knowledge/calendar-id/national-holidays-2027.md` (tanggal SKB tahun yang direncanakan)
 - `../../knowledge/segments` (file sesuai vertical)
 - `../../prompts/promo-seasonal/seasonal-campaign.md`
 - `../../templates/campaign-plan.md`

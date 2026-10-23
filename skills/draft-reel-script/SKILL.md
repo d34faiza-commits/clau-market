@@ -24,7 +24,7 @@ description: Draft short vertical video scripts (Instagram Reels, TikTok) for In
 3. Tulis 2 opsi hook 0–3 detik: visual spesifik + on-screen text ≤6 kata.
 4. Susun shot list per detik. Setiap shot yang menampilkan fakta dicatat sebagai klaim, termasuk klaim visual tersirat (view, ukuran, suasana, waktu seperti sunset).
 5. Tentukan audio: library komersial akun bisnis atau musik berlisensi; tanpa voice-over AI yang meniru orang nyata.
-6. Tulis caption reel: hook ≤125 karakter, 1 CTA, 3–8 hashtag.
+6. Tulis caption reel: hook ≤125 karakter, 1 CTA, 3–5 hashtag (Instagram maks 5).
 7. Tulis daftar "sengaja tidak ditampilkan" beserta alasannya (klaim belum terbukti, consent, budaya).
 8. Jalankan `python scripts/check_caption.py` pada caption bila tersedia, lalu self-check.
 
@@ -41,7 +41,7 @@ description: Draft short vertical video scripts (Instagram Reels, TikTok) for In
 2. Tidak ada shot yang memperkuat klaim tersirat dari nama brand (rule 02 §Kata positioning & nama brand).
 3. Tidak ada orang yang dapat dikenali tanpa consent.
 4. On-screen text ada di setiap shot informatif; hook ≤6 kata.
-5. Caption: hook ≤125 karakter, 1 CTA, 3–8 hashtag, tanpa kata terlarang.
+5. Caption: hook ≤125 karakter, 1 CTA, 3–5 hashtag (Instagram maks 5), tanpa kata terlarang.
 6. Audio berlisensi untuk akun bisnis; tanpa voice clone.
 7. Tidak ada lensa/editing yang mengubah kesan ukuran ruang atau kolam (rule 07).
 

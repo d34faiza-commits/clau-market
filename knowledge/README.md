@@ -6,7 +6,7 @@ Knowledge **reusable** untuk produksi konten hospitality Indonesia. Bukan arsip 
 
 | Folder | Isi |
 |---|---|
-| [calendar-id/](./calendar-id/national-holidays.md) | Pola momen nasional + **[tanggal SKB 2026](./calendar-id/national-holidays-2026.md)** |
+| [calendar-id/](./calendar-id/national-holidays.md) | Pola momen nasional + **[tanggal SKB 2026](./calendar-id/national-holidays-2026.md)** · **[2027](./calendar-id/national-holidays-2027.md)** |
 | [destinations/](./destinations/indonesia-overview.md) | Angle destinasi (bukan fakta tiket/jam buka) |
 | [market/](./market/indonesia-tourism-stats-2025-2026.md) | Statistik BPS/Kemenpar 2025–2026 + [peta agency kompetitor](./market/competitor-content-agencies.md) |
 | [platforms/](./platforms/instagram.md) | Spec IG/TikTok/GBP + **[tren hospitality 2026](./platforms/content-trends-hospitality-2026.md)** |
