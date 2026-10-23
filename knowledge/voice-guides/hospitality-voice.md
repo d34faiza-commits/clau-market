@@ -60,7 +60,7 @@ Satu sapaan per client, konsisten.
 | kemewahan tiada tara | unparalleled luxury |
 | terletak di jantung... (dipakai berulang) | nestled in the heart of... |
 
-Klise boleh hanya bila Voice Card client secara eksplisit mengizinkan. Copy promosi yang singkat, jelas, elegan, dan menggugah (pola kaku & gantinya, psikologi persuasi yang jujur, tes, contoh per vertical): [humanize-copy.md](./humanize-copy.md).
+Klise boleh hanya bila Voice Card client secara eksplisit mengizinkan. Copy promosi yang jelas dulu baru indah, singkat, dan elegan (pola kaku & gantinya, psikologi persuasi yang jujur, tes, contoh per vertical): [humanize-copy.md](./humanize-copy.md).
 
 ## Kata Positioning yang Butuh Dasar
 
@@ -88,7 +88,7 @@ Default kata terlarang di brief (`restrictions.forbidden_terms`) sebaiknya memua
 "Nikmati pengalaman tak terlupakan di villa mewah kami yang terletak di surga tersembunyi Ubud! Fasilitas terbaik untuk liburan impian Anda!!!"
 
 **Sesudah (Tenang & Membumi):**
-"Bangun, buka pintu kaca, dan sawah sudah di depan kaki. Dua kamar, satu kolam privat, dan sarapan Indonesia yang diantar ke teras setiap pagi."
+"Villa 2 kamar dengan pemandangan sawah langsung dari kamar. Kolam renang pribadi dan sarapan khas Indonesia di teras setiap pagi."
 
 Perubahan: superlatif & klise dihapus, diganti fakta spesifik (**DATA FINAL** dari fact sheet), tanda seru dikurangi.
 

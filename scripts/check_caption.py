@@ -49,7 +49,7 @@ GUARANTEE_TERMS = [
 CLICHES = [
     "hidden gem", "surga tersembunyi", "pengalaman tak terlupakan", "unforgettable experience",
     "nestled", "dream getaway", "kemewahan tiada tara", "unparalleled",
-    # Stiff "AI copy" phrases (knowledge/voice-guides/humanize-copy.md § 2).
+    # Stiff "AI copy" phrases (knowledge/voice-guides/humanize-copy.md § 3).
     "momen berharga", "liburan impian", "pernikahan impian", "manjakan diri", "tunggu apa lagi",
     "dengan senang hati mempersembahkan", "sekali seumur hidup", "di tengah hiruk pikuk",
     # Stiff English travel copy (humanize-copy.md § 7a).
