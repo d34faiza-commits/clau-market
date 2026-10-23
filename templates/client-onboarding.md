@@ -44,6 +44,7 @@
 |---|---|---|---|---|
 | Instagram | | business/creator | | |
 | TikTok | | | | |
+| Facebook Page | | | Akses partner via Meta Business Suite (tanpa password) | Group komunitas yang mengizinkan promosi? |
 | Google Business Profile | | | | |
 | OTA (sebutkan) | | | | |
 | WhatsApp Business | | | | Opt-in list? |
@@ -56,6 +57,9 @@
 | L1 | Konten rutin tanpa klaim baru | | | |
 | L2 | Promo, harga, klaim, konten dengan orang, listing | | | |
 | L3 | Ads, kolaborasi, review negatif, krisis, topik sensitif | Owner/GM | | |
+| L3 cadangan | Bila owner/GM tidak bisa dihubungi | (wakil yang ditunjuk owner) | | |
+
+Kanal approval yang disepakati (email / WhatsApp yang diarsipkan / tool). Approval via WhatsApp sah bila membalas pesan yang memuat Record ID atau versi konten ([delivery-sop § 9](../commercial/delivery-sop.md#9-realita-lapangan-cara-menanganinya)). Jam layanan CLAU: Senin–Jumat 09.00–17.00 waktu lokal client (WIB/WITA/WIT), di luar libur nasional.
 
 ## 6. Consent & Privacy
 

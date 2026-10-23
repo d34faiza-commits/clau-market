@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Monthly Report"
+  short_description: "Honest monthly content report: package quota, SLA, platform metrics as-is"
+  default_prompt: "Use $build-monthly-report to draft this month's report for this hospitality client."

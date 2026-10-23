@@ -29,7 +29,7 @@ Catatan untuk A: baris yang lolos **setelah diubah** pada versi yang sama tidak 
 | Status | Syarat | Batas |
 |---|---|---|
 | **Self-score** | Hanya pembuat draft (AI atau creator) yang menghitung | Ditulis "self-score". Kesiapan client nyata maks **60** |
-| **Independent score** | Minimal satu reviewer independen ([rule 08](../rules/08-APPROVAL-PUBLICATION-STANDARD.md)) menghitung ulang dari file yang sama | Tanpa batas. Selisih > 5 poin dengan self-score dicatat sebagai temuan |
+| **Independent score** | Minimal satu reviewer independen ([rule 08](../rules/08-APPROVAL-PUBLICATION-STANDARD.md)) menghitung ulang dari file yang sama, memakai [lembar kerja](./independent-review-worksheet.md) | Tanpa batas. Selisih > 5 poin dengan self-score dicatat sebagai temuan |
 
 ## Kesiapan Client Nyata
 

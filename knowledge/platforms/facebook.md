@@ -45,7 +45,7 @@ Facebook Page, feed post, Reels, Stories, Event, Group komunitas, dan rekomendas
 3. **Satu CTA**: link langsung boleh di Facebook (berbeda dengan IG yang lewat bio), atau tombol Page (Kirim Pesan, Pesan Sekarang).
 4. **Hashtag 0–3** di akhir: brand + lokasi.
 
-Adaptasi dari caption IG: buang daftar hashtag, pindahkan info praktis ke atas, ganti "link di bio" dengan link langsung atau tombol. Pengecekan mekanis: `python scripts/check_caption.py <file> --min-tags 1 --max-tags 3` (atau tanpa hashtag sama sekali).
+Adaptasi dari caption IG: buang daftar hashtag, pindahkan info praktis ke atas, ganti "link di bio" dengan link langsung atau tombol. Pengecekan mekanis: `python scripts/check_caption.py <file> --platform facebook` (hashtag 1–3, atau tanpa hashtag sama sekali).
 
 ## Disclosure & Kolaborasi
 

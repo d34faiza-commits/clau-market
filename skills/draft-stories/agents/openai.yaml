@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft Stories"
+  short_description: "3-5 frame Instagram/Facebook Stories with verified daily info and one CTA"
+  default_prompt: "Use $draft-stories to plan today's Stories sequence for this hospitality client."

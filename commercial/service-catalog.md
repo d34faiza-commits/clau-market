@@ -33,7 +33,7 @@ Satuan "konten feed" = satu post (single, carousel, atau Reels) berisi caption +
 | Listing OTA / website | — | Refresh 1 listing per kuartal | Refresh 2 listing per kuartal |
 | Laporan | Laporan bulanan 1 halaman | Laporan + call 30 menit | Laporan + call mingguan 30 menit |
 | Waktu respon draft balasan review | 2 hari kerja | 1 hari kerja | 1 hari kerja (prioritas) |
-| Skill yang dipakai | `build-content-calendar`, `draft-caption`, `draft-reel-script`, stories, `reply-guest-review` | + `plan-seasonal-campaign`, `localize-content`, `write-ota-listing` | Semua skill Pilar 1 |
+| Skill yang dipakai | `build-content-calendar`, `draft-caption`, `draft-reel-script`, `draft-stories`, `reply-guest-review`, `build-monthly-report` | + `plan-seasonal-campaign`, `localize-content`, `write-ota-listing` | Semua skill Pilar 1 |
 
 **Setup (sekali, wajib di semua paket, ±2 minggu):** fact sheet vertical + Konfirmasi Fakta oleh klien, Voice Card, approval matrix (siapa L1/L2/L3), cek consent register foto tamu/staf, audit 9 post terakhir dengan temuan klaim/privasi, kalender bulan pertama.
 

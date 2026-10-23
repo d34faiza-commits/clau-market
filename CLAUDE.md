@@ -1,6 +1,6 @@
 # CLAUDE.md — clau-market
 
-> Peta repo untuk AI agent. Baca file ini dulu sebelum menjelajah repo. Last updated: 2026-10-13
+> Peta repo untuk AI agent. Baca file ini dulu sebelum menjelajah repo. Last updated: 2026-10-23
 
 > 🔔 **Sesi baru: baca [status & handoff CLAU AI](https://github.com/d34faiza-commits/clau-content/blob/main/docs/status.md) dulu** (otoritas, keputusan yang sudah diambil, status, pekerjaan terbuka). Repo Jerco milik Pak Indra: jangan disentuh tanpa persetujuan beliau.
 
@@ -19,10 +19,11 @@
 |---|---|
 | `CONTENT-WORKFLOW.md` · `AGENTS.md` | Workflow konten 9 langkah · instruksi agent Pilar 1 (v1.1.0 Approved) |
 | `rules/01–09` | Standard konten (integritas, klaim, voice, privacy, platform, bahasa, AI visual, approval, data) |
-| `skills/` · `prompts/` | 7 skill agent · prompt library |
+| `skills/` · `prompts/` | 9 skill agent · prompt library |
 | `knowledge/` | Segment, platform, kalender, destinasi, voice guide, market, regulasi |
 | `templates/` · `schemas/` | Template brief/approval + fact sheet per vertical (akomodasi, F&B, wedding, travel) · `content-brief.schema.json` (v1.4) |
-| `qa/` | Claim verification (per kalimat), content review, privacy, visual AI, publication, scoring rubric |
+| `qa/` | Claim verification (per kalimat), content review, privacy, visual AI, publication, scoring rubric, lembar kerja review independen (manusia) |
+| `commercial/` | Paket jual Pilar 1 (Approved v1.0.0): katalog, discovery, proposal, FAQ, SOP delivery (+ realita lapangan), template kontrak & DPA (belum boleh ditandatangani sebelum cek hukum). Harga tidak di repo |
 | `examples/` | Pilot **fiktif** (SIMULASI) untuk 4 vertical fokus: villa, kafe, wedding, travel, plus `pilot-2/` (uji ulang alur lengkap). Nama properti fiktif wajib mengandung "Contoh" |
 | `automations/` | Otomasi bertahap; `level-1-manual/` = alur manual yang berlaku sekarang (dirujuk `core/docs/getting-started.md`) |
 | `scripts/` | `validate.py`, `check_caption.py` (+ `test_check_caption.py`), `sync-submodules.sh`, `check-core-pins.sh` |
