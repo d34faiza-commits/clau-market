@@ -86,6 +86,11 @@ class StiffCopy(unittest.TestCase):
         text = "Manjakan diri dan ciptakan momen berharga. Tunggu apa lagi?"
         self.assertEqual(term_hits(text, CLICHES), ["momen berharga", "manjakan diri", "tunggu apa lagi"])
 
+    def test_english_cliches_caught(self):
+        from check_caption import CLICHES
+        text = "Escape to paradise at our hidden gem, tucked away in the hills. Look no further!"
+        self.assertEqual(term_hits(text, CLICHES), ["hidden gem", "tucked away", "look no further", "escape to paradise"])
+
     def test_concrete_copy_passes(self):
         from check_caption import CLICHES
         self.assertEqual(term_hits("Jam 6 pagi, kabut masih nempel di sawah depan teras.", CLICHES), [])

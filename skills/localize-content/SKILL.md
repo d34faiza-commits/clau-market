@@ -11,6 +11,7 @@ description: Localize hospitality marketing content between Bahasa Indonesia and
 - `../../rules/03-CLIENT-BRAND-VOICE-STANDARD.md`
 - `../../rules/06-LOCALIZATION-BAHASA-STANDARD.md`
 - `../../knowledge/voice-guides/hospitality-voice.md`
+- `../../knowledge/voice-guides/humanize-copy.md` (§ 7 English copy: short, clear, elegant, evocative; property/investment topics out of scope)
 - `../../knowledge/destinations/indonesia-overview.md`
 
 ## Workflow
@@ -22,6 +23,7 @@ description: Localize hospitality marketing content between Bahasa Indonesia and
 5. Sesuaikan format: mata uang (Rp/IDR), angka, tanggal, satuan.
 6. Cek sensitivitas budaya/agama di bahasa target.
 7. Cek paritas: setiap klaim muncul di kedua bahasa, tidak ada klaim tambahan.
+7a. Versi English ditulis ulang dengan gaya [humanize-copy.md § 7](../../knowledge/voice-guides/humanize-copy.md#7-english-copy-bali-lombok-gili-labuan-bajo-and-other-international-markets), bukan terjemahan literal; hindari klise di § 7a.
 8. Rekomendasikan review fluent/native speaker untuk konten penting (listing, website, press).
 
 ## Output

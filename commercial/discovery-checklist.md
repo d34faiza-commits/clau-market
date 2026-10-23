@@ -46,6 +46,7 @@ Bila salah satu muncul, jelaskan aturan CLAU dengan sopan. Kalau klien tetap mem
 | "Jamin naik 10 ribu followers / full booked" | Kami tidak menjamin angka; kami menjamin deliverable & kepatuhan | Katalog § 5 |
 | Usaha di luar hospitality & tourism | Belum dilayani | AI-CONSTITUTION § 2 |
 | Paket wedding untuk WNA, open trip tanpa izin operator, promosi alkohol ke audiens muda | Butuh review legal dulu | [regulasi](../knowledge/regulasi/hospitality-content-2026.md), TASK-053 |
+| Promosi **jual villa/tanah atau investasi** ke WNA ("own freehold", "guaranteed ROI") | Di luar layanan CLAU; WNA tidak dapat memegang Hak Milik | UU 5/1960 Pasal 21; [humanize-copy § 7e](../knowledge/voice-guides/humanize-copy.md) |
 
 ## 5. Audit Singkat Akun (gratis, ±30 menit, sebelum proposal)
 
