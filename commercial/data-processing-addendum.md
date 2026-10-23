@@ -27,7 +27,7 @@ Lampiran ini bagian dari Perjanjian Layanan Konten Nomor [ ] antara **Penyedia**
 3. Membatasi akses ke personel yang membutuhkan, terikat kerahasiaan, dan memakai akses berbasis peran (tanpa berbagi kata sandi).
 4. Menyimpan data Klien di workspace Klien yang terpisah dari klien lain, tidak di repositori kode.
 5. Membantu Klien menanggapi permintaan subjek data (akses, koreksi, penarikan persetujuan, penurunan konten) paling lambat **[2] hari kerja** setelah diminta, supaya Klien dapat memenuhi tenggat UU PDP.
-6. Memberi tahu Klien tertulis paling lambat **24 jam** setelah mengetahui kegagalan pelindungan data yang menyangkut data Klien, berisi data yang terdampak, waktu, penyebab yang diketahui, dan langkah penanganan, supaya Klien dapat memenuhi kewajiban pemberitahuan **3×24 jam** (rujukan: UU PDP Pasal 46, **ASSUMPTION** sampai dicek konsultan hukum).
+6. Memberi tahu Klien tertulis paling lambat **24 jam** setelah mengetahui kegagalan pelindungan data yang menyangkut data Klien, berisi data yang terdampak, waktu, penyebab yang diketahui, dan langkah penanganan, supaya Klien dapat memenuhi kewajiban pemberitahuan **3×24 jam** (UU PDP Pasal 46, **DATA FINAL**; isi minimal laporan prosesor menurut PP 33/2026 = **ASSUMPTION**, lihat [riset legal](./legal-tax-research-2026.md) A6–A7).
 7. Tidak menjual, menyewakan, atau memakai data Klien untuk melatih model AI.
 
 ## 4. Subprosesor & Transfer ke Luar Negeri
@@ -38,7 +38,7 @@ Lampiran ini bagian dari Perjanjian Layanan Konten Nomor [ ] antara **Penyedia**
 | [Penyedia workspace/penyimpanan dokumen] | Menyimpan fact sheet, draft, approval | [ ] | Data Klien |
 
 1. Penyedia memberi tahu Klien paling lambat [14] hari sebelum menambah atau mengganti subprosesor; Klien boleh keberatan dengan alasan wajar.
-2. Pemrosesan oleh subprosesor di luar wilayah Indonesia dilakukan dengan pelindungan yang setara dan data minimal (disamarkan). **RISK:** syarat transfer data pribadi ke luar wilayah hukum Indonesia (UU PDP Pasal 56) wajib dicek konsultan hukum sebelum klien pertama.
+2. Pemrosesan oleh subprosesor di luar wilayah Indonesia dilakukan dengan pelindungan yang setara dan data minimal (disamarkan). **RISK:** UU PDP Pasal 56 mensyaratkan negara tujuan yang perlindungannya setara/lebih tinggi, **atau** perlindungan memadai dan mengikat, **atau** (terakhir) persetujuan subjek data; rinciannya di PP 33/2026 yang berlaku **16 Januari 2027**. Jalur yang dipakai CLAU wajib diputuskan pengacara sebelum klien pertama ([riset legal](./legal-tax-research-2026.md) A4, A8).
 
 ## 5. Keamanan
 
@@ -66,6 +66,6 @@ Klien dapat meminta penjelasan tertulis tentang penerapan lampiran ini paling ba
 | # | Hal yang perlu dicek | Label |
 |---|---|---|
 | 1 | Pembagian peran pengendali/prosesor untuk foto yang diambil Penyedia sendiri (bila nanti ada produksi) | **RISK** |
-| 2 | Pasal 46 (pemberitahuan kegagalan) dan Pasal 56 (transfer luar negeri) beserta peraturan pelaksananya | **ASSUMPTION** |
-| 3 | Perlu tidaknya DPIA dan pejabat pelindungan data untuk skala Penyedia | **NEXT ACTION** |
+| 2 | Pasal 46 & 56 sudah dikutip di [riset legal](./legal-tax-research-2026.md) § A; yang perlu dicek: rincian PP 33/2026 (berlaku 16 Jan 2027) untuk prosesor, transfer lintas negara, dan DPIA bila memakai AI | **ASSUMPTION** |
+| 3 | Perlu tidaknya DPIA (PP 33/2026, kriteria risiko tinggi) dan PPDP untuk skala Penyedia & klien kecil | **NEXT ACTION** |
 | 4 | Bentuk bukti persetujuan foto tamu yang cukup (consent register Klien) | **CLIENT CONFIRMATION** |

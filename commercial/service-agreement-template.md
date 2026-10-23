@@ -94,8 +94,10 @@ Tidak ada pihak yang dianggap lalai bila kewajibannya terhambat oleh keadaan di 
 
 | # | Hal yang perlu dicek | Label |
 |---|---|---|
-| 1 | Bentuk badan usaha penyedia & kewajiban PPN/PPh atas jasa | **CLIENT CONFIRMATION** (owner) |
+| 1 | Bentuk badan usaha penyedia & kewajiban PPN/PPh atas jasa (bahan: [riset legal & pajak](./legal-tax-research-2026.md) § C–D: orang pribadi/PT Perorangan tetap bisa PPh Final 0,5% menurut PP 20/2026) | **CLIENT CONFIRMATION** (owner) |
 | 2 | Kecukupan batas tanggung jawab (Pasal 8.4) dan keabsahannya | **RISK** |
 | 3 | Pilihan forum: Pengadilan Negeri domisili atau BANI | **NEXT ACTION** |
 | 4 | Pasal 6: kepemilikan konten berbantuan AI menurut UU Hak Cipta | **ASSUMPTION** |
-| 5 | Kecocokan dengan tanda tangan elektronik (UU ITE & PP 71/2019) bila ditandatangani daring | **ASSUMPTION** |
+| 5 | Tanda tangan elektronik: sah menurut UU ITE Pasal 11; tersertifikasi lebih kuat ([riset legal](./legal-tax-research-2026.md) B4). Pilih tersertifikasi atau tidak | **NEXT ACTION** |
+| 6 | Apakah klien (pelaku usaha) dihitung "konsumen" menurut UU Perlindungan Konsumen Pasal 18 (klausula baku) atau murni B2B ([riset legal](./legal-tax-research-2026.md) B3) | **RISK** |
+| 7 | Klausul tambahan agar tetap patuh setelah PP 33/2026 berlaku 16 Jan 2027 | **NEXT ACTION** |
