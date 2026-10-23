@@ -80,6 +80,17 @@ class PlatformPresets(unittest.TestCase):
         self.assertIn("5 hashtags, expected 1-3", check(caption, default_args(min_tags=1, max_tags=3), []))
 
 
+class StiffCopy(unittest.TestCase):
+    def test_ai_cliches_caught(self):
+        from check_caption import CLICHES
+        text = "Manjakan diri dan ciptakan momen berharga. Tunggu apa lagi?"
+        self.assertEqual(term_hits(text, CLICHES), ["momen berharga", "manjakan diri", "tunggu apa lagi"])
+
+    def test_concrete_copy_passes(self):
+        from check_caption import CLICHES
+        self.assertEqual(term_hits("Jam 6 pagi, kabut masih nempel di sawah depan teras.", CLICHES), [])
+
+
 class EmojiCount(unittest.TestCase):
     def test_modifiers_and_sequences_count_once(self):
         # Skin tone, variation selector and ZWJ family sequences are one visible emoji each.
