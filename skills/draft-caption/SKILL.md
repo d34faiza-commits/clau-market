@@ -15,7 +15,7 @@ Baca sebelum bekerja:
 - `../../rules/03-CLIENT-BRAND-VOICE-STANDARD.md`
 - `../../rules/05-PLATFORM-STANDARD.md`
 - `../../knowledge/voice-guides/hospitality-voice.md`
-- `../../knowledge/voice-guides/humanize-copy.md` (tulisan terdengar manusia, tes baca keras & tukar nama)
+- `../../knowledge/voice-guides/humanize-copy.md` (copy singkat, jelas, elegan, menggugah; psikologi persuasi yang jujur)
 - `../../knowledge/platforms/instagram.md`, `../../knowledge/platforms/tiktok.md`, atau `../../knowledge/platforms/facebook.md` sesuai channel
 - `../../prompts/caption/draft-instagram-caption.md`
 
@@ -50,7 +50,7 @@ Baca sebelum bekerja:
 7. Klaim tersirat ikut dicek: setiap kalimat yang menggambarkan apa yang *akan dialami* tamu (view, jarak/waktu tempuh, suasana sepi/ramai, kapasitas, kecepatan, kebersihan, "bisa lihat X dan Y sekaligus") dicatat sebagai klaim di tabel klaim dan harus **DATA FINAL**; kalau tidak, kalimatnya dihapus atau diubah. Contoh pilot: "view sawah dan kolam dua-duanya kelihatan" adalah klaim view yang butuh foto bukti. Kalimat pembuka suasana juga dihitung: "ombak pagi sudah menunggu" atau CTA "buat pagi sebelum surf" menyiratkan lokasi dekat pantai, dan "pagi yang tenang" menyiratkan suasana sepi — keduanya klaim (review independen pilot Kafe Contoh Canggu, 2026-10-09). Klaim view atau layout ("laut di belakang Anda", "satu meja panjang") butuh baris fact sheet; kapasitas pembanding selalu dengan jenis layout (pilot Wedding). Syarat keselamatan di fact sheet (bisa berenang, level fisik) dan kondisi itinerary (spot bisa diganti, berangkat bila kuota minimum terpenuhi) wajib ikut ditulis, bukan dihilangkan (pilot Trip Labuan Bajo). Revisi atas temuan diterapkan ke **semua kanal & bahasa** di draft (IG, GBP, TikTok, Varian EN), dan terjemahan nama area/fasilitas tidak boleh menambah klaim ("Cliff Lawn" = rumput, "Hall" = ruang tertutup) — pakai nama asli + deskripsi dari fact sheet (cek ulang v2, 2026-10-09).
 8. Hook (baris pertama) ≤125 karakter; alt text ada untuk setiap gambar/slide.
 9. Tidak ada kata positioning tanpa dasar (mewah/luxury/premium/eksklusif/5-star) dan tidak ada kalimat yang memperkuat klaim tersirat dari nama brand (rule 02).
-10. Lulus 5 tes di [humanize-copy.md § 3](../../knowledge/voice-guides/humanize-copy.md#3-tes-sebelum-diserahkan-wajib-1-menit): baca keras, tukar nama, staf, kata besar, jujur. Detail yang terdengar seperti cerita harus ada di fact sheet/foto/catatan staf.
+10. Lulus 5 tes di [humanize-copy.md § 5](../../knowledge/voice-guides/humanize-copy.md#5-tes-sebelum-diserahkan-1-menit): baca keras, tukar nama, bayangkan, kata besar, jujur. Detail yang terdengar seperti cerita harus ada di fact sheet/foto/catatan staf.
 
 ## Safety Boundary
 

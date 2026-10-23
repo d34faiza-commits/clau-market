@@ -15,7 +15,7 @@ Prospek ─► Discovery call ─► Audit singkat akun (gratis, 3 post terakhir
 | Tahap | Dokumen | Keluaran |
 |---|---|---|
 | 1. Kualifikasi | [discovery-checklist.md](./discovery-checklist.md) | Go / no-go + paket yang cocok |
-| 2. Penawaran | [service-catalog.md](./service-catalog.md) · [proposal-template.md](./proposal-template.md) · [client-faq.md](./client-faq.md) · [sales-scripts.md](./sales-scripts.md) (pesan WA, post FB, jawab keberatan) | Proposal terkirim |
+| 2. Penawaran | [service-catalog.md](./service-catalog.md) · [proposal-template.md](./proposal-template.md) · [client-faq.md](./client-faq.md) · [sales-scripts.md](./sales-scripts.md) (pesan WA, post FB, jawaban keberatan) | Proposal terkirim |
 | 3. Kontrak | [service-agreement-template.md](./service-agreement-template.md) · [data-processing-addendum.md](./data-processing-addendum.md) · [legal-tax-research-2026.md](./legal-tax-research-2026.md) (bahan pengacara & konsultan pajak) | Perjanjian + DPA ditandatangani |
 | 4. Setup | [../templates/client-onboarding.md](../templates/client-onboarding.md) · fact sheet per vertical | Fakta dikonfirmasi klien, Voice Card, approval matrix |
 | 5. Delivery | [delivery-sop.md](./delivery-sop.md) · [../CONTENT-WORKFLOW.md](../CONTENT-WORKFLOW.md) · [../automations/level-1-manual/README.md](../automations/level-1-manual/README.md) | Konten approved, log publikasi |
