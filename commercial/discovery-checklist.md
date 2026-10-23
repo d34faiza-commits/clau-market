@@ -1,6 +1,6 @@
 # Discovery Checklist — Kualifikasi Calon Klien
 
-> **Status: Draft (2026-10-22).** Dipakai saat discovery call (30–45 menit) dan audit singkat akun. Catatan terisi disimpan di Client Workspace, **tidak** di repo.
+> **Status:** **Approved v1.0.0 (2026-10-23)**: owner Dea Karisna (d34faiza) menjawab paket keputusan TASK-067 K1–K8 "setuju semua". Dipakai saat discovery call (30–45 menit) dan audit singkat akun. Catatan terisi disimpan di Client Workspace, **tidak** di repo.
 
 ## 1. Profil (5 menit)
 

@@ -15,7 +15,7 @@ Baca sebelum bekerja:
 - `../../rules/03-CLIENT-BRAND-VOICE-STANDARD.md`
 - `../../rules/05-PLATFORM-STANDARD.md`
 - `../../knowledge/voice-guides/hospitality-voice.md`
-- `../../knowledge/platforms/instagram.md` atau `../../knowledge/platforms/tiktok.md` sesuai channel
+- `../../knowledge/platforms/instagram.md`, `../../knowledge/platforms/tiktok.md`, atau `../../knowledge/platforms/facebook.md` sesuai channel
 - `../../prompts/caption/draft-instagram-caption.md`
 
 ## Workflow
@@ -25,7 +25,7 @@ Baca sebelum bekerja:
 3. Cek segment knowledge vertical (`../../knowledge/segments`) untuk angle konten yang relevan.
 4. Tulis hook sensory dan spesifik di baris pertama.
 5. Buat 3 varian (storytelling, informatif, conversational) sesuai Voice Card.
-6. Tambahkan 1 CTA dan 3–5 hashtag relevan (Instagram menerima maks 5 hashtag per post/Reels sejak 18 Des 2025; lihat [instagram.md](../../knowledge/platforms/instagram.md)).
+6. Tambahkan 1 CTA dan 3–5 hashtag relevan (Instagram menerima maks 5 hashtag per post/Reels sejak 18 Des 2025; lihat [instagram.md](../../knowledge/platforms/instagram.md)). Untuk **Facebook**: info praktis di 125 karakter pertama, link langsung boleh, hashtag 0–3 ([facebook.md](../../knowledge/platforms/facebook.md)); jangan menyalin caption IG apa adanya.
 7. Tulis alt text **per gambar/slide** (carousel 5 slide = 5 alt text), deskriptif, tanpa hashtag.
 8. Isi tabel klaim, termasuk **klaim tersirat**: baca ulang setiap varian kalimat per kalimat dan catat semua gambaran pengalaman (view, jarak, suasana, kapasitas) sebagai klaim. Lalu jalankan self-check.
 

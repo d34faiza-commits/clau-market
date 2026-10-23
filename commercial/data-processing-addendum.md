@@ -1,6 +1,6 @@
 # Lampiran C — Pemrosesan Data Pribadi (template)
 
-> **Status: Draft (2026-10-22), disusun AI agent. BUKAN nasihat hukum.** Disusun mengikuti UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP) dan aturan internal (`core/AI-BOUNDARY.md` § Data ke Provider AI, [rule 04](../rules/04-PRIVACY-CONSENT-UGC-STANDARD.md), [rule 09](../rules/09-DATA-CLASSIFICATION.md)). Rujukan pasal di bawah wajib dicek konsultan hukum (TASK-053) sebelum dipakai.
+> **Status: template disetujui owner (2026-10-23, TASK-067 K1–K8), BELUM BOLEH DITANDATANGANI** sampai dicek konsultan hukum (K6c, TASK-053). Disusun AI agent. **BUKAN nasihat hukum.** Disusun mengikuti UU No. 27 Tahun 2022 tentang Pelindungan Data Pribadi (UU PDP) dan aturan internal (`core/AI-BOUNDARY.md` § Data ke Provider AI, [rule 04](../rules/04-PRIVACY-CONSENT-UGC-STANDARD.md), [rule 09](../rules/09-DATA-CLASSIFICATION.md)). Rujukan pasal di bawah wajib dicek konsultan hukum (TASK-053) sebelum dipakai.
 
 Lampiran ini bagian dari Perjanjian Layanan Konten Nomor [ ] antara **Penyedia** dan **Klien**.
 

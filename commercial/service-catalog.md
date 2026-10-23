@@ -1,6 +1,6 @@
 # Katalog Layanan — Pilar 1 AI Marketing (Hospitality)
 
-> **Status: Draft (2026-10-22)**, menunggu keputusan owner (paket keputusan TASK-067). Isi paket (**ASSUMPTION** sampai disetujui) disusun dari skill yang sudah ada di repo ini dan dari celah pasar di [competitor-content-agencies.md](../knowledge/market/competitor-content-agencies.md). Harga ada di price sheet privat owner, bukan di sini.
+> **Status:** **Approved v1.0.0 (2026-10-23)**: owner Dea Karisna (d34faiza) menjawab paket keputusan TASK-067 K1–K8 "setuju semua". Isi paket disusun dari skill yang ada di repo ini dan celah pasar di [competitor-content-agencies.md](../knowledge/market/competitor-content-agencies.md). Facebook ditambahkan atas permintaan owner 2026-10-23. Harga ada di price sheet privat owner, bukan di sini.
 
 ## 1. Posisi
 
@@ -16,12 +16,14 @@ Vertical fokus: **villa/guesthouse/homestay, restoran/cafe/beach club, wedding &
 
 ## 2. Paket Bulanan
 
+Konten yang tayang di IG **dan** Facebook dihitung satu konten: caption diadaptasi per platform ([facebook.md](../knowledge/platforms/facebook.md)), bukan disalin.
+
 Satuan "konten feed" = satu post (single, carousel, atau Reels) berisi caption + hashtag + tabel klaim + brief visual. "Naskah Reels" = hook, shot list, teks layar, caption; **rekaman dibuat tim klien** (atau add-on mitra produksi).
 
 | Isi per bulan | **Esensial** | **Growth** | **Signature** |
 |---|---|---|---|
 | Cocok untuk | Villa kecil, kafe, homestay, 1–2 kanal | Villa/hotel butik, resto, WO, operator trip | Properti/grup dengan beberapa kanal, butuh konten harian |
-| Kanal | IG + Google Business Profile | IG + TikTok + GBP + 1 OTA | Hingga 4 kanal + 2 OTA |
+| Kanal | GBP + **satu** dari IG atau Facebook Page | IG + Facebook + TikTok + GBP + 1 OTA | Hingga 5 kanal + 2 OTA |
 | Strategi | Kalender konten bulanan | Kalender + 1 rencana kampanye musiman | Strategi 30 hari (checkpoint owner) + 2 rencana kampanye |
 | Konten feed | 12 (termasuk 4 naskah Reels) | 20 (termasuk 8 naskah Reels) | 30 caption + 12 konsep visual + 8 naskah video |
 | Stories | 8 set (3 frame) | 12 set | 20 set |
@@ -35,7 +37,7 @@ Satuan "konten feed" = satu post (single, carousel, atau Reels) berisi caption +
 
 **Setup (sekali, wajib di semua paket, ±2 minggu):** fact sheet vertical + Konfirmasi Fakta oleh klien, Voice Card, approval matrix (siapa L1/L2/L3), cek consent register foto tamu/staf, audit 9 post terakhir dengan temuan klaim/privasi, kalender bulan pertama.
 
-**Kontrak minimum:** 3 bulan, lalu bulanan (ASSUMPTION, keputusan owner).
+**Kontrak minimum:** 3 bulan, lalu bulanan; bayar di muka; setup sekali (K3, **DATA FINAL** keputusan owner).
 
 ## 3. Add-on
 
@@ -45,6 +47,7 @@ Satuan "konten feed" = satu post (single, carousel, atau Reels) berisi caption +
 | Listing OTA tambahan | Tulis/refresh 1 listing | Klien yang mengubah teks di extranet OTA |
 | Pack balasan review | +50 balasan | Review negatif tetap L3 (owner/GM klien) |
 | Penjadwalan oleh tim CLAU | Manusia CLAU menjadwalkan konten **yang sudah disetujui** lewat akses partner (Meta Business Suite / manager GBP) | Tanpa password dibagikan; akses bisa dicabut klien kapan saja |
+| Facebook Event / Group | 1 Event bertanggal atau 4 post jawaban di Group komunitas (hanya group yang mengizinkan promosi bisnis) | Diposting oleh klien atau tim CLAU (manusia); tanpa akun palsu |
 | Koordinasi produksi foto/video | Brief + shot list ke fotografer/videografer pilihan klien | Biaya produksi dibayar ke mitra langsung |
 
 ## 4. Per Vertical: yang selalu kami jaga
@@ -88,4 +91,4 @@ Satuan "konten feed" = satu post (single, carousel, atau Reels) berisi caption +
 | Koreksi konten yang salah tayang | Draft koreksi/takedown ≤ 4 jam kerja setelah dilaporkan |
 | Laporan bulanan | Hari kerja ke-5 bulan berikutnya, angka apa adanya dari insight platform |
 
-Semua target di atas **ASSUMPTION** sampai disetujui owner dan diuji pada klien pilot.
+Target di atas disetujui owner sebagai target awal (K7) dan diukur ulang setelah 2 bulan klien pilot. "Hari kerja" = Senin–Jumat di luar libur nasional & cuti bersama SKB; jam layanan 09.00–17.00 waktu lokal klien (WIB/WITA/WIT). Di Bali, Nyepi dan hari Galungan/Kuningan dihitung bukan hari kerja. CLAU tidak menjanjikan layanan 24 jam.

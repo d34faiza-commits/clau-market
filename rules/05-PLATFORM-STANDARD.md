@@ -80,5 +80,6 @@ Klasifikasi wajib: **DATA FINAL**, **ASSUMPTION**, **CLIENT CONFIRMATION**, **FI
 - [knowledge/platforms/instagram.md](../knowledge/platforms/instagram.md)
 - [knowledge/platforms/tiktok.md](../knowledge/platforms/tiktok.md)
 - [knowledge/platforms/google-business.md](../knowledge/platforms/google-business.md)
+- [knowledge/platforms/facebook.md](../knowledge/platforms/facebook.md)
 - [qa/publication-checklist.md](../qa/publication-checklist.md)
 - Help center resmi masing-masing platform (wajib dicek tanggal akses)
