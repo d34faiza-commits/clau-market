@@ -75,6 +75,52 @@ Pertanyaan untuk konsultan pajak: (1) Orang pribadi atau PT Perorangan untuk CLA
 2. **Paralel:** kirim [template kontrak](./service-agreement-template.md), [DPA](./data-processing-addendum.md), dokumen ini, dan daftar L1–L6 ke pengacara. Minta jawaban tertulis atas pertanyaan di § A, § B, dan bagian "Catatan untuk Konsultan Hukum" di template.
 3. **Sebelum 16 Januari 2027:** DPA dan kebijakan internal CLAU sudah mengikuti PP 33/2026 (hasil dari langkah 2).
 
+## F. Skala 100 Klien: Perlu CV/PT dan Pajak Apa? (ditambahkan 2026-10-24)
+
+### F1. Perkiraan omzet (ilustrasi, harga = rekomendasi di kartu ClickUp TASK-067, **ASSUMPTION**)
+
+| Campuran 100 klien | Omzet per tahun |
+|---|---|
+| 100 × Esensial (Rp3,5 jt) | ±Rp4,2 miliar |
+| 60 Esensial + 30 Growth (Rp7,5 jt) + 10 Signature (Rp12,5 jt) | ±Rp6,7 miliar |
+| 40 Esensial + 40 Growth + 20 Signature | ±Rp8,3 miliar |
+
+Kesimpulan: dengan 100 klien, omzet **hampir pasti melewati Rp4,8 miliar/tahun**, tetapi masih **di bawah Rp15 miliar**.
+
+### F2. Akibat hukum & pajak bila omzet > Rp4,8 miliar
+
+| # | Akibat | Isi | Label | Sumber |
+|---|---|---|---|---|
+| F2a | PPh Final 0,5% berhenti | Batas PP 55/2022 & PP 20/2026 Rp4,8 miliar; setelah terlampaui, PPh final dipakai sampai akhir tahun pajak itu, lalu tahun berikutnya tarif umum + **wajib pembukuan** | Batas **DATA FINAL**; aturan "sampai akhir tahun" **ASSUMPTION** (satu sumber sekunder) | pajak.go.id "Cermati 3 Hal Ini Saat Omzet Lebihi Rp4,8 Miliar"; DDTC News; pajak.com |
+| F2b | Wajib PKP (PPN) | Peredaran bruto > Rp4,8 miliar dalam satu tahun buku → wajib dikukuhkan PKP, memungut PPN mulai tahun buku berikutnya | **DATA FINAL** | DDTC News (PMK 164/2023 Pasal 17) |
+| F2c | Tarif PPN jasa | 12% × DPP nilai lain 11/12 = **efektif 11%** untuk jasa non-mewah (PMK 131/2024); tidak ada perubahan untuk 2026 menurut pernyataan pemerintah Agustus 2025. PPN ditagihkan ke klien di atas harga jasa | **DATA FINAL** (≥ 2 sumber) | DDTC News (beberapa artikel) |
+| F2d | Orang pribadi (tarif umum) | Tarif progresif Pasal 17 UU PPh (UU HPP): 5% s.d. Rp60 jt; 15% >Rp60–250 jt; 25% >Rp250–500 jt; 30% >Rp500 jt–Rp5 M; 35% >Rp5 M (atas penghasilan kena pajak/laba, bukan omzet) | **DATA FINAL** (UU 7/2021 HPP) | UU HPP; pajak.go.id |
+| F2e | PT (badan) | Tarif 22%; **Pasal 31E**: badan dengan peredaran bruto ≤ Rp50 miliar mendapat pengurangan 50% tarif (jadi 11%) atas bagian penghasilan kena pajak dari peredaran bruto s.d. Rp4,8 miliar; berlaku otomatis lewat SPT | **DATA FINAL** (≥ 3 sumber) | DDTC News; IKPI; pajakku.com; pajak.go.id |
+| F2f | PT Perorangan masih boleh? | Ya selama usaha **kecil**: hasil penjualan > Rp2 M s.d. **Rp15 M**/tahun (PP 7/2021). Wajib berubah jadi PT biasa bila > Rp15 M (atau modal > Rp5 M) **atau** pemegang saham lebih dari satu (PP 8/2021 Pasal 9; Permenkum 49/2025) | Batas omzet **DATA FINAL**; pasal turunan **ASSUMPTION** | Hukumonline Klinik (kriteria UMKM); DDTC News; izin.co.id; smartlegal.id; lexmundus.com |
+
+### F3. Ilustrasi beban PPh (laba 30% dari omzet Rp6,7 M = laba ±Rp2 M; **ASSUMPTION**, bukan nasihat pajak)
+
+| Bentuk | Perhitungan kasar | PPh ±/tahun |
+|---|---|---|
+| Orang pribadi, tarif progresif | 5%·60 jt + 15%·190 jt + 25%·250 jt + 30%·1,5 M | ±Rp544 jt (±27% laba) |
+| PT (Perorangan atau biasa), Pasal 31E | Bagian fasilitas: 2 M × 4,8/6,7 ≈ 1,43 M × 11% ≈ Rp157 jt; sisa 0,57 M × 22% ≈ Rp126 jt | ±Rp283 jt (±14% laba), **belum termasuk** pajak dividen bila laba dibagikan ke pemilik |
+
+Selisih ini yang membuat **PT** umumnya lebih hemat pada skala 100 klien. Angka nyata bergantung pada biaya (gaji tim, AI, sewa), PTKP, dan pembagian dividen: hitung ulang dengan konsultan pajak.
+
+### F4. Kewajiban lain karena tim bertambah
+
+100 klien butuh ±14 content lead/reviewer (kapasitas SOP § 5: ±7 klien campuran per orang) + admin. Konsekuensinya: kontrak kerja, **PPh 21** atas gaji, dan **BPJS Kesehatan & Ketenagakerjaan** untuk pekerja (kewajiban pemberi kerja; **NEXT ACTION**: konfirmasi rincian ke konsultan). Bentuk badan usaha (PT) memudahkan semua ini serta kontrak dengan hotel/resort besar yang meminta faktur pajak.
+
+### F5. Rekomendasi bertahap (analisis AI)
+
+| Tahap | Bentuk | Pajak |
+|---|---|---|
+| 1–±10 klien (omzet < Rp4,8 M) | Orang pribadi + NIB **atau** langsung PT Perorangan | PPh Final 0,5%; belum wajib PKP |
+| Menuju 100 klien (omzet > Rp4,8 M, < Rp15 M) | **PT Perorangan** (atau PT biasa bila ada mitra/investor) | Pembukuan, PPh badan 22% dengan Pasal 31E, **PKP** (PPN efektif 11% ditagihkan ke klien), PPh 21 + BPJS tim |
+| > Rp15 M atau ada pemegang saham kedua | **PT biasa** (akta notaris) | Sama, dengan kewajiban pelaporan PT |
+
+CV tidak disarankan: sejak PP 20/2026 CV baru tidak bisa memakai PPh Final 0,5%, dan sekutu aktif CV bertanggung jawab sampai harta pribadi.
+
 ## Sumber (dibaca lewat hasil mesin pencari, 2026-10-23)
 
 - Kompas, "UU PDP dan Transfer Data Pribadi ke Luar Negeri" (2022); Kompas, "Segera Bentuk Badan Pelindungan Data Pribadi" (4 Sep 2026); Kompas.id, "Peraturan pelaksana UU PDP akhirnya terbit, lembaga pengawas masih dinanti"
@@ -86,3 +132,4 @@ Pertanyaan untuk konsultan pajak: (1) Orang pribadi atau PT Perorangan untuk CLA
 - DDTC News: "Khusus Orang Pribadi, PPh Final UMKM Diperpanjang hingga 2029", "Omzet Tembus Rp4,8 Miliar Tengah Tahun, Kapan WP Wajib Jadi PKP", "Omzet Belum Tembus Rp4,8 Miliar, Bolehkah Pengusaha Kecil Pungut PPN"; Ortax; online-pajak.com ("PPh Final UMKM 2026 Diperpanjang? Aturan PP 20/2026"); pajakku.com; ubico.id; pajak.go.id
 - izin.co.id, voffice.co.id, smartlegal.id, industry.co.id (PT Perorangan); dpb.unpad.ac.id dan kbli.co.id (KBLI 73100)
 - siplawfirm.id, tilaka.id (tanda tangan elektronik)
+- § F: pajak.go.id "Cermati 3 Hal Ini Saat Omzet Lebihi Rp4,8 Miliar"; DDTC News (Pasal 31E, PPN DPP 11/12, kriteria UMKM PP 7/2021); IKPI; pajakku.com; Hukumonline Klinik "Kriteria UMKM Terbaru"; izin.co.id, smartlegal.id, lexmundus.com, kontrakhukum.com (PT Perorangan → PT biasa)
