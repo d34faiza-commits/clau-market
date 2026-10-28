@@ -1,7 +1,7 @@
 {
   "contract_version": "1.0.0",
   "bundle_id": "tara-hospitality",
-  "bundle_version": "0.1.0",
+  "bundle_version": "0.1.1",
   "runtime_contract_major": 1,
   "agent_id": "caption-writer",
   "intent": "caption",
@@ -203,7 +203,7 @@
     {
       "kind": "validator_config",
       "path": "bundles/tara/eval-cases.json",
-      "sha256": "8600623c6c71d8276c6044c4dd5289d98d6622da8822da0701dfac83c54cca6d"
+      "sha256": "dcb4bd34799ac4e5a987813926308aa4840e8264238821251a98a0a8b94ff029"
     },
     {
       "kind": "validator_config",
