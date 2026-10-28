@@ -1,0 +1,28 @@
+[
+  {
+    "contract_version": "1.0.0",
+    "name": "get-approved-facts",
+    "version": "1.0.0",
+    "allowed_agents": [
+      "caption-writer"
+    ],
+    "allowed_intents": [
+      "caption"
+    ],
+    "input_schema_component": "bundles/tara/tool-input-schema.json",
+    "output_schema_component": "bundles/tara/tool-output-schema.json",
+    "timeout_ms": 2000,
+    "max_result_bytes": 32768,
+    "client_scope": "server_bound",
+    "side_effects": "read_only",
+    "sensitivity_max": "Confidential",
+    "audit": "metadata_only",
+    "error_codes": [
+      "tool_timeout",
+      "tool_invalid_output",
+      "tenant_scope_violation",
+      "restricted_data",
+      "stale_context"
+    ]
+  }
+]

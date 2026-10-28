@@ -1,0 +1,277 @@
+{
+  "contract_version": "1.0.0",
+  "bundle_id": "tara-hospitality",
+  "bundle_version": "0.1.0",
+  "runtime_contract_major": 1,
+  "agent_id": "caption-writer",
+  "intent": "caption",
+  "autonomy_max": "B",
+  "supported_verticals": [
+    "accommodation",
+    "food-beverage",
+    "spa-wellness",
+    "wedding-event",
+    "travel-tour"
+  ],
+  "supported_business_types": [
+    "villa",
+    "guesthouse",
+    "homestay",
+    "hotel",
+    "resort",
+    "restaurant",
+    "cafe",
+    "beach-club",
+    "spa",
+    "wellness",
+    "wedding-event",
+    "travel-tour"
+  ],
+  "supported_channels": [
+    "instagram",
+    "facebook",
+    "tiktok",
+    "google-business-profile"
+  ],
+  "required_context": [
+    "approved_facts",
+    "voice_card",
+    "brief",
+    "platform",
+    "format",
+    "objective",
+    "audience",
+    "language",
+    "assets"
+  ],
+  "components": [
+    {
+      "kind": "constitution",
+      "path": "core/AI-CONSTITUTION.md",
+      "sha256": "c98df56ee245969c3f3417bd1d3266dbabf7cdca5d12d990caca0eb3734407e0"
+    },
+    {
+      "kind": "boundary",
+      "path": "core/AI-BOUNDARY.md",
+      "sha256": "fae477bb2aa1d402fcfce75d6a5c1009bf087eaca8a1427ab9b3df1ee8a5c1b9"
+    },
+    {
+      "kind": "rule",
+      "path": "rules/01-CONTENT-INTEGRITY-STANDARD.md",
+      "sha256": "3a20005420cdfe085931c2c321968b8f7f57b0ad38185490e6a89df47837f7d8"
+    },
+    {
+      "kind": "rule",
+      "path": "rules/02-HOSPITALITY-CLAIM-STANDARD.md",
+      "sha256": "2f6ea400f96fb335d53dce1afe22d6bba3bbb7a4553260c75c915ece2e814a6e"
+    },
+    {
+      "kind": "rule",
+      "path": "rules/03-CLIENT-BRAND-VOICE-STANDARD.md",
+      "sha256": "083b4273bc89bdcc31b4ebade14a0b493afce4619379f67d3309ac473f6adbb6"
+    },
+    {
+      "kind": "rule",
+      "path": "rules/04-PRIVACY-CONSENT-UGC-STANDARD.md",
+      "sha256": "b063e8fad1390005e3d72a26aedd59a782587aebb33cae12bab51f389bfbeb20"
+    },
+    {
+      "kind": "rule",
+      "path": "rules/05-PLATFORM-STANDARD.md",
+      "sha256": "2db3b05e1c16895cc46b4d65ae771e1e328d18f0164d41982a7226641a05c27c"
+    },
+    {
+      "kind": "rule",
+      "path": "rules/06-LOCALIZATION-BAHASA-STANDARD.md",
+      "sha256": "34618c5dc8a5e47ee8a131640d219af7d8f6f20c252debc8c1d3eaf9143f8c47"
+    },
+    {
+      "kind": "rule",
+      "path": "rules/07-AI-VISUAL-DISCLOSURE-STANDARD.md",
+      "sha256": "148380717c8a8ca94449201168988cd9f8ee18052b85e4fe7004e4a1515468ec"
+    },
+    {
+      "kind": "rule",
+      "path": "rules/08-APPROVAL-PUBLICATION-STANDARD.md",
+      "sha256": "585fb71eef74f0b7b2d24d175c985e7575499949b181685a519741b87ca75c50"
+    },
+    {
+      "kind": "rule",
+      "path": "rules/09-DATA-CLASSIFICATION.md",
+      "sha256": "0c70d41a0eaa2c6e9bef4bb022a4a569d5c3956036fc07a9dde6959b633aa31c"
+    },
+    {
+      "kind": "skill",
+      "path": "skills/draft-caption/SKILL.md",
+      "sha256": "3a9fba6b8506f7fe5f065fb8a0afee554a6fea8c23588f47e2748810398cf241"
+    },
+    {
+      "kind": "persona",
+      "path": "agents/agents/personas/caption-writer.md",
+      "sha256": "ec32734d2c55870c08466b88507812a8f9592fd3ecd3a07678691533fabb1023"
+    },
+    {
+      "kind": "calendar",
+      "path": "knowledge/calendar-id/national-holidays-2027.md",
+      "sha256": "a2e819f3463c1e48654c79d5afddd4109ad75300dfa3dfd9e6910fa25dda88af"
+    },
+    {
+      "kind": "platform",
+      "path": "knowledge/platforms/facebook.md",
+      "sha256": "a33fb071371721e0d905f4cd7dfd453af18e6a14f849791981c61142863a3acc"
+    },
+    {
+      "kind": "platform",
+      "path": "knowledge/platforms/google-business.md",
+      "sha256": "ac22f58dd63f387e6fdb5512323198fe7f6eeab760979773f01325cd8f7535a3"
+    },
+    {
+      "kind": "platform",
+      "path": "knowledge/platforms/instagram.md",
+      "sha256": "00aab98bcd8b3dfa32fb0df7ba51f63b314c06a0c229fee019366bb8a211f2b3"
+    },
+    {
+      "kind": "platform",
+      "path": "knowledge/platforms/tiktok.md",
+      "sha256": "e3d7b68eba0b92ce77b86a2166a0764b1b83778a009cf061bef8c94c79bbdb6a"
+    },
+    {
+      "kind": "vertical",
+      "path": "knowledge/segments/hotel.md",
+      "sha256": "1953b21202645e003e929b12c3dced4e2f95cd5004a3031b23b554c6eb455759"
+    },
+    {
+      "kind": "vertical",
+      "path": "knowledge/segments/restaurant.md",
+      "sha256": "f3218ecbe177e6118807dae00477f52714a2e5b236371e5a2243ad1a7aeb075e"
+    },
+    {
+      "kind": "vertical",
+      "path": "knowledge/segments/spa.md",
+      "sha256": "5feedf9dbcfa503637c722aaabd91294cde7c8776786c91b21f84076315891c3"
+    },
+    {
+      "kind": "vertical",
+      "path": "knowledge/segments/travel.md",
+      "sha256": "b3e29ed1cc34938e129779149ce3b7755865140fe20a1a499770c2c817e43e71"
+    },
+    {
+      "kind": "vertical",
+      "path": "knowledge/segments/villa.md",
+      "sha256": "71c60cf6337e8972689ba81d96e8738a6597db84ad22a2dc778f2d2935e82bff"
+    },
+    {
+      "kind": "vertical",
+      "path": "knowledge/segments/wedding.md",
+      "sha256": "b6c30490157826ccc7428fbed9bb6579ebcc7dd352de291d0dfed4d392b450a0"
+    },
+    {
+      "kind": "voice_guide",
+      "path": "knowledge/voice-guides/hospitality-voice.md",
+      "sha256": "bc60c98a987b6de41780b1f128eb373ebc01b7e602d26727cddf2c39543f9fa1"
+    },
+    {
+      "kind": "humanize_guide",
+      "path": "knowledge/voice-guides/humanize-copy.md",
+      "sha256": "c175930ef5defec2e4357a4d31599ec999e3d68db78a924dd37e90a0d1001671"
+    },
+    {
+      "kind": "prompt_template",
+      "path": "bundles/tara/prompt.md",
+      "sha256": "11e31c78f3125acfa3920b78693f67336457a78e991095e84f335ea66acae5f0"
+    },
+    {
+      "kind": "escalation_rules",
+      "path": "bundles/tara/escalation.md",
+      "sha256": "2aa6716eb58ed0fd390afce484cc3e04279b4e071875f27e2ce70a109cc1cca6"
+    },
+    {
+      "kind": "output_schema",
+      "path": "bundles/tara/output-schema.json",
+      "sha256": "46a5f8ee2b4b3b574955931a21708f44653a49508fd4ff2deb94d2fbda87e12d"
+    },
+    {
+      "kind": "validator_config",
+      "path": "bundles/tara/validators.json",
+      "sha256": "c326148d304d03c3bb02cf4347e1ae5f011f8c0a0ffe54d1f7ffe6a2d4559b65"
+    },
+    {
+      "kind": "validator_config",
+      "path": "bundles/tara/knowledge-index.json",
+      "sha256": "56b2bc1fc5eb2a092416e60c6e85e4c3f41aa05ed0bbd9f37c9b7a97bc01d452"
+    },
+    {
+      "kind": "validator_config",
+      "path": "bundles/tara/eval-cases.json",
+      "sha256": "8600623c6c71d8276c6044c4dd5289d98d6622da8822da0701dfac83c54cca6d"
+    },
+    {
+      "kind": "validator_config",
+      "path": "bundles/tara/fixtures.json",
+      "sha256": "8acd3db44a5cc1caf89be4e941cb02bd4d338552228b209cec0ff684ab135b74"
+    },
+    {
+      "kind": "tool_contract",
+      "path": "bundles/tara/tools.json",
+      "sha256": "a51ba1f44f16c088b69f12a122b1ebe0ab278ede32f1cdbae2cafc819c6afada"
+    },
+    {
+      "kind": "tool_contract",
+      "path": "bundles/tara/tool-input-schema.json",
+      "sha256": "007fcf4510044d01f19bc5aa031bbe00d5b4719dfe125db3ff09285f06b06be3"
+    },
+    {
+      "kind": "tool_contract",
+      "path": "bundles/tara/tool-output-schema.json",
+      "sha256": "f74574c47c5b8f8188162f99b966414ad6c335bfb03eadd58be9ace1e1f57d96"
+    }
+  ],
+  "tools": [
+    {
+      "id": "get-approved-facts",
+      "version": "1.0.0"
+    }
+  ],
+  "validators": [
+    {
+      "id": "structured_output",
+      "version": "1.0.0"
+    },
+    {
+      "id": "claim_coverage",
+      "version": "1.0.0"
+    },
+    {
+      "id": "privacy_consent",
+      "version": "1.0.0"
+    },
+    {
+      "id": "platform_rules",
+      "version": "1.0.0"
+    },
+    {
+      "id": "brand_voice",
+      "version": "1.0.0"
+    },
+    {
+      "id": "duplicate_copy",
+      "version": "1.0.0"
+    },
+    {
+      "id": "translation_parity",
+      "version": "1.0.0"
+    },
+    {
+      "id": "scope_freshness",
+      "version": "1.0.0"
+    }
+  ],
+  "model_settings": {
+    "provider": "fake",
+    "model": "fake-0",
+    "temperature_milli": 0,
+    "effort": "default",
+    "max_output_tokens": 4096,
+    "structured_output": true
+  }
+}

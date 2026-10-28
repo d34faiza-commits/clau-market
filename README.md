@@ -1,5 +1,8 @@
 # clau-market
 
+Runtime candidate: [H2 Tara hospitality bundle](./bundles/tara/README.md).
+Operasi klien pertama: [pilot terukur](./commercial/pilot-operations.md).
+
 **Pilar 1 CLAU AI: AI Marketing** (konten & pemasaran) untuk hospitality & tourism Indonesia. Berisi rules, prompt, skill, knowledge, template, dan QA gate untuk memproduksi konten yang **jujur, legal, on-brand, dan siap publish**, dengan AI sebagai content partner, bukan pengganti approval manusia.
 
 > **Status:** Public, hanya untuk dilihat ([LICENSE](./LICENSE)), split dari `clau-content` 2026-10-04. Status kerja terkini: [status & handoff](https://github.com/d34faiza-commits/clau-content/blob/main/docs/status.md)

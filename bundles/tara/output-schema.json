@@ -1,0 +1,331 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$ref": "#/$defs/TaraGeneration",
+  "$defs": {
+    "TaraGeneration": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "contract_version": {
+          "const": "1.0.0"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "draft",
+            "clarification_required",
+            "escalation_required"
+          ]
+        },
+        "clarification_questions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 10
+        },
+        "variants": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Variant"
+          },
+          "minItems": 0,
+          "maxItems": 3
+        },
+        "claims": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Claim"
+          },
+          "minItems": 0,
+          "maxItems": 30
+        },
+        "missing_information": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 20
+        },
+        "suggested_content_flags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "price_promo",
+              "people",
+              "ota_listing",
+              "negative_review",
+              "paid_ads",
+              "influencer",
+              "religion_culture",
+              "crisis"
+            ]
+          },
+          "minItems": 0,
+          "maxItems": 8,
+          "uniqueItems": true
+        },
+        "model_notes_for_reviewer": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000,
+            "pattern": "\\S"
+          },
+          "minItems": 0,
+          "maxItems": 10
+        }
+      },
+      "required": [
+        "contract_version",
+        "status",
+        "clarification_questions",
+        "variants",
+        "claims",
+        "missing_information",
+        "suggested_content_flags",
+        "model_notes_for_reviewer"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "draft"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variants": {
+                "minItems": 3
+              },
+              "clarification_questions": {
+                "maxItems": 0
+              },
+              "missing_information": {
+                "maxItems": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "clarification_required"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "clarification_questions": {
+                "minItems": 1
+              },
+              "variants": {
+                "maxItems": 0
+              },
+              "claims": {
+                "maxItems": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "escalation_required"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "model_notes_for_reviewer": {
+                "minItems": 1
+              },
+              "variants": {
+                "maxItems": 0
+              },
+              "claims": {
+                "maxItems": 0
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "pattern": "\\S"
+        },
+        "category": {
+          "type": "string",
+          "enum": [
+            "facility",
+            "location",
+            "price",
+            "rating",
+            "certification",
+            "halal-dietary",
+            "food-beverage",
+            "treatment",
+            "capacity",
+            "safety",
+            "license",
+            "itinerary",
+            "experience",
+            "other"
+          ]
+        },
+        "fact_key": {
+          "anyOf": [
+            {
+              "type": "string",
+              "maxLength": 64,
+              "pattern": "^[a-z0-9]+\\.[a-z0-9]+([._-][a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "implied": {
+          "type": "boolean"
+        },
+        "variant_indexes": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2
+          },
+          "minItems": 1,
+          "maxItems": 3,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "text",
+        "category",
+        "fact_key",
+        "implied",
+        "variant_indexes"
+      ]
+    },
+    "Variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "style": {
+          "type": "string",
+          "enum": [
+            "storytelling",
+            "informative",
+            "conversational"
+          ]
+        },
+        "hook": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500,
+          "pattern": "\\S"
+        },
+        "body": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 10000,
+          "pattern": "\\S"
+        },
+        "cta": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 500,
+          "pattern": "\\S"
+        },
+        "hashtags": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "maxLength": 100,
+            "pattern": "^#[^\\s#]+$"
+          },
+          "minItems": 0,
+          "maxItems": 30,
+          "uniqueItems": true
+        },
+        "alt_texts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/AltText"
+          },
+          "minItems": 0,
+          "maxItems": 30
+        },
+        "language": {
+          "type": "string",
+          "enum": [
+            "id",
+            "en"
+          ]
+        }
+      },
+      "required": [
+        "style",
+        "hook",
+        "body",
+        "cta",
+        "hashtags",
+        "alt_texts",
+        "language"
+      ]
+    },
+    "AltText": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "asset_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200,
+          "pattern": "\\S"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000,
+          "pattern": "\\S"
+        }
+      },
+      "required": [
+        "asset_id",
+        "text"
+      ]
+    }
+  }
+}

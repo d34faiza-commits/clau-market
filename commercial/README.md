@@ -41,3 +41,7 @@ Calon klien (pemilik villa, kafe, WO, operator trip) banyak berkumpul di Faceboo
 | Menyebut terbuka bahwa CLAU memakai AI dengan review manusia | Menyembunyikan pemakaian AI |
 
 Konten untuk Page CLAU sendiri tetap dibuat lewat skill repo ini dan disetujui owner. Iklan berbayar untuk CLAU sendiri = keputusan owner terpisah (belanja iklan bukan bagian katalog).
+
+## Pilot terukur
+
+[Pilot operations](./pilot-operations.md) memuat gate sebelum kontrak, peran dua manusia, log waktu/revisi/SLA/margin, batas kapasitas dan keputusan lanjut/hold. Status gate hanya berubah dengan bukti; persetujuan atas template tidak berarti legal review atau pilot sudah lulus.

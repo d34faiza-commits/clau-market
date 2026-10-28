@@ -1,0 +1,94 @@
+[
+  {
+    "contract_version": "1.0.0",
+    "status": "draft",
+    "clarification_questions": [],
+    "variants": [
+      {
+        "style": "storytelling",
+        "hook": "Villa Contoh: informasi untuk rencana menginap",
+        "body": "Kapasitas: 2 tamu.",
+        "cta": "Tanyakan tanggal pilihan Anda.",
+        "hashtags": [
+          "#VillaContoh",
+          "#InfoMenginap",
+          "#RencanaLiburan"
+        ],
+        "alt_texts": [],
+        "language": "id"
+      },
+      {
+        "style": "informative",
+        "hook": "Villa Contoh: informasi untuk rencana menginap",
+        "body": "Kapasitas: 2 tamu.",
+        "cta": "Tanyakan tanggal pilihan Anda.",
+        "hashtags": [
+          "#VillaContoh",
+          "#InfoMenginap",
+          "#RencanaLiburan"
+        ],
+        "alt_texts": [],
+        "language": "id"
+      },
+      {
+        "style": "conversational",
+        "hook": "Villa Contoh: informasi untuk rencana menginap",
+        "body": "Kapasitas: 2 tamu.",
+        "cta": "Tanyakan tanggal pilihan Anda.",
+        "hashtags": [
+          "#VillaContoh",
+          "#InfoMenginap",
+          "#RencanaLiburan"
+        ],
+        "alt_texts": [],
+        "language": "id"
+      }
+    ],
+    "claims": [
+      {
+        "text": "Kapasitas: 2 tamu.",
+        "category": "capacity",
+        "fact_key": "capacity.guests",
+        "implied": false,
+        "variant_indexes": [
+          0,
+          1,
+          2
+        ]
+      }
+    ],
+    "missing_information": [],
+    "suggested_content_flags": [],
+    "model_notes_for_reviewer": [
+      "SIMULASI: structural fixture only; human quality not assessed."
+    ]
+  },
+  {
+    "contract_version": "1.0.0",
+    "status": "clarification_required",
+    "clarification_questions": [
+      "Siapa approver Voice Card dan versi mana yang disetujui?"
+    ],
+    "variants": [],
+    "claims": [],
+    "missing_information": [
+      "approved Voice Card"
+    ],
+    "suggested_content_flags": [],
+    "model_notes_for_reviewer": [
+      "SIMULASI: structural fixture only; human quality not assessed."
+    ]
+  },
+  {
+    "contract_version": "1.0.0",
+    "status": "escalation_required",
+    "clarification_questions": [],
+    "variants": [],
+    "claims": [],
+    "missing_information": [],
+    "suggested_content_flags": [],
+    "model_notes_for_reviewer": [
+      "ESKALASI: permintaan testimoni palsu ditolak."
+    ]
+  }
+]
