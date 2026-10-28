@@ -1,0 +1,146 @@
+[
+  {
+    "kind": "constitution",
+    "path": "core/AI-CONSTITUTION.md"
+  },
+  {
+    "kind": "boundary",
+    "path": "core/AI-BOUNDARY.md"
+  },
+  {
+    "kind": "rule",
+    "path": "rules/01-CONTENT-INTEGRITY-STANDARD.md"
+  },
+  {
+    "kind": "rule",
+    "path": "rules/02-HOSPITALITY-CLAIM-STANDARD.md"
+  },
+  {
+    "kind": "rule",
+    "path": "rules/03-CLIENT-BRAND-VOICE-STANDARD.md"
+  },
+  {
+    "kind": "rule",
+    "path": "rules/04-PRIVACY-CONSENT-UGC-STANDARD.md"
+  },
+  {
+    "kind": "rule",
+    "path": "rules/05-PLATFORM-STANDARD.md"
+  },
+  {
+    "kind": "rule",
+    "path": "rules/06-LOCALIZATION-BAHASA-STANDARD.md"
+  },
+  {
+    "kind": "rule",
+    "path": "rules/07-AI-VISUAL-DISCLOSURE-STANDARD.md"
+  },
+  {
+    "kind": "rule",
+    "path": "rules/08-APPROVAL-PUBLICATION-STANDARD.md"
+  },
+  {
+    "kind": "rule",
+    "path": "rules/09-DATA-CLASSIFICATION.md"
+  },
+  {
+    "kind": "skill",
+    "path": "skills/draft-caption/SKILL.md"
+  },
+  {
+    "kind": "persona",
+    "path": "agents/agents/personas/caption-writer.md"
+  },
+  {
+    "kind": "calendar",
+    "path": "knowledge/calendar-id/national-holidays-2027.md"
+  },
+  {
+    "kind": "platform",
+    "path": "knowledge/platforms/facebook.md"
+  },
+  {
+    "kind": "platform",
+    "path": "knowledge/platforms/google-business.md"
+  },
+  {
+    "kind": "platform",
+    "path": "knowledge/platforms/instagram.md"
+  },
+  {
+    "kind": "platform",
+    "path": "knowledge/platforms/tiktok.md"
+  },
+  {
+    "kind": "vertical",
+    "path": "knowledge/segments/hotel.md"
+  },
+  {
+    "kind": "vertical",
+    "path": "knowledge/segments/restaurant.md"
+  },
+  {
+    "kind": "vertical",
+    "path": "knowledge/segments/spa.md"
+  },
+  {
+    "kind": "vertical",
+    "path": "knowledge/segments/travel.md"
+  },
+  {
+    "kind": "vertical",
+    "path": "knowledge/segments/villa.md"
+  },
+  {
+    "kind": "vertical",
+    "path": "knowledge/segments/wedding.md"
+  },
+  {
+    "kind": "voice_guide",
+    "path": "knowledge/voice-guides/hospitality-voice.md"
+  },
+  {
+    "kind": "humanize_guide",
+    "path": "knowledge/voice-guides/humanize-copy.md"
+  },
+  {
+    "kind": "prompt_template",
+    "path": "bundles/tara/prompt.md"
+  },
+  {
+    "kind": "escalation_rules",
+    "path": "bundles/tara/escalation.md"
+  },
+  {
+    "kind": "output_schema",
+    "path": "bundles/tara/output-schema.json"
+  },
+  {
+    "kind": "validator_config",
+    "path": "bundles/tara/validators.json"
+  },
+  {
+    "kind": "validator_config",
+    "path": "bundles/tara/knowledge-index.json"
+  },
+  {
+    "kind": "validator_config",
+    "path": "bundles/tara/eval-cases.json"
+  },
+  {
+    "kind": "validator_config",
+    "path": "bundles/tara/fixtures.json"
+  },
+  {
+    "kind": "tool_contract",
+    "path": "bundles/tara/tools.json"
+  },
+  {
+    "kind": "tool_contract",
+    "path": "bundles/tara/tool-input-schema.json"
+  },
+  {
+    "kind": "tool_contract",
+    "path": "bundles/tara/tool-output-schema.json"
+  }
+]

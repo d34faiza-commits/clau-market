@@ -1,6 +1,6 @@
 # SOP Delivery Bulanan — Paket Konten Pilar 1
 
-> **Status:** **Approved v1.0.0 (2026-10-23)**: owner Dea Karisna (d34faiza) menjawab paket keputusan TASK-067 K1–K8 "setuju semua". Menjalankan paket di [katalog](./service-catalog.md) dengan alur yang sudah berlaku: [CONTENT-WORKFLOW](../CONTENT-WORKFLOW.md) 9 langkah + [automation level 1](../automations/level-1-manual/README.md) (manual, AI lewat chat/agent). Berlaku sampai platform CLAU AI dipakai klien (server hidup, provider AI nyata, domain; TASK-065, TASK-052, TASK-047).
+> **Status:** **Approved v1.0.1 (2026-10-28)**: perbaikan reviewer/kapasitas atas perintah Pak Indra “maximalkan sesuai realita manusia”; keputusan paket sebelumnya tetap: owner Dea Karisna (d34faiza) menjawab paket keputusan TASK-067 K1–K8 "setuju semua". Menjalankan paket di [katalog](./service-catalog.md) dengan alur yang sudah berlaku: [CONTENT-WORKFLOW](../CONTENT-WORKFLOW.md) 9 langkah + [automation level 1](../automations/level-1-manual/README.md) (manual, AI lewat chat/agent). Berlaku sampai platform CLAU AI dipakai klien (server hidup, provider AI nyata, domain; TASK-065, TASK-052, TASK-047).
 
 ## 1. Peran
 
@@ -12,7 +12,7 @@
 | Approver klien | Sesuai approval matrix | Setuju/revisi tertulis | — |
 | Publisher | Klien, atau CLAU (add-on) lewat akses partner | Menjadwalkan konten yang sudah disetujui | Mengubah konten setelah approval tanpa approval ulang |
 
-Draft dari AI yang diperiksa content lead manusia dihitung **independen** (rule 08). Untuk L2/L3, bila content lead ikut menulis ulang drafnya, review klaim dilakukan orang lain.
+Peminta/operator draft AI dihitung sebagai **pembuat**, termasuk saat memakai chat manual. Ia boleh self-check, tetapi bukan reviewer independen atau approver draft yang sama. Reviewer independen adalah manusia lain (owner/content lead) yang tidak meminta atau menulis ulang draft tersebut. Semua draft AI untuk klien nyata melalui review independen sebelum approval klien; di platform level minimumnya L2. Bila hanya ada satu orang, batasi intake sampai reviewer kedua tersedia; jangan menyamarkan self-review sebagai review independen.
 
 ## 2. Siklus Bulanan
 
@@ -52,7 +52,11 @@ Batas jumlah klien = jam reviewer manusia. Perkiraan awal (**ASSUMPTION**, diuku
 | Signature | ±30 jam |
 | Setup (sekali) | ±8 jam |
 
-Satu content lead penuh waktu (±120 jam produktif/bulan) ≈ contoh campuran: 4 Esensial + 2 Growth + 1 Signature. Klien baru tidak diterima bila jam terjadwal > 85% kapasitas (TASK-059 SOP tim).
+Contoh 4 Esensial + 2 Growth + 1 Signature = **106 jam**, melebihi batas 85% × 120 = **102 jam**; kombinasi ini ditolak. Contoh 3 Esensial + 2 Growth + 1 Signature = 96 jam hanya muat bila seluruh review/revisi rutin sudah termasuk dan tidak ada setup atau pekerjaan tambahan. Satu setup 8 jam menaikkannya menjadi 104 jam: tetap ditolak.
+
+Angka paket di atas adalah total jam tim, **bukan** seluruhnya jam content lead dan bukan bukti kapasitas reviewer. Jadwalkan terpisah per orang/peran: drafting, review independen, komunikasi, revisi, laporan, setup, add-on, backlog tertunda, serta pengganti cuti. Jam owner dihitung sebagai biaya walau belum digaji. Gunakan ketersediaan aktual setelah cuti/admin/sales; setiap orang maksimal 85%, bukan hanya total tim.
+
+Mulai **1 klien pilot, 1 vertical, 1–2 kanal**. Catat waktu aktual sejak setup; review mingguan dan koreksi estimasi setelah dua bulan. Sebelum klien ketiga, SOP tim TASK-059 dan reviewer cadangan harus siap. Detail keputusan kapasitas dan pengukuran ada di [pilot operations](./pilot-operations.md).
 
 ## 6. Mutu
 

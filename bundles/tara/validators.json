@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "implementation_status": "configuration_only_H4_pending",
+  "automatic_approval": false,
+  "max_generation_bytes": 65536,
+  "variants": 3,
+  "cta_per_variant": 1,
+  "hook_editorial_max_chars": 125,
+  "platforms": {
+    "instagram": {
+      "hashtags_min": 3,
+      "hashtags_max": 5,
+      "caption_editorial_max_chars": 2200
+    },
+    "facebook": {
+      "hashtags_min": 0,
+      "hashtags_max": 3,
+      "caption_editorial_max_chars": 1500
+    },
+    "tiktok": {
+      "hashtags_min": 3,
+      "hashtags_max": 5,
+      "caption_editorial_max_chars": 2200
+    },
+    "google-business-profile": {
+      "hashtags_min": 0,
+      "hashtags_max": 0,
+      "caption_editorial_max_chars": 1500
+    }
+  },
+  "limits_evidence": "ASSUMPTION: conservative editorial policy, not verified platform maxima",
+  "required_checks": [
+    "structured_output",
+    "claim_coverage",
+    "privacy_consent",
+    "platform_rules",
+    "brand_voice",
+    "duplicate_copy",
+    "translation_parity",
+    "scope_freshness"
+  ],
+  "human_review_required": true,
+  "uncertain_claim": "hold_for_review",
+  "unknown_platform": "reject",
+  "stale_knowledge": "hold_for_review",
+  "critical_allowed": 0
+}

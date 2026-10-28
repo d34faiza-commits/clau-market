@@ -1,0 +1,142 @@
+[
+  {
+    "path": "knowledge/calendar-id/national-holidays-2027.md",
+    "source_refs": [],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/platforms/facebook.md",
+    "source_refs": [],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/platforms/google-business.md",
+    "source_refs": [],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/platforms/instagram.md",
+    "source_refs": [],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/platforms/tiktok.md",
+    "source_refs": [],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/segments/hotel.md",
+    "source_refs": [],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/segments/restaurant.md",
+    "source_refs": [],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/segments/spa.md",
+    "source_refs": [],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/segments/travel.md",
+    "source_refs": [
+      "https://kupang.antaranews.com/berita/140801/btn-komodo-sosialisasi-penyesuaian-tarif-baru-masuk-kawasan",
+      "https://mongabay.co.id/2022/06/03/perairan-tn-komodo-rumah-bagi-pari-manta-karang-yang-rentan-punah/",
+      "https://news.republika.co.id/berita/te1ozv484/kemenhut-kaji-penambahan-kuota-wisatawan-di-taman-nasional-komodo",
+      "https://www.antaranews.com/berita/5525623/btnk-tetapkan-kuota-1000-wisatawan-per-hari-di-tn-komodo",
+      "https://www.murdoch.edu.au/news/articles/ray-of-hope-for-indonesian-manta-populations"
+    ],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/segments/villa.md",
+    "source_refs": [],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/segments/wedding.md",
+    "source_refs": [
+      "https://disdukcapil.sukabumikota.go.id/assets/upload/content/SP/Capil_11._Akta_Perkawinan.pdf",
+      "https://marinews.mahkamahagung.go.id/artikel/izin-poligami-wna-tetap-tunduk-pada-hukum-indonesia-0boK",
+      "https://www.hukumonline.com/klinik/a/mencatatkan-perkawinan-di-dua-negara-lt56d4fd4251dc2/"
+    ],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/voice-guides/hospitality-voice.md",
+    "source_refs": [],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  },
+  {
+    "path": "knowledge/voice-guides/humanize-copy.md",
+    "source_refs": [],
+    "inventory_at": "2026-10-28",
+    "primary_source_accessed_at": null,
+    "evidence_status": "ASSUMPTION",
+    "review_due": "2026-10-28",
+    "review_status": "requires_human_or_primary_source_verification",
+    "note": "Inventory is not verification; retain original per-claim evidence labels."
+  }
+]

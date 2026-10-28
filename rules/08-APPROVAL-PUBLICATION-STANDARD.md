@@ -18,7 +18,7 @@ Klasifikasi wajib: **DATA FINAL**, **ASSUMPTION**, **CLIENT CONFIRMATION**, **FI
 - Perubahan setelah approval → approval ulang untuk bagian yang berubah.
 - AI/automation tidak boleh: publish, schedule, boost, atau membalas publik tanpa approval.
 - Creator tidak boleh self-approve konten yang memuat: klaim sensitif, harga/promo, data/foto orang, konten berbayar, atau topik sensitif.
-- **Review independen:** untuk konten L2/L3, [claim verification](../qa/claim-verification.md) dijalankan oleh pihak yang **bukan** pembuat draft. Kalau draft dibuat AI, review oleh manusia (content lead/owner) dihitung independen. AI yang me-review output AI-nya sendiri, atau creator yang me-review drafnya sendiri, dicatat sebagai **self-review** dan tidak memenuhi syarat ini.
+- **Review independen:** untuk konten L2/L3, [claim verification](../qa/claim-verification.md) dijalankan oleh pihak yang **bukan** pembuat draft. Kalau draft dibuat AI, peminta/operator AI dihitung sebagai pembuat (manual maupun platform); reviewer harus manusia lain (content lead/owner) yang tidak meminta atau menulis ulang draft tersebut. Peminta tidak boleh menjadi approver draft yang sama. Semua draft AI untuk klien nyata memerlukan review independen; platform menetapkan minimal L2. AI yang me-review output AI-nya sendiri, atau creator yang me-review drafnya sendiri, dicatat sebagai **self-review** dan tidak memenuhi syarat ini.
 - Setiap record QA mencatat kolom **Independen? (Ya / Tidak — self-review)**. Self-review boleh dipakai sebagai pre-check, tapi tidak cukup untuk approval L2/L3.
 - Level approval:
 
