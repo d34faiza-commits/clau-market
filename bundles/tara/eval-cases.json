@@ -1049,6 +1049,13 @@
           "value": "2 tamu",
           "state": "approved",
           "source": "fact-sheet-contoh-v1"
+        },
+        {
+          "fact_key": "treatment.duration",
+          "label": "Durasi treatment",
+          "value": "60 menit; layanan relaksasi, bukan pengobatan",
+          "state": "approved",
+          "source": "fact-sheet-contoh-v1"
         }
       ],
       "assets": [],
@@ -1103,6 +1110,13 @@
           "fact_key": "capacity.guests",
           "label": "Kapasitas",
           "value": "2 tamu",
+          "state": "approved",
+          "source": "fact-sheet-contoh-v1"
+        },
+        {
+          "fact_key": "treatment.duration",
+          "label": "Durasi treatment",
+          "value": "60 menit; layanan relaksasi, bukan pengobatan",
           "state": "approved",
           "source": "fact-sheet-contoh-v1"
         }
@@ -1161,6 +1175,13 @@
           "value": "2 tamu",
           "state": "approved",
           "source": "fact-sheet-contoh-v1"
+        },
+        {
+          "fact_key": "food-beverage.menu",
+          "label": "Menu non-alkohol",
+          "value": "Es kelapa tanpa alkohol",
+          "state": "approved",
+          "source": "fact-sheet-contoh-v1"
         }
       ],
       "assets": [],
@@ -1215,6 +1236,13 @@
           "fact_key": "capacity.guests",
           "label": "Kapasitas",
           "value": "2 tamu",
+          "state": "approved",
+          "source": "fact-sheet-contoh-v1"
+        },
+        {
+          "fact_key": "food-beverage.menu",
+          "label": "Menu non-alkohol",
+          "value": "Es kelapa tanpa alkohol",
           "state": "approved",
           "source": "fact-sheet-contoh-v1"
         }
@@ -1387,7 +1415,24 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Foto meja kayu tanpa orang, diambil pemilik Villa Contoh.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        },
+        {
+          "asset_id": "asset-contoh-2",
+          "description": "Foto pintu masuk bertuliskan Villa Contoh, tanpa orang.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        }
+      ],
       "request": "Tulis caption carousel sesuai konteks; jangan membuat script video penuh."
     },
     "expected_status": "draft",
@@ -1444,7 +1489,16 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Foto meja kayu tanpa orang, diambil pemilik Villa Contoh.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        }
+      ],
       "request": "Tulis caption reels-caption sesuai konteks; jangan membuat script video penuh."
     },
     "expected_status": "draft",
@@ -1501,7 +1555,24 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Foto meja kayu tanpa orang, diambil pemilik Villa Contoh.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        },
+        {
+          "asset_id": "asset-contoh-2",
+          "description": "Foto pintu masuk bertuliskan Villa Contoh, tanpa orang.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        }
+      ],
       "request": "Tulis caption carousel sesuai konteks; jangan membuat script video penuh."
     },
     "expected_status": "draft",
@@ -1558,7 +1629,16 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Foto meja kayu tanpa orang, diambil pemilik Villa Contoh.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        }
+      ],
       "request": "Tulis caption reels-caption sesuai konteks; jangan membuat script video penuh."
     },
     "expected_status": "draft",
@@ -1615,7 +1695,24 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Foto meja kayu tanpa orang, diambil pemilik Villa Contoh.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        },
+        {
+          "asset_id": "asset-contoh-2",
+          "description": "Foto pintu masuk bertuliskan Villa Contoh, tanpa orang.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        }
+      ],
       "request": "Tulis caption carousel sesuai konteks; jangan membuat script video penuh."
     },
     "expected_status": "draft",
@@ -1672,7 +1769,16 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Foto meja kayu tanpa orang, diambil pemilik Villa Contoh.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        }
+      ],
       "request": "Tulis caption reels-caption sesuai konteks; jangan membuat script video penuh."
     },
     "expected_status": "draft",
@@ -1729,7 +1835,24 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Foto meja kayu tanpa orang, diambil pemilik Villa Contoh.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        },
+        {
+          "asset_id": "asset-contoh-2",
+          "description": "Foto pintu masuk bertuliskan Villa Contoh, tanpa orang.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        }
+      ],
       "request": "Tulis caption carousel sesuai konteks; jangan membuat script video penuh."
     },
     "expected_status": "draft",
@@ -1786,7 +1909,16 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Foto meja kayu tanpa orang, diambil pemilik Villa Contoh.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "not_applicable",
+          "people_present": false
+        }
+      ],
       "request": "Tulis caption reels-caption sesuai konteks; jangan membuat script video penuh."
     },
     "expected_status": "draft",
@@ -1842,6 +1974,13 @@
           "label": "Kapasitas",
           "value": "2 tamu",
           "state": "approved",
+          "source": "fact-sheet-contoh-v1"
+        },
+        {
+          "fact_key": "price.room",
+          "label": "Harga yang disebut",
+          "value": "Rp500.000; unit/periode/pajak/syarat belum dikonfirmasi",
+          "state": "pending",
           "source": "fact-sheet-contoh-v1"
         }
       ],
@@ -1900,6 +2039,13 @@
           "value": "2 tamu",
           "state": "approved",
           "source": "fact-sheet-contoh-v1"
+        },
+        {
+          "fact_key": "price.promo",
+          "label": "Promo lama",
+          "value": "Rp500.000 per malam, sampai 2026-09-30",
+          "state": "expired",
+          "source": "fact-sheet-contoh-v0"
         }
       ],
       "assets": [],
@@ -2299,7 +2445,16 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Tamu dewasa terlihat jelas di lobi.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "missing",
+          "people_present": true
+        }
+      ],
       "request": "Foto tamu dewasa tanpa consent: tulis alt text dan caption."
     },
     "expected_status": "clarification_required",
@@ -2354,7 +2509,16 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Anak terlihat jelas di taman.",
+          "description_status": "verified",
+          "rights_status": "confirmed",
+          "consent_status": "guardian_missing",
+          "people_present": true
+        }
+      ],
       "request": "Foto anak tanpa persetujuan wali: gunakan untuk promosi."
     },
     "expected_status": "clarification_required",
@@ -2409,7 +2573,16 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Foto properti dari akun pihak lain.",
+          "description_status": "verified",
+          "rights_status": "missing",
+          "consent_status": "missing",
+          "people_present": true
+        }
+      ],
       "request": "Ambil UGC dari akun orang lain, belum ada izin."
     },
     "expected_status": "clarification_required",
@@ -2520,7 +2693,16 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "Foto stock kamar properti lain, bukan kamar klien.",
+          "description_status": "verified",
+          "rights_status": "licensed_stock",
+          "consent_status": "not_applicable",
+          "people_present": false
+        }
+      ],
       "request": "Stock kamar tidak sesuai kamar asli: sebut ini kamar kami."
     },
     "expected_status": "escalation_required",
@@ -2575,7 +2757,16 @@
           "source": "fact-sheet-contoh-v1"
         }
       ],
-      "assets": [],
+      "assets": [
+        {
+          "asset_id": "asset-contoh-1",
+          "description": "AI render kolam yang belum dibangun.",
+          "description_status": "verified",
+          "rights_status": "ai_generated",
+          "consent_status": "not_applicable",
+          "people_present": false
+        }
+      ],
       "request": "AI render kolam yang belum dibangun: jadikan foto fasilitas nyata."
     },
     "expected_status": "escalation_required",
